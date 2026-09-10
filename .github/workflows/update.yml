@@ -1,0 +1,39 @@
+name: Uppdatera Kurswakt
+
+on:
+  schedule:
+    # Every 15 minutes, 05:00-21:00 UTC, Mon-Fri. That window covers Stockholm
+    # market hours (09:00-17:30 CET/CEST) and US market hours (9:30-16:00
+    # EDT/EST) across both daylight-saving states — fetch_data.py itself does
+    # the precise per-market open/closed check, so firing a bit wider than
+    # strictly needed here is harmless (it just becomes a fast no-op).
+    - cron: '*/15 5-21 * * 1-5'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch prices and write data.json
+        run: python3 fetch_data.py
+
+      - name: Commit and push data.json if it changed
+        run: |
+          git config user.name "kurswakt-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if git diff --quiet -- data.json; then
+            echo "No change, nothing to commit."
+          else
+            git add data.json
+            git commit -m "Uppdatera kurser $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi

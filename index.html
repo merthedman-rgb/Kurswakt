@@ -784,18 +784,59 @@
         <span class="index-dot"></span>
         <h2>OMX Stockholm 30</h2>
       </div>
-      <span class="index-updated" id="index-updated"></span>
+      <span class="index-updated" id="index-updated-omx"></span>
     </div>
     <div class="index-quote">
-      <span class="index-value tabular waiting" id="index-value">väntar på kurs…</span>
-      <span class="chg-pill" id="index-chg-pill" style="display:none"></span>
-      <span class="index-chg-abs tabular" id="index-chg-abs"></span>
+      <span class="index-value tabular waiting" id="index-value-omx">väntar på kurs…</span>
+      <span class="chg-pill" id="index-chg-pill-omx" style="display:none"></span>
+      <span class="index-chg-abs tabular" id="index-chg-abs-omx"></span>
     </div>
     <div class="index-chart-wrap">
-      <svg class="index-chart" id="history-chart" viewBox="0 0 700 190" preserveAspectRatio="none" aria-hidden="true" style="display:none"></svg>
-      <p class="waiting history-waiting" id="history-waiting">Väntar på historik…</p>
+      <svg class="index-chart" id="history-chart-omx" viewBox="0 0 700 190" preserveAspectRatio="none" aria-hidden="true" style="display:none"></svg>
+      <p class="waiting history-waiting" id="history-waiting-omx">Väntar på historik…</p>
     </div>
-    <div class="range-tabs" id="range-tabs"></div>
+    <div class="range-tabs" id="range-tabs-omx"></div>
+  </div>
+
+  <div class="panel index-panel">
+    <div class="index-head">
+      <div class="index-title">
+        <span class="index-dot"></span>
+        <h2>Nasdaq-100</h2>
+      </div>
+      <span class="index-updated" id="index-updated-ndx"></span>
+    </div>
+    <div class="index-quote">
+      <span class="index-value tabular waiting" id="index-value-ndx">väntar på kurs…</span>
+      <span class="chg-pill" id="index-chg-pill-ndx" style="display:none"></span>
+      <span class="index-chg-abs tabular" id="index-chg-abs-ndx"></span>
+    </div>
+    <div class="index-chart-wrap">
+      <svg class="index-chart" id="history-chart-ndx" viewBox="0 0 700 190" preserveAspectRatio="none" aria-hidden="true" style="display:none"></svg>
+      <p class="waiting history-waiting" id="history-waiting-ndx">Väntar på historik…</p>
+    </div>
+    <div class="range-tabs" id="range-tabs-ndx"></div>
+  </div>
+
+  <div class="panel index-panel">
+    <div class="index-head">
+      <div class="index-title">
+        <span class="index-dot"></span>
+        <h2>Guld (XAU/USD)</h2>
+      </div>
+      <span class="index-updated" id="index-updated-gold"></span>
+    </div>
+    <div class="index-quote">
+      <span class="index-value tabular waiting" id="index-value-gold">väntar på kurs…</span>
+      <span class="chg-pill" id="index-chg-pill-gold" style="display:none"></span>
+      <span class="index-chg-abs tabular" id="index-chg-abs-gold"></span>
+    </div>
+    <div class="index-chart-wrap">
+      <svg class="index-chart" id="history-chart-gold" viewBox="0 0 700 190" preserveAspectRatio="none" aria-hidden="true" style="display:none"></svg>
+      <p class="waiting history-waiting" id="history-waiting-gold">Väntar på historik…</p>
+    </div>
+    <div class="range-tabs" id="range-tabs-gold"></div>
+    <p style="margin: 0; padding: 0 18px 14px; font-size: 11.5px; color: var(--text-faint);">Priset är verklig spotkurs (goldprice.dev). Grafen visar guldterminer (Yahoo GC=F) som proxy för historiken, normalt ~0,5–1,5% ifrån spotpriset.</p>
   </div>
 
   <section class="summary" id="summary"></section>
@@ -954,11 +995,21 @@
 (function () {
   var positions = {};
   var prices = {};
-  var indexData = {};
   var newsData = {};
   var fxData = {};
-  var historyData = {};
-  var selectedRange = 'd1';
+  // Three parallel index/commodity panels — OMX Stockholm 30, Nasdaq-100, gold —
+  // each keyed the same way indexData/historyData/selectedRange used to be when
+  // there was only ever OMX. indexData[key] mirrors the old single indexData
+  // shape ({value, changeAbs, changePercent, series, seriesTimes, updatedAt});
+  // historyData[key] mirrors the old historyData shape ({w1:{...}, m1:{...}, ...}).
+  var INDEX_PANELS = [
+    { key: 'omx', unit: 'kr', deltaUnit: 'kr' },
+    { key: 'ndx', unit: 'p', deltaUnit: 'p' },
+    { key: 'gold', unit: '$/oz', deltaUnit: '$' }
+  ];
+  var indexData = { omx: {}, ndx: {}, gold: {} };
+  var historyData = { omx: {}, ndx: {}, gold: {} };
+  var selectedRange = { omx: 'd1', ndx: 'd1', gold: 'd1' };
 
   // Holdings-table sort state. Never persisted (no localStorage) — every fresh
   // page load starts back at alphabetical-by-ticker, per the user's request.
@@ -977,11 +1028,7 @@
     { key: 'm1', label: '1 m.' },
     { key: 'm3', label: '3 m.' },
     { key: 'ytd', label: 'I år' },
-    { key: 'y1', label: '1 år' },
-    { key: 'y3', label: '3 år' },
-    { key: 'y5', label: '5 år' },
-    { key: 'y10', label: '10 år' },
-    { key: 'max', label: 'Max' }
+    { key: 'y1', label: '1 år' }
   ];
 
   var REFRESH_TIMEOUT_MS = 4 * 60 * 1000;
@@ -1017,16 +1064,21 @@
   var elUsMarketPill = document.getElementById('us-market-pill');
   var elUsMarketPillText = document.getElementById('us-market-pill-text');
   var elRefreshBtn = document.getElementById('refresh-btn');
-  var elIndexValue = document.getElementById('index-value');
-  var elIndexChgPill = document.getElementById('index-chg-pill');
-  var elIndexChgAbs = document.getElementById('index-chg-abs');
-  var elIndexUpdated = document.getElementById('index-updated');
+  var indexEls = {};
+  INDEX_PANELS.forEach(function (p) {
+    indexEls[p.key] = {
+      value: document.getElementById('index-value-' + p.key),
+      chgPill: document.getElementById('index-chg-pill-' + p.key),
+      chgAbs: document.getElementById('index-chg-abs-' + p.key),
+      updated: document.getElementById('index-updated-' + p.key),
+      rangeTabs: document.getElementById('range-tabs-' + p.key),
+      historyChart: document.getElementById('history-chart-' + p.key),
+      historyWaiting: document.getElementById('history-waiting-' + p.key)
+    };
+  });
   var elNewsList = document.getElementById('news-list');
   var elNewsEmpty = document.getElementById('news-empty');
   var elNewsUpdated = document.getElementById('news-updated');
-  var elRangeTabs = document.getElementById('range-tabs');
-  var elHistoryChart = document.getElementById('history-chart');
-  var elHistoryWaiting = document.getElementById('history-waiting');
 
   function showError(msg) {
     elBanner.textContent = msg;
@@ -1224,15 +1276,17 @@
     max: formatYear
   };
 
-  function getRangeData(key) {
+  function getRangeData(panelKey, key) {
+    var idx = indexData[panelKey] || {};
     if (key === 'd1') {
-      return { series: indexData.series, seriesTimes: indexData.seriesTimes };
+      return { series: idx.series, seriesTimes: idx.seriesTimes };
     }
-    return historyData[key] || null;
+    return (historyData[panelKey] || {})[key] || null;
   }
 
-  function computeRangePct(key, data) {
-    if (key === 'd1' && typeof indexData.changePercent === 'number') return indexData.changePercent;
+  function computeRangePct(panelKey, key, data) {
+    var idx = indexData[panelKey] || {};
+    if (key === 'd1' && typeof idx.changePercent === 'number') return idx.changePercent;
     if (!data || !Array.isArray(data.series) || data.series.length < 2) return null;
     var first = data.series[0];
     var last = data.series[data.series.length - 1];
@@ -1240,14 +1294,15 @@
     return ((last - first) / first) * 100;
   }
 
-  function renderRangeTabs() {
-    elRangeTabs.innerHTML = '';
+  function renderRangeTabs(panelKey) {
+    var els = indexEls[panelKey];
+    els.rangeTabs.innerHTML = '';
     RANGE_DEFS.forEach(function (def) {
-      var data = getRangeData(def.key);
-      var pct = computeRangePct(def.key, data);
+      var data = getRangeData(panelKey, def.key);
+      var pct = computeRangePct(panelKey, def.key, data);
       var btn = document.createElement('button');
       btn.type = 'button';
-      btn.className = 'range-tab' + (def.key === selectedRange ? ' active' : '');
+      btn.className = 'range-tab' + (def.key === selectedRange[panelKey] ? ' active' : '');
       var labelSpan = document.createElement('span');
       labelSpan.className = 'range-tab-label';
       labelSpan.textContent = def.label;
@@ -1257,48 +1312,60 @@
       btn.appendChild(labelSpan);
       btn.appendChild(pctSpan);
       btn.addEventListener('click', function () {
-        selectedRange = def.key;
-        renderRangeTabs();
-        renderHistoryChart();
+        selectedRange[panelKey] = def.key;
+        renderRangeTabs(panelKey);
+        renderHistoryChart(panelKey);
       });
-      elRangeTabs.appendChild(btn);
+      els.rangeTabs.appendChild(btn);
     });
   }
 
-  function renderHistoryChart() {
-    var data = getRangeData(selectedRange);
+  function renderHistoryChart(panelKey) {
+    var els = indexEls[panelKey];
+    var range = selectedRange[panelKey];
+    var data = getRangeData(panelKey, range);
     if (!data || !Array.isArray(data.series) || data.series.length < 2) {
-      elHistoryChart.style.display = 'none';
-      elHistoryChart.innerHTML = '';
-      elHistoryWaiting.style.display = 'block';
+      els.historyChart.style.display = 'none';
+      els.historyChart.innerHTML = '';
+      els.historyWaiting.style.display = 'block';
       return;
     }
-    elHistoryWaiting.style.display = 'none';
-    var pct = computeRangePct(selectedRange, data);
+    els.historyWaiting.style.display = 'none';
+    var pct = computeRangePct(panelKey, range, data);
     var cls = changeClass(pct);
-    var xFmt = RANGE_XFMT[selectedRange] || formatDateShort;
-    drawLineChart(elHistoryChart, 'historyGrad', data.series, data.seriesTimes, cls, xFmt);
+    var xFmt = RANGE_XFMT[range] || formatDateShort;
+    drawLineChart(els.historyChart, 'historyGrad-' + panelKey, data.series, data.seriesTimes, cls, xFmt);
   }
 
-  function renderIndexTicker() {
-    var hasValue = typeof indexData.changePercent === 'number';
+  function renderIndexTicker(panelKey, unit, deltaUnit) {
+    var els = indexEls[panelKey];
+    var idx = indexData[panelKey] || {};
+    var hasValue = typeof idx.changePercent === 'number';
     if (!hasValue) {
-      elIndexValue.textContent = 'väntar på kurs…';
-      elIndexValue.classList.add('waiting');
-      elIndexChgPill.style.display = 'none';
-      elIndexChgAbs.textContent = '';
-      elIndexUpdated.textContent = '';
+      els.value.textContent = 'väntar på kurs…';
+      els.value.classList.add('waiting');
+      els.chgPill.style.display = 'none';
+      els.chgAbs.textContent = '';
+      els.updated.textContent = '';
       return;
     }
-    elIndexValue.classList.remove('waiting');
-    var cls = changeClass(indexData.changePercent);
-    elIndexValue.textContent = typeof indexData.value === 'number' ? fmtNum(indexData.value, 2) + ' kr' : '';
-    elIndexChgPill.style.display = 'inline-block';
-    elIndexChgPill.className = 'chg-pill ' + cls;
-    elIndexChgPill.textContent = fmtPct(indexData.changePercent);
-    var changeAbs = typeof indexData.changeAbs === 'number' ? fmtNum(indexData.changeAbs, 2) : null;
-    elIndexChgAbs.textContent = changeAbs !== null ? (indexData.changeAbs > 0 ? '+' : '') + changeAbs + ' kr idag' : '';
-    elIndexUpdated.textContent = indexData.updatedAt ? 'Uppdaterad ' + fmtClockSince(indexData.updatedAt) : '';
+    els.value.classList.remove('waiting');
+    var cls = changeClass(idx.changePercent);
+    els.value.textContent = typeof idx.value === 'number' ? fmtNum(idx.value, 2) + ' ' + unit : '';
+    els.chgPill.style.display = 'inline-block';
+    els.chgPill.className = 'chg-pill ' + cls;
+    els.chgPill.textContent = fmtPct(idx.changePercent);
+    var changeAbs = typeof idx.changeAbs === 'number' ? fmtNum(idx.changeAbs, 2) : null;
+    els.chgAbs.textContent = changeAbs !== null ? (idx.changeAbs > 0 ? '+' : '') + changeAbs + ' ' + deltaUnit + ' idag' : '';
+    els.updated.textContent = idx.updatedAt ? 'Uppdaterad ' + fmtClockSince(idx.updatedAt) : '';
+  }
+
+  function renderAllIndexPanels() {
+    INDEX_PANELS.forEach(function (p) {
+      renderIndexTicker(p.key, p.unit, p.deltaUnit);
+      renderRangeTabs(p.key);
+      renderHistoryChart(p.key);
+    });
   }
 
   function renderNews() {
@@ -1390,9 +1457,7 @@
   }
 
   function render() {
-    renderIndexTicker();
-    renderRangeTabs();
-    renderHistoryChart();
+    renderAllIndexPanels();
     renderNews();
     updateSortHeaderUI();
     var tickers = Object.keys(positions).sort(compareTickers);
@@ -1711,8 +1776,8 @@
       positions = results[0] || {};
       var data = results[1] || {};
       prices = data.prices || {};
-      indexData = data.omx || {};
-      historyData = data.omxHistory || {};
+      indexData = data.indices || { omx: {}, ndx: {}, gold: {} };
+      historyData = data.indicesHistory || { omx: {}, ndx: {}, gold: {} };
       fxData = data.fx || {};
       newsData = data.news || {};
       render();

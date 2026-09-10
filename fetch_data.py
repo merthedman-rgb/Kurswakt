@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
-Fetches prices for every holding in positions.json, plus the OMX Stockholm 30
-index (intraday + multi-range history), SEK exchange rates, and Placera.se
-news headlines — and writes it all to data.json for index.html to read.
+Fetches prices for every holding in positions.json, plus three index/commodity
+panels (OMX Stockholm 30, Nasdaq-100, gold — each intraday + multi-range
+history), SEK exchange rates, and Placera.se news headlines — and writes it
+all to data.json for index.html to read.
 
 Run by .github/workflows/update.yml on a schedule. Safe to run manually too:
     python3 fetch_data.py
@@ -12,7 +13,7 @@ import re
 import time
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
 UA = "Mozilla/5.0"
@@ -28,17 +29,38 @@ MARKETS = {
 }
 DEFAULT_MARKET = ('America/New_York', 9 * 60 + 30, 16 * 60)  # no suffix -> US
 
-OMX_HISTORY_RANGES = {
+# Only the ranges the user actually wants on these three panels (no 3/5/10y or
+# Max) — the "1 d." tab is covered separately by each index's own intraday fetch.
+INDEX_HISTORY_RANGES = {
     'w1': ('5d', '1h'),
     'm1': ('1mo', '1d'),
     'm3': ('3mo', '1d'),
     'ytd': ('ytd', '1d'),
     'y1': ('1y', '1d'),
-    'y3': ('3y', '1wk'),
-    'y5': ('5y', '1wk'),
-    'y10': ('10y', '1mo'),
-    'max': ('max', '1mo'),
 }
+
+# Gold's real spot price comes from goldprice.dev (free, no key needed for
+# this volume), but its free tier has no intraday and only 30 days of daily
+# history — nowhere near enough for the range tabs above. So the CHART uses
+# Yahoo's GC=F (COMEX gold futures) as a close proxy (normally ~0.5-1.5% off
+# spot — same tradeoff documented in the sibling marknadssignaler project),
+# while the headline price+change stays genuine spot. Throttled to once per
+# hour (see fetch_gold) to stay comfortably inside goldprice.dev's anonymous
+# rate limit and its free tier's 1,000 calls/month if a key gets added later.
+GOLD_CHART_SYMBOL = "GC=F"
+GOLD_SPOT_URL = "https://api.goldprice.dev/v1/prices?symbol=XAU-USD-SPOT"
+GOLD_MIN_INTERVAL = timedelta(minutes=55)
+
+
+def gold_bars_url():
+    # from/to are required by the API (no default range) — ask for the last
+    # 10 days so a long weekend/holiday gap still leaves a closed daily bar.
+    today = datetime.now(timezone.utc).date()
+    start = today - timedelta(days=10)
+    return (
+        "https://api.goldprice.dev/v1/bars?symbol=XAU-USD-SPOT&interval=1d"
+        f"&from={start.isoformat()}&to={today.isoformat()}&limit=10"
+    )
 
 
 def market_suffix(ticker):
@@ -60,6 +82,11 @@ def _window_open(tz, open_min, close_min):
 
 def stockholm_open():
     tz, open_min, close_min = MARKETS['ST']
+    return _window_open(tz, open_min, close_min)
+
+
+def us_market_open():
+    tz, open_min, close_min = DEFAULT_MARKET
     return _window_open(tz, open_min, close_min)
 
 
@@ -170,27 +197,33 @@ def fetch_prices(positions):
     return prices
 
 
-def fetch_omx():
-    if not stockholm_open():
-        return None, None
+def _series_from_chart_result(result):
+    timestamps = result["timestamp"]
+    closes = result["indicators"]["quote"][0]["close"]
+    series, series_times = [], []
+    for t, cl in zip(timestamps, closes):
+        if cl is not None:
+            series.append(round(cl, 2))
+            series_times.append(t)
+    return series, series_times
+
+
+def fetch_yahoo_index(symbol, intraday_interval="15m"):
+    """Intraday snapshot + range-tab history for a Yahoo index/future symbol.
+    Returns (index_dict, history_dict) or (None, None) on failure."""
+    encoded = urllib.parse.quote(symbol)
     try:
         meta_data = get_json(
-            "https://query1.finance.yahoo.com/v8/finance/chart/%5EOMX?interval=15m&range=1d"
+            f"https://query1.finance.yahoo.com/v8/finance/chart/{encoded}?interval={intraday_interval}&range=1d"
         )
         result = meta_data["chart"]["result"][0]
         meta = result["meta"]
-        timestamps = result["timestamp"]
-        closes = result["indicators"]["quote"][0]["close"]
-        series, series_times = [], []
-        for t, cl in zip(timestamps, closes):
-            if cl is not None:
-                series.append(round(cl, 2))
-                series_times.append(t)
+        series, series_times = _series_from_chart_result(result)
         prev_close = meta.get("chartPreviousClose")
         change_abs = meta.get("fulldayChange")
         if change_abs is None and prev_close is not None:
             change_abs = meta["regularMarketPrice"] - prev_close
-        omx = {
+        index = {
             "value": meta["regularMarketPrice"],
             "changeAbs": change_abs,
             "changePercent": meta.get("regularMarketChangePercent", 0),
@@ -200,28 +233,73 @@ def fetch_omx():
             "updatedAt": datetime.now(timezone.utc).isoformat(),
         }
     except Exception as e:
-        print(f"  OMX intraday fetch failed: {e}")
+        print(f"  {symbol} intraday fetch failed: {e}")
         return None, None
 
     history = {}
-    for key, (rng, interval) in OMX_HISTORY_RANGES.items():
+    for key, (rng, interval) in INDEX_HISTORY_RANGES.items():
         try:
             data = get_json(
-                f"https://query1.finance.yahoo.com/v8/finance/chart/%5EOMX?interval={interval}&range={rng}"
+                f"https://query1.finance.yahoo.com/v8/finance/chart/{encoded}?interval={interval}&range={rng}"
             )
-            result = data["chart"]["result"][0]
-            timestamps = result["timestamp"]
-            closes = result["indicators"]["quote"][0]["close"]
-            series, series_times = [], []
-            for t, cl in zip(timestamps, closes):
-                if cl is not None:
-                    series.append(round(cl, 2))
-                    series_times.append(t)
+            series, series_times = _series_from_chart_result(data["chart"]["result"][0])
             history[key] = {"series": series, "seriesTimes": series_times}
         except Exception as e:
-            print(f"  OMX history[{key}] fetch failed: {e}")
+            print(f"  {symbol} history[{key}] fetch failed: {e}")
     history["updatedAt"] = datetime.now(timezone.utc).isoformat()
-    return omx, history
+    return index, history
+
+
+def _gold_last_updated(data):
+    ts = (data.get("indices", {}).get("gold", {}) or {}).get("updatedAt")
+    if not ts:
+        return None
+    try:
+        return datetime.fromisoformat(ts.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+
+
+def fetch_gold(data):
+    """Real XAU/USD spot (goldprice.dev) for the headline number, GC=F (Yahoo
+    futures) for the chart/range-tabs — see the module docstring comment near
+    GOLD_CHART_SYMBOL for why. Throttled to once/hour to respect the free
+    goldprice.dev quota regardless of how often this whole script runs."""
+    last = _gold_last_updated(data)
+    if last and datetime.now(timezone.utc) - last < GOLD_MIN_INTERVAL:
+        print("  Gold: skipped, fetched recently")
+        return None, None
+
+    try:
+        spot_data = get_json(GOLD_SPOT_URL)
+        spot = float(spot_data["symbols"][0]["price"])
+    except Exception as e:
+        print(f"  Gold spot fetch failed: {e}")
+        return None, None
+
+    change_abs, change_pct = None, None
+    try:
+        bars_data = get_json(gold_bars_url())
+        closed_bars = [b for b in bars_data.get("bars", []) if b.get("is_closed")]
+        if closed_bars:
+            prev_close = float(closed_bars[0]["close"])
+            change_abs = spot - prev_close
+            change_pct = (change_abs / prev_close) * 100 if prev_close else None
+    except Exception as e:
+        print(f"  Gold bars fetch failed: {e}")
+
+    index = {
+        "value": round(spot, 2),
+        "changeAbs": round(change_abs, 2) if change_abs is not None else None,
+        "changePercent": round(change_pct, 3) if change_pct is not None else 0,
+        "updatedAt": datetime.now(timezone.utc).isoformat(),
+    }
+
+    chart_index, chart_history = fetch_yahoo_index(GOLD_CHART_SYMBOL, intraday_interval="15m")
+    if chart_index:
+        index["series"] = chart_index["series"]
+        index["seriesTimes"] = chart_index["seriesTimes"]
+    return index, chart_history
 
 
 def fetch_fx():
@@ -274,12 +352,38 @@ def main():
     new_prices = fetch_prices(positions)
     data["prices"] = {**data.get("prices", {}), **new_prices}
 
+    indices = data.get("indices", {})
+    indices_history = data.get("indicesHistory", {})
+
     print("Fetching OMX Stockholm 30...")
-    omx, history = fetch_omx()
-    if omx is not None:
-        data["omx"] = omx
-    if history is not None:
-        data["omxHistory"] = {**data.get("omxHistory", {}), **history}
+    if stockholm_open():
+        omx, omx_history = fetch_yahoo_index("^OMX")
+        if omx is not None:
+            indices["omx"] = omx
+        if omx_history is not None:
+            indices_history["omx"] = {**indices_history.get("omx", {}), **omx_history}
+    else:
+        print("  Stockholm closed, skipping")
+
+    print("Fetching Nasdaq-100...")
+    if us_market_open():
+        ndx, ndx_history = fetch_yahoo_index("^NDX")
+        if ndx is not None:
+            indices["ndx"] = ndx
+        if ndx_history is not None:
+            indices_history["ndx"] = {**indices_history.get("ndx", {}), **ndx_history}
+    else:
+        print("  US market closed, skipping")
+
+    print("Fetching gold (XAU/USD)...")
+    gold, gold_history = fetch_gold(data)
+    if gold is not None:
+        indices["gold"] = gold
+    if gold_history is not None:
+        indices_history["gold"] = {**indices_history.get("gold", {}), **gold_history}
+
+    data["indices"] = indices
+    data["indicesHistory"] = indices_history
 
     print("Fetching FX rates...")
     fx = fetch_fx()

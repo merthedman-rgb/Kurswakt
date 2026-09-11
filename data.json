@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.5008,
-    "EUR": 11.2358,
-    "GBP": 13.0798,
-    "NOK": 1.0418,
-    "USD": 9.6774,
-    "updatedAt": "2026-09-11T06:08:57.582240+00:00"
+    "DKK": 1.5011,
+    "EUR": 11.2386,
+    "GBP": 13.0889,
+    "NOK": 1.0423,
+    "USD": 9.6788,
+    "updatedAt": "2026-09-11T06:30:16.202841+00:00"
   },
   "news": {
     "items": [
@@ -246,11 +246,11 @@
         "url": "https://www.placera.se/nyheter/nordea-politiska-risken-i-academedia-ar-overskattad-2026-09-11"
       },
       {
-        "title": "Just nu: Beowulf Mining varnar för finansieringsbehov",
+        "title": "Beowulf Mining varnar för finansieringsbehov",
         "url": "https://www.placera.se/nyheter/beowulf-mining-varnar-for-finansieringsbehov-2026-09-11"
       },
       {
-        "title": "Just nu: Bred nedgång i Asien – Nikkei faller över 2%",
+        "title": "Bred nedgång i Asien – Nikkei faller över 2%",
         "url": "https://www.placera.se/nyheter/bred-nedgang-i-asien---nikkei-faller-over-2-2026-09-11"
       },
       {
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/stockholmsborsen-stangde-ned-04-pa-torsdagen-2026-09-10"
       }
     ],
-    "updatedAt": "2026-09-11T06:08:58.905550+00:00"
+    "updatedAt": "2026-09-11T06:30:17.152292+00:00"
   },
-  "updatedAt": "2026-09-11T06:08:58.905609+00:00",
+  "updatedAt": "2026-09-11T06:30:17.152358+00:00",
   "indices": {
     "omx": {
       "value": 3244.984,
@@ -3943,7 +3943,7 @@
       "macdHist": 0.696,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-11T06:08:56.621384+00:00"
+      "updatedAt": "2026-09-11T06:30:15.796058+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -3955,19 +3955,19 @@
       "macdHist": -1.306,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-11T06:08:56.861049+00:00"
+      "updatedAt": "2026-09-11T06:30:15.909004+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4387.1,
-      "ma20": 4376.92,
-      "ma50": 4368.7,
-      "rsi": 67.13,
-      "macdHist": 1.024,
+      "price": 4399.4,
+      "ma20": 4384.62,
+      "ma50": 4374.38,
+      "rsi": 72.68,
+      "macdHist": 1.493,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-11T06:08:57.098781+00:00"
+      "updatedAt": "2026-09-11T06:30:16.019999+00:00"
     }
   }
 }

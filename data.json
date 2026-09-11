@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.5012,
-    "EUR": 11.236,
-    "GBP": 13.0739,
+    "DKK": 1.5008,
+    "EUR": 11.2354,
+    "GBP": 13.0726,
     "NOK": 1.0417,
-    "USD": 9.6775,
-    "updatedAt": "2026-09-11T05:57:08.457919+00:00"
+    "USD": 9.6761,
+    "updatedAt": "2026-09-11T05:57:47.672775+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/ecb-hojer-depositrantan-som-vantat-2026-09-10"
       }
     ],
-    "updatedAt": "2026-09-11T05:57:09.598138+00:00"
+    "updatedAt": "2026-09-11T05:57:49.222840+00:00"
   },
-  "updatedAt": "2026-09-11T05:57:09.598193+00:00",
+  "updatedAt": "2026-09-11T05:57:49.222900+00:00",
   "indices": {
     "omx": {
       "value": 3244.984,
@@ -3933,7 +3933,7 @@
       "macdHist": 0.696,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-11T05:57:08.053532+00:00"
+      "updatedAt": "2026-09-11T05:57:47.141804+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -3945,19 +3945,19 @@
       "macdHist": -1.306,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-11T05:57:08.149298+00:00"
+      "updatedAt": "2026-09-11T05:57:47.247443+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4385.2,
-      "ma20": 4374.55,
-      "ma50": 4368.88,
-      "rsi": 65.11,
-      "macdHist": 1.115,
+      "price": 4387.0,
+      "ma20": 4374.64,
+      "ma50": 4367.61,
+      "rsi": 68.24,
+      "macdHist": 1.132,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-11T05:57:08.234005+00:00"
+      "updatedAt": "2026-09-11T05:57:47.393685+00:00"
     }
   }
 }

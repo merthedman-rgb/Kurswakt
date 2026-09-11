@@ -479,7 +479,22 @@
   .holdings-head-row th.sortable:hover { color: var(--text-muted); border-color: var(--border); }
   .holdings-head-row th.sort-active { color: var(--accent-strong); border-color: var(--accent); }
   tbody, tfoot { display: block; }
-  tbody tr, tfoot tr {
+  /* Every holding row is ALWAYS fully shown, all fields at once, as a single
+     wrapping flex row of compact stat-blocks — no expand/collapse toggle.
+     flex-wrap is the safety net that guarantees no horizontal scroll: on a
+     wide screen everything sits on one line, on a narrow one it wraps onto
+     as many lines as needed instead of ever overflowing sideways. */
+  tbody tr {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+    border: 1px solid var(--border-soft);
+    border-radius: 10px;
+    padding: 10px 14px;
+    margin-bottom: 10px;
+  }
+  tfoot tr {
     display: block;
     border: 1px solid var(--border-soft);
     border-radius: 10px;
@@ -488,7 +503,7 @@
   }
   tbody tr:last-child, tfoot tr:last-child { margin-bottom: 0; }
   tbody tr:hover { background: none; }
-  tbody td, tfoot td {
+  tfoot td {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -497,7 +512,7 @@
     border-bottom: 1px solid var(--border-soft);
     white-space: normal;
   }
-  tbody tr td:last-child, tfoot tr td:last-child { border-bottom: none; }
+  tfoot tr td:last-child { border-bottom: none; }
   td[data-label]::before {
     content: attr(data-label);
     font-family: var(--font-body);
@@ -508,65 +523,10 @@
     font-weight: 600;
     flex-shrink: 0;
   }
-  td.name-cell {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 8px;
-    text-align: left;
-    padding: 12px 0 8px;
-  }
-  .name-info { display: block; }
-  .row-toggle {
-    flex-shrink: 0;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 26px;
-    height: 26px;
-    padding: 0;
-    margin-top: 2px;
-    border: 1px solid var(--border-soft);
-    border-radius: 999px;
-    background: var(--surface);
-    color: var(--text-faint);
-    cursor: pointer;
-  }
-  .row-toggle:hover { color: var(--text-muted); border-color: var(--border); }
-  .row-toggle .chevron {
-    display: inline-block;
-    font-size: 11px;
-    transition: transform 0.15s ease;
-  }
-  tr[data-expanded="true"] .row-toggle .chevron { transform: rotate(180deg); }
-  tr[data-expanded="true"] .row-toggle { color: var(--accent-strong); border-color: var(--accent); }
-  /* Collapsed by default: only the name header + Antal/Marknadsvärde show —
-     everything else (Kurs, Idag, GAV, Totalt inköpspris, Vinst/Förlust, actions)
-     stays hidden until the row-toggle arrow is clicked. */
-  tr[data-expanded="false"] td:not(.name-cell):not(.summary-field) { display: none; }
-  tr[data-expanded="false"] td[data-label="Marknadsvärde"] { border-bottom: none; }
-  /* Collapsed row = one compact line: ticker+flag, then Antal/Marknadsvärde as
-     small right-aligned stat blocks, chevron pinned to the far right. The
-     fullname (e.g. "Apple Inc.") only shows once expanded, so the collapsed
-     row stays a single line instead of a stack of label/value blocks. */
-  tr[data-expanded="false"] {
-    position: relative;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 14px;
-    padding: 10px 44px 10px 14px;
-  }
-  tr[data-expanded="false"] td.name-cell {
-    display: flex;
-    align-items: baseline;
-    gap: 6px;
-    padding: 0;
-    flex: 1 1 auto;
-    min-width: 70px;
-  }
-  tr[data-expanded="false"] .name-info .fullname { display: none; }
-  tr[data-expanded="false"] td.summary-field {
+  /* Every data field in a holding row is a small right-aligned stat block
+     (tiny label above, value below) instead of a full-width label/value row
+     — that's what lets all 7 fields plus the ticker sit side by side. */
+  tbody td[data-label] {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -574,22 +534,22 @@
     padding: 0;
     border-bottom: none;
     flex: 0 0 auto;
+    max-width: 100%;
+    white-space: normal;
   }
-  tr[data-expanded="false"] td.summary-field::before { font-size: 9px; }
-  tr[data-expanded="false"] .row-toggle {
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-top: 0;
+  tbody td[data-label]::before { font-size: 9px; }
+  td.name-cell {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    padding: 0;
+    flex: 1 1 auto;
+    min-width: 70px;
   }
+  .name-info { display: block; }
+  .name-info .fullname { display: none; }
   td.cell-empty { display: none; }
-  td.actions-cell {
-    display: block;
-    text-align: left;
-    padding: 8px 0 12px;
-  }
-  td.actions-cell .row-actions { justify-content: flex-start; flex-wrap: wrap; }
+  td.actions-cell { display: none; }
   tr[data-form-for] td {
     display: block;
     border-bottom: none;
@@ -1081,12 +1041,6 @@
   // page load starts back at alphabetical-by-ticker, per the user's request.
   var sortColumn = 'ticker';
   var sortDir = 'asc';
-
-  // Which holding rows are expanded (showing full detail) vs collapsed (just
-  // Antal + Marknadsvärde). Keyed by ticker, in-memory only — survives re-renders
-  // within the same page load (so an expanded row stays open across a price
-  // refresh) but resets on a fresh load, same as sortColumn/sortDir above.
-  var expandedRows = {};
 
   var RANGE_DEFS = [
     { key: 'd1', label: '1 d.' },
@@ -1611,8 +1565,6 @@
       }
 
       var tr = document.createElement('tr');
-      var isExpanded = !!expandedRows[t];
-      tr.dataset.expanded = isExpanded ? 'true' : 'false';
 
       var nameCell = document.createElement('td');
       nameCell.className = 'name-cell';
@@ -1639,21 +1591,10 @@
           nameInfo.appendChild(fn);
         }
       }
+      // Fullname is hidden via CSS to keep the row compact — surfaced as a
+      // hover tooltip instead, so it's not lost entirely.
+      if (instrumentName) nameCell.title = instrumentName;
       nameCell.appendChild(nameInfo);
-
-      var toggleBtn = document.createElement('button');
-      toggleBtn.type = 'button';
-      toggleBtn.className = 'row-toggle';
-      toggleBtn.setAttribute('aria-label', isExpanded ? 'Visa mindre' : 'Visa mer');
-      toggleBtn.innerHTML = '<span class="chevron">▾</span>';
-      toggleBtn.addEventListener('click', function () {
-        var next = tr.dataset.expanded !== 'true';
-        tr.dataset.expanded = next ? 'true' : 'false';
-        expandedRows[t] = next;
-        toggleBtn.setAttribute('aria-label', next ? 'Visa mindre' : 'Visa mer');
-      });
-      nameCell.appendChild(toggleBtn);
-
       tr.appendChild(nameCell);
 
       var priceTd = document.createElement('td');

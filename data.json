@@ -233,11 +233,11 @@
   },
   "fx": {
     "DKK": 1.5019,
-    "EUR": 11.244,
-    "GBP": 13.0791,
-    "NOK": 1.0429,
-    "USD": 9.6885,
-    "updatedAt": "2026-09-11T05:02:52.933435+00:00"
+    "EUR": 11.2445,
+    "GBP": 13.0797,
+    "NOK": 1.0428,
+    "USD": 9.6867,
+    "updatedAt": "2026-09-11T05:03:51.808044+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/borsuppgangen-raderad--hemnet-rasar-2026-09-10"
       }
     ],
-    "updatedAt": "2026-09-11T05:02:54.037683+00:00"
+    "updatedAt": "2026-09-11T05:03:53.089678+00:00"
   },
-  "updatedAt": "2026-09-11T05:02:54.037757+00:00",
+  "updatedAt": "2026-09-11T05:03:53.089757+00:00",
   "indices": {
     "omx": {
       "value": 3244.984,
@@ -3933,7 +3933,7 @@
       "macdHist": 0.696,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-11T05:02:52.512716+00:00"
+      "updatedAt": "2026-09-11T05:03:49.926819+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -3945,19 +3945,19 @@
       "macdHist": -1.306,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-11T05:02:52.616864+00:00"
+      "updatedAt": "2026-09-11T05:03:50.350635+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4372.6,
-      "ma20": 4366.6,
-      "ma50": 4364.37,
-      "rsi": 56.78,
-      "macdHist": 0.798,
+      "price": 4373.5,
+      "ma20": 4366.69,
+      "ma50": 4364.41,
+      "rsi": 57.64,
+      "macdHist": 0.885,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-11T05:02:52.727728+00:00"
+      "updatedAt": "2026-09-11T05:03:50.910965+00:00"
     }
   }
 }

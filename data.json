@@ -1,92 +1,92 @@
 {
   "prices": {
     "AAPL": {
-      "price": 335.225,
-      "changePercent": 2.65,
+      "price": 335.58,
+      "changePercent": 2.759,
       "currency": "USD",
       "name": "Apple Inc.",
       "type": "aktie",
-      "updatedAt": "2026-09-11T14:52:53.715726+00:00"
+      "updatedAt": "2026-09-11T15:06:30.497814+00:00"
     },
     "AMZN": {
-      "price": 255.17,
-      "changePercent": 1.302,
+      "price": 255.48,
+      "changePercent": 1.425,
       "currency": "USD",
       "name": "Amazon.com, Inc.",
       "type": "aktie",
-      "updatedAt": "2026-09-11T14:52:53.758377+00:00"
+      "updatedAt": "2026-09-11T15:06:30.719993+00:00"
     },
     "ATCO-B.ST": {
-      "price": 175.6,
-      "changePercent": 0.602,
+      "price": 176.2,
+      "changePercent": 0.945,
       "currency": "SEK",
       "name": "Atlas Copco AB (publ)",
       "type": "aktie",
-      "updatedAt": "2026-09-11T14:52:53.846084+00:00"
+      "updatedAt": "2026-09-11T15:06:30.979409+00:00"
     },
     "AXFO.ST": {
-      "price": 237.8,
-      "changePercent": -0.126,
+      "price": 237.7,
+      "changePercent": -0.168,
       "currency": "SEK",
       "name": "Axfood AB (publ)",
       "type": "aktie",
-      "updatedAt": "2026-09-11T14:52:53.929467+00:00"
+      "updatedAt": "2026-09-11T15:06:31.261214+00:00"
     },
     "AZA.ST": {
-      "price": 392.3,
-      "changePercent": 1.317,
+      "price": 392.8,
+      "changePercent": 1.446,
       "currency": "SEK",
       "name": "Avanza Bank Holding AB (publ)",
       "type": "aktie",
-      "updatedAt": "2026-09-11T14:52:54.007455+00:00"
+      "updatedAt": "2026-09-11T15:06:31.593660+00:00"
     },
     "AZN.ST": {
-      "price": 1543.0,
-      "changePercent": 0.13,
+      "price": 1539.5,
+      "changePercent": -0.097,
       "currency": "SEK",
       "name": "AstraZeneca PLC",
       "type": "aktie",
-      "updatedAt": "2026-09-11T14:52:54.088987+00:00"
+      "updatedAt": "2026-09-11T15:06:31.931388+00:00"
     },
     "CAST.ST": {
-      "price": 130.25,
-      "changePercent": 0.308,
+      "price": 130.35,
+      "changePercent": 0.385,
       "currency": "SEK",
       "name": "Castellum AB (publ)",
       "type": "aktie",
-      "updatedAt": "2026-09-11T14:52:54.169796+00:00"
+      "updatedAt": "2026-09-11T15:06:32.191332+00:00"
     },
     "CIBUS.ST": {
-      "price": 139.25,
-      "changePercent": 0.542,
+      "price": 139.35,
+      "changePercent": 0.614,
       "currency": "SEK",
       "name": "Cibus Real Estate AB (publ)",
       "type": "aktie",
-      "updatedAt": "2026-09-11T14:52:54.289514+00:00"
+      "updatedAt": "2026-09-11T15:06:32.463497+00:00"
     },
     "GOOG": {
-      "price": 337.17,
-      "changePercent": 2.052,
+      "price": 338.52,
+      "changePercent": 2.461,
       "currency": "USD",
       "name": "Alphabet Inc.",
       "type": "aktie",
-      "updatedAt": "2026-09-11T14:52:54.339693+00:00"
+      "updatedAt": "2026-09-11T15:06:32.786498+00:00"
     },
     "INVE-A.ST": {
-      "price": 399.8,
-      "changePercent": 0.075,
+      "price": 399.5,
+      "changePercent": 0.0,
       "currency": "SEK",
       "name": "Investor AB (publ)",
       "type": "aktie",
-      "updatedAt": "2026-09-11T14:52:54.446643+00:00"
+      "updatedAt": "2026-09-11T15:06:33.084535+00:00"
     },
     "KO": {
-      "price": 87.925,
-      "changePercent": 0.108,
+      "price": 87.935,
+      "changePercent": 0.12,
       "currency": "USD",
       "name": "The Coca-Cola Company",
       "type": "aktie",
-      "updatedAt": "2026-09-11T14:52:54.564051+00:00"
+      "updatedAt": "2026-09-11T15:06:33.387200+00:00"
     },
     "LATO-B.ST": {
       "price": 205.6,
@@ -94,39 +94,39 @@
       "currency": "SEK",
       "name": "Investment AB Latour (publ)",
       "type": "aktie",
-      "updatedAt": "2026-09-11T14:52:54.694321+00:00"
+      "updatedAt": "2026-09-11T15:06:33.800366+00:00"
     },
     "MONTDIV.ST": {
-      "price": 101.24,
-      "changePercent": 0.837,
+      "price": 101.26,
+      "changePercent": 0.857,
       "currency": "SEK",
       "name": "Parametric Alternatives plc - Montrose Global Monthly Dividend MSCI World UCITS ETF A SEK",
       "type": "etf",
-      "updatedAt": "2026-09-11T14:52:54.777149+00:00"
+      "updatedAt": "2026-09-11T15:06:34.046574+00:00"
     },
     "MSFT": {
-      "price": 493.32,
-      "changePercent": 0.179,
+      "price": 494.13,
+      "changePercent": 0.343,
       "currency": "USD",
       "name": "Microsoft Corporation",
       "type": "aktie",
-      "updatedAt": "2026-09-11T14:52:54.850983+00:00"
+      "updatedAt": "2026-09-11T15:06:34.337757+00:00"
     },
     "NDA-SE.ST": {
-      "price": 200.4,
-      "changePercent": 0.856,
+      "price": 200.7,
+      "changePercent": 1.007,
       "currency": "SEK",
       "name": "Nordea Bank Abp",
       "type": "aktie",
-      "updatedAt": "2026-09-11T14:52:54.930341+00:00"
+      "updatedAt": "2026-09-11T15:06:34.631607+00:00"
     },
     "NVDA": {
-      "price": 219.76,
-      "changePercent": 0.641,
+      "price": 220.15,
+      "changePercent": 0.82,
       "currency": "USD",
       "name": "NVIDIA Corporation",
       "type": "aktie",
-      "updatedAt": "2026-09-11T14:52:54.988230+00:00"
+      "updatedAt": "2026-09-11T15:06:34.885202+00:00"
     },
     "SE0000538944": {
       "price": 1861.66,
@@ -134,7 +134,7 @@
       "currency": "SEK",
       "name": "Swedbank Robur Technology A",
       "type": "fond",
-      "updatedAt": "2026-09-11T14:52:55.110756+00:00",
+      "updatedAt": "2026-09-11T15:06:35.617857+00:00",
       "resolvedTicker": "0P00000LCG.ST"
     },
     "SE0001718388": {
@@ -143,7 +143,7 @@
       "currency": "SEK",
       "name": "Avanza Zero",
       "type": "fond",
-      "updatedAt": "2026-09-11T14:52:55.228773+00:00",
+      "updatedAt": "2026-09-11T15:06:36.156624+00:00",
       "resolvedTicker": "0P00005U1J.ST"
     },
     "SE0004297927": {
@@ -152,7 +152,7 @@
       "currency": "SEK",
       "name": "Spiltan Aktiefond Investmentbolag",
       "type": "fond",
-      "updatedAt": "2026-09-11T14:52:55.448061+00:00",
+      "updatedAt": "2026-09-11T15:06:36.645247+00:00",
       "resolvedTicker": "0P0000ULAP.ST"
     },
     "SE0011527613": {
@@ -161,7 +161,7 @@
       "currency": "SEK",
       "name": "Avanza Global",
       "type": "fond",
-      "updatedAt": "2026-09-11T14:52:55.582389+00:00",
+      "updatedAt": "2026-09-11T15:06:37.314741+00:00",
       "resolvedTicker": "0P0001ECQR.ST"
     },
     "SE0012454338": {
@@ -170,7 +170,7 @@
       "currency": "SEK",
       "name": "Avanza Emerging Markets",
       "type": "fond",
-      "updatedAt": "2026-09-11T14:52:55.708978+00:00",
+      "updatedAt": "2026-09-11T15:06:37.854811+00:00",
       "resolvedTicker": "0P0001H4TL.ST"
     },
     "SE0021921095": {
@@ -179,16 +179,16 @@
       "currency": "SEK",
       "name": "Aktiespararna Global Direktavkastning B",
       "type": "fond",
-      "updatedAt": "2026-09-11T14:52:55.881830+00:00",
+      "updatedAt": "2026-09-11T15:06:38.356239+00:00",
       "resolvedTicker": "0P0001SO8C.ST"
     },
     "SWED-A.ST": {
-      "price": 388.0,
-      "changePercent": 0.91,
+      "price": 388.4,
+      "changePercent": 1.014,
       "currency": "SEK",
       "name": "Swedbank AB (publ)",
       "type": "aktie",
-      "updatedAt": "2026-09-11T14:52:55.959633+00:00"
+      "updatedAt": "2026-09-11T15:06:38.772732+00:00"
     },
     "TEL2-B.ST": {
       "price": 171.6,
@@ -196,15 +196,15 @@
       "currency": "SEK",
       "name": "Tele2 AB (publ)",
       "type": "aktie",
-      "updatedAt": "2026-09-11T14:52:56.089803+00:00"
+      "updatedAt": "2026-09-11T15:06:39.082495+00:00"
     },
     "TSLA": {
-      "price": 365.535,
-      "changePercent": 0.543,
+      "price": 365.71,
+      "changePercent": 0.591,
       "currency": "USD",
       "name": "Tesla, Inc.",
       "type": "aktie",
-      "updatedAt": "2026-09-11T14:52:56.194363+00:00"
+      "updatedAt": "2026-09-11T15:06:39.333793+00:00"
     },
     "VARO.XD": {
       "price": 53.12,
@@ -212,7 +212,7 @@
       "currency": "NOK",
       "name": "Var Energi ASA",
       "type": "aktie",
-      "updatedAt": "2026-09-11T14:52:56.238881+00:00"
+      "updatedAt": "2026-09-11T15:06:39.612040+00:00"
     },
     "VOLV-B.ST": {
       "price": 340.4,
@@ -220,24 +220,24 @@
       "currency": "SEK",
       "name": "AB Volvo (publ)",
       "type": "aktie",
-      "updatedAt": "2026-09-11T14:52:56.339702+00:00"
+      "updatedAt": "2026-09-11T15:06:39.879059+00:00"
     },
     "XACTHDIV.ST": {
-      "price": 176.08,
-      "changePercent": 0.216,
+      "price": 176.1,
+      "changePercent": 0.228,
       "currency": "SEK",
       "name": "XACT Nordic High Dividend Low Volatility ETF",
       "type": "etf",
-      "updatedAt": "2026-09-11T14:52:56.396062+00:00"
+      "updatedAt": "2026-09-11T15:06:40.185161+00:00"
     }
   },
   "fx": {
-    "DKK": 1.5014,
-    "EUR": 11.2417,
-    "GBP": 13.092,
-    "NOK": 1.042,
-    "USD": 9.6805,
-    "updatedAt": "2026-09-11T14:52:58.927417+00:00"
+    "DKK": 1.5023,
+    "EUR": 11.2463,
+    "GBP": 13.1001,
+    "NOK": 1.0425,
+    "USD": 9.6845,
+    "updatedAt": "2026-09-11T15:06:47.369048+00:00"
   },
   "news": {
     "items": [
@@ -274,14 +274,14 @@
         "url": "https://www.placera.se/nyheter/aktierna-som-vantas-ge-hogst-direktavkastning--batljans-bolag-tar-plats-2026-09-11"
       }
     ],
-    "updatedAt": "2026-09-11T14:53:00.436361+00:00"
+    "updatedAt": "2026-09-11T15:06:48.813004+00:00"
   },
-  "updatedAt": "2026-09-11T14:53:00.436431+00:00",
+  "updatedAt": "2026-09-11T15:06:48.813064+00:00",
   "indices": {
     "omx": {
-      "value": 3258.451,
-      "changeAbs": 13.467,
-      "changePercent": 0.415,
+      "value": 3261.266,
+      "changeAbs": 16.282,
+      "changePercent": 0.502,
       "previousClose": 3258.36,
       "series": [
         3249.36,
@@ -315,8 +315,9 @@
         3261.91,
         3257.02,
         3257.07,
-        3258.3,
-        3258.45
+        3257.21,
+        3259.66,
+        3261.27
       ],
       "seriesTimes": [
         1789110000,
@@ -351,14 +352,15 @@
         1789136100,
         1789137000,
         1789137900,
-        1789138375
+        1789138800,
+        1789139197
       ],
-      "updatedAt": "2026-09-11T14:52:56.441550+00:00"
+      "updatedAt": "2026-09-11T15:06:40.458086+00:00"
     },
     "ndx": {
-      "value": 29361.299,
-      "changeAbs": 257.785,
-      "changePercent": 0.886,
+      "value": 29399.215,
+      "changeAbs": 295.701,
+      "changePercent": 1.016,
       "previousClose": 29103.514,
       "series": [
         29403.09,
@@ -366,8 +368,9 @@
         29375.37,
         29435.06,
         29351.29,
-        29364.08,
-        29361.3
+        29352.87,
+        29393.83,
+        29399.21
       ],
       "seriesTimes": [
         1789133400,
@@ -376,9 +379,10 @@
         1789136100,
         1789137000,
         1789137900,
-        1789138373
+        1789138800,
+        1789139198
       ],
-      "updatedAt": "2026-09-11T14:52:56.795334+00:00"
+      "updatedAt": "2026-09-11T15:06:42.240556+00:00"
     },
     "gold": {
       "value": 4375.77,
@@ -526,8 +530,9 @@
           3254.86,
           3263.09,
           3269.16,
-          3258.3,
-          3258.45
+          3257.21,
+          3259.66,
+          3261.27
         ],
         "seriesTimes": [
           1788764400,
@@ -574,7 +579,8 @@
           1789128000,
           1789131600,
           1789135200,
-          1789138375
+          1789138800,
+          1789139197
         ]
       },
       "m1": {
@@ -602,7 +608,7 @@
           3312.12,
           3258.36,
           3244.98,
-          3258.45
+          3261.14
         ],
         "seriesTimes": [
           1786431600,
@@ -698,7 +704,7 @@
           3312.12,
           3258.36,
           3244.98,
-          3258.45
+          3261.14
         ],
         "seriesTimes": [
           1781161200,
@@ -945,7 +951,7 @@
           3312.12,
           3258.36,
           3244.98,
-          3258.45
+          3261.14
         ],
         "seriesTimes": [
           1767340800,
@@ -1377,7 +1383,7 @@
           3312.12,
           3258.36,
           3244.98,
-          3258.45
+          3261.14
         ],
         "seriesTimes": [
           1757574000,
@@ -1633,7 +1639,7 @@
           1789110000
         ]
       },
-      "updatedAt": "2026-09-11T14:52:56.747924+00:00"
+      "updatedAt": "2026-09-11T15:06:41.985469+00:00"
     },
     "ndx": {
       "w1": {
@@ -1667,8 +1673,8 @@
           29132.75,
           29108.14,
           29435.06,
-          29364.08,
-          29361.3
+          29393.83,
+          29399.21
         ],
         "seriesTimes": [
           1788528600,
@@ -1701,7 +1707,7 @@
           1789068600,
           1789133400,
           1789137000,
-          1789138373
+          1789139198
         ]
       },
       "m1": {
@@ -1728,7 +1734,7 @@
           29507.7,
           29421.55,
           29103.51,
-          29361.3
+          29399.21
         ],
         "seriesTimes": [
           1786455000,
@@ -1821,7 +1827,7 @@
           29507.7,
           29421.55,
           29103.51,
-          29361.3
+          29399.21
         ],
         "seriesTimes": [
           1781184600,
@@ -2065,7 +2071,7 @@
           29507.7,
           29421.55,
           29103.51,
-          29361.3
+          29399.21
         ],
         "seriesTimes": [
           1767364200,
@@ -2497,7 +2503,7 @@
           29507.7,
           29421.55,
           29103.51,
-          29361.3
+          29399.21
         ],
         "seriesTimes": [
           1757597400,
@@ -2754,7 +2760,7 @@
           1789133400
         ]
       },
-      "updatedAt": "2026-09-11T14:52:57.079383+00:00"
+      "updatedAt": "2026-09-11T15:06:44.090668+00:00"
     },
     "gold": {
       "w1": {
@@ -3982,38 +3988,38 @@
     "omx": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:48.417416+00:00",
-      "price": 3258.45,
-      "ma20": 3261.19,
-      "ma50": 3257.97,
-      "rsi": 47.41,
-      "macdHist": -0.76,
+      "price": 3261.21,
+      "ma20": 3260.77,
+      "ma50": 3258.38,
+      "rsi": 54.59,
+      "macdHist": -0.168,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-11T14:52:58.339114+00:00"
+      "updatedAt": "2026-09-11T15:06:44.803840+00:00"
     },
     "ndx": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:48.926371+00:00",
-      "price": 29361.3,
-      "ma20": 29360.92,
-      "ma50": 29231.87,
-      "rsi": 56.65,
-      "macdHist": -9.947,
+      "price": 29399.21,
+      "ma20": 29387.11,
+      "ma50": 29243.66,
+      "rsi": 61.19,
+      "macdHist": -7.588,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-11T14:52:58.448097+00:00"
+      "updatedAt": "2026-09-11T15:06:45.317076+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4410.3,
-      "ma20": 4426.26,
-      "ma50": 4401.84,
-      "rsi": 44.74,
-      "macdHist": -4.288,
+      "price": 4417.7,
+      "ma20": 4425.46,
+      "ma50": 4404.14,
+      "rsi": 50.32,
+      "macdHist": -2.477,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-11T14:52:58.677006+00:00"
+      "updatedAt": "2026-09-11T15:06:46.003810+00:00"
     }
   }
 }

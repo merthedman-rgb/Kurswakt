@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.5003,
-    "EUR": 11.2382,
-    "GBP": 13.0822,
-    "NOK": 1.0419,
-    "USD": 9.6797,
-    "updatedAt": "2026-09-11T06:05:36.470583+00:00"
+    "DKK": 1.5008,
+    "EUR": 11.2358,
+    "GBP": 13.0798,
+    "NOK": 1.0418,
+    "USD": 9.6774,
+    "updatedAt": "2026-09-11T06:08:57.582240+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/stockholmsborsen-stangde-ned-04-pa-torsdagen-2026-09-10"
       }
     ],
-    "updatedAt": "2026-09-11T06:05:37.798615+00:00"
+    "updatedAt": "2026-09-11T06:08:58.905550+00:00"
   },
-  "updatedAt": "2026-09-11T06:05:37.798667+00:00",
+  "updatedAt": "2026-09-11T06:08:58.905609+00:00",
   "indices": {
     "omx": {
       "value": 3244.984,
@@ -3943,7 +3943,7 @@
       "macdHist": 0.696,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-11T06:05:33.914027+00:00"
+      "updatedAt": "2026-09-11T06:08:56.621384+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -3955,19 +3955,19 @@
       "macdHist": -1.306,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-11T06:05:34.529844+00:00"
+      "updatedAt": "2026-09-11T06:08:56.861049+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4388.7,
-      "ma20": 4377.2,
-      "ma50": 4370.36,
-      "rsi": 66.64,
-      "macdHist": 1.348,
+      "price": 4387.1,
+      "ma20": 4376.92,
+      "ma50": 4368.7,
+      "rsi": 67.13,
+      "macdHist": 1.024,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-11T06:05:35.197361+00:00"
+      "updatedAt": "2026-09-11T06:08:57.098781+00:00"
     }
   }
 }

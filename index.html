@@ -545,6 +545,44 @@
      stays hidden until the row-toggle arrow is clicked. */
   tr[data-expanded="false"] td:not(.name-cell):not(.summary-field) { display: none; }
   tr[data-expanded="false"] td[data-label="Marknadsvärde"] { border-bottom: none; }
+  /* Collapsed row = one compact line: ticker+flag, then Antal/Marknadsvärde as
+     small right-aligned stat blocks, chevron pinned to the far right. The
+     fullname (e.g. "Apple Inc.") only shows once expanded, so the collapsed
+     row stays a single line instead of a stack of label/value blocks. */
+  tr[data-expanded="false"] {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+    padding: 10px 44px 10px 14px;
+  }
+  tr[data-expanded="false"] td.name-cell {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    padding: 0;
+    flex: 1 1 auto;
+    min-width: 70px;
+  }
+  tr[data-expanded="false"] .name-info .fullname { display: none; }
+  tr[data-expanded="false"] td.summary-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1px;
+    padding: 0;
+    border-bottom: none;
+    flex: 0 0 auto;
+  }
+  tr[data-expanded="false"] td.summary-field::before { font-size: 9px; }
+  tr[data-expanded="false"] .row-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 0;
+  }
   td.cell-empty { display: none; }
   td.actions-cell {
     display: block;

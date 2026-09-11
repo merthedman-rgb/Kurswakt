@@ -237,7 +237,7 @@
     "GBP": 13.1183,
     "NOK": 1.0416,
     "USD": 9.6845,
-    "updatedAt": "2026-09-11T21:22:56.345833+00:00"
+    "updatedAt": "2026-09-11T21:34:37.301583+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/skanska-bygger-tunnel-i-norge--for-15-miljarder--2026-09-11"
       }
     ],
-    "updatedAt": "2026-09-11T21:22:57.436866+00:00"
+    "updatedAt": "2026-09-11T21:34:38.876340+00:00"
   },
-  "updatedAt": "2026-09-11T21:22:57.436936+00:00",
+  "updatedAt": "2026-09-11T21:34:38.876434+00:00",
   "indices": {
     "omx": {
       "value": 3260.797,
@@ -4105,7 +4105,7 @@
       "macdHist": -0.406,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-11T21:22:55.408734+00:00"
+      "updatedAt": "2026-09-11T21:34:35.776174+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4117,7 +4117,7 @@
       "macdHist": -3.465,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-11T21:22:55.542400+00:00"
+      "updatedAt": "2026-09-11T21:34:36.142596+00:00"
     },
     "gold": {
       "signal": "neutral",
@@ -4129,7 +4129,7 @@
       "macdHist": 0.327,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-11T21:22:55.924030+00:00"
+      "updatedAt": "2026-09-11T21:34:36.558263+00:00"
     }
   }
 }

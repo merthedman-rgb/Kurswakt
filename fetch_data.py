@@ -302,6 +302,158 @@ def fetch_gold(data):
     return index, chart_history
 
 
+# ---------- LONG/SHORT/NEUTRAL signals (ported from the sibling marknadssignaler
+# project's signal_check.py — same 5-condition rule, reimplemented without
+# pandas/numpy/yfinance to match this script's stdlib-only dependencies) ----------
+
+SIGNAL_SYMBOLS = {"omx": "^OMX", "ndx": "^NDX", "gold": GOLD_CHART_SYMBOL}
+
+
+def sma(values, period):
+    if len(values) < period:
+        return None
+    return sum(values[-period:]) / period
+
+
+def rsi14(closes):
+    """Classic Wilder RSI(14) — equivalent in steady state to pandas'
+    ewm(alpha=1/14, adjust=False).mean() used by the reference implementation."""
+    if len(closes) < 15:
+        return None
+    gains, losses = [], []
+    for i in range(1, len(closes)):
+        delta = closes[i] - closes[i - 1]
+        gains.append(max(delta, 0))
+        losses.append(max(-delta, 0))
+    avg_gain = sum(gains[:14]) / 14
+    avg_loss = sum(losses[:14]) / 14
+    for i in range(14, len(gains)):
+        avg_gain = (avg_gain * 13 + gains[i]) / 14
+        avg_loss = (avg_loss * 13 + losses[i]) / 14
+    if avg_loss == 0:
+        return 100.0
+    rs = avg_gain / avg_loss
+    return 100 - (100 / (1 + rs))
+
+
+def _ema_series(values, span):
+    """pandas ewm(span=N, adjust=False).mean(), as a plain list."""
+    alpha = 2 / (span + 1)
+    out = [values[0]]
+    for v in values[1:]:
+        out.append(alpha * v + (1 - alpha) * out[-1])
+    return out
+
+
+def macd_hist(closes):
+    if len(closes) < 26:
+        return None
+    ema12 = _ema_series(closes, 12)
+    ema26 = _ema_series(closes, 26)
+    macd_line = [a - b for a, b in zip(ema12, ema26)]
+    signal_line = _ema_series(macd_line, 9)
+    return macd_line[-1] - signal_line[-1]
+
+
+def volume_confirms(volumes):
+    """True if the latest 5-min candle's volume is above its own trailing-20
+    average — a sign the move has real interest behind it, not just noise."""
+    if len(volumes) < 20:
+        return False
+    avg = sum(volumes[-20:]) / 20
+    if avg == 0:
+        return False
+    return volumes[-1] > avg
+
+
+def trend_label(closes):
+    m20, m50 = sma(closes, 20), sma(closes, 50)
+    if m20 is None or m50 is None:
+        return "unknown"
+    if m20 > m50:
+        return "up"
+    if m20 < m50:
+        return "down"
+    return "flat"
+
+
+def determine_signal(ma20, ma50, rsi, hist, vol_ok, daily_trend):
+    if None in (ma20, ma50, rsi, hist):
+        return "neutral"
+    if ma20 > ma50 and rsi < 70 and hist > 0 and vol_ok and daily_trend == "up":
+        return "long"
+    if ma20 < ma50 and rsi > 30 and hist < 0 and vol_ok and daily_trend == "down":
+        return "short"
+    return "neutral"
+
+
+def fetch_intraday_series(symbol):
+    """5-minute candles, last 5 days — close + volume, for the signal indicators.
+    Note: ^OMX (a pure price index, not a traded instrument) carries no real
+    volume on Yahoo, so its volume confirmation is structurally always False —
+    same limitation the reference project has, not something this port fixes."""
+    encoded = urllib.parse.quote(symbol)
+    data = get_json(f"https://query1.finance.yahoo.com/v8/finance/chart/{encoded}?interval=5m&range=5d")
+    quote = data["chart"]["result"][0]["indicators"]["quote"][0]
+    closes_raw = quote["close"]
+    volumes_raw = quote.get("volume") or []
+    closes, volumes = [], []
+    for i, c in enumerate(closes_raw):
+        if c is None:
+            continue
+        closes.append(c)
+        v = volumes_raw[i] if i < len(volumes_raw) else None
+        volumes.append(v if v is not None else 0)
+    return closes, volumes
+
+
+def fetch_daily_trend(symbol):
+    """MA20-vs-MA50 on DAILY closes — the multi-timeframe filter that keeps a
+    short-term 5-min signal from fighting the bigger trend."""
+    encoded = urllib.parse.quote(symbol)
+    try:
+        data = get_json(f"https://query1.finance.yahoo.com/v8/finance/chart/{encoded}?interval=1d&range=6mo")
+        closes = [c for c in data["chart"]["result"][0]["indicators"]["quote"][0]["close"] if c is not None]
+        return trend_label(closes)
+    except Exception as e:
+        print(f"  {symbol} daily-trend fetch failed: {e}")
+        return "unknown"
+
+
+def compute_signal(symbol, panel_key, prev_signals):
+    try:
+        closes, volumes = fetch_intraday_series(symbol)
+    except Exception as e:
+        print(f"  {symbol} signal data fetch failed: {e}")
+        return None
+    if len(closes) < 50:
+        print(f"  {symbol}: not enough intraday data for a signal yet")
+        return None
+
+    ma20, ma50 = sma(closes, 20), sma(closes, 50)
+    rsi, hist = rsi14(closes), macd_hist(closes)
+    vol_ok = volume_confirms(volumes)
+    daily_trend = fetch_daily_trend(symbol)
+    signal = determine_signal(ma20, ma50, rsi, hist, vol_ok, daily_trend)
+
+    prev = prev_signals.get(panel_key, {})
+    now_iso = datetime.now(timezone.utc).isoformat()
+    since = prev.get("since") if prev.get("signal") == signal and prev.get("since") else now_iso
+
+    return {
+        "signal": signal,
+        "since": since,
+        "price": round(closes[-1], 2),
+        "ma20": round(ma20, 2) if ma20 is not None else None,
+        "ma50": round(ma50, 2) if ma50 is not None else None,
+        "rsi": round(rsi, 2) if rsi is not None else None,
+        "macdHist": round(hist, 3) if hist is not None else None,
+        "volumeOk": vol_ok,
+        "dailyTrend": daily_trend,
+        "updatedAt": now_iso,
+    }
+
+
 def fetch_fx():
     fx = {}
     for code in ("USD", "EUR", "GBP", "NOK", "DKK"):
@@ -384,6 +536,16 @@ def main():
 
     data["indices"] = indices
     data["indicesHistory"] = indices_history
+
+    print("Computing LONG/SHORT/NEUTRAL signals...")
+    prev_signals = data.get("signals", {})
+    signals = dict(prev_signals)
+    for panel_key, symbol in SIGNAL_SYMBOLS.items():
+        sig = compute_signal(symbol, panel_key, prev_signals)
+        if sig is not None:
+            signals[panel_key] = sig
+            print(f"  {panel_key}: {sig['signal'].upper()}")
+    data["signals"] = signals
 
     print("Fetching FX rates...")
     fx = fetch_fx()

@@ -70,6 +70,22 @@ Tre paneler högst upp, samma stil (stort pris, dagsförändring, graf, interval
 - **Nasdaq-100** — Yahoo `^NDX`, uppdateras när amerikanska börsen har öppet.
 - **Guld (XAU/USD)** — priset högst upp är riktig spotkurs från [goldprice.dev](https://goldprice.dev) (gratis API, ingen nyckel behövs). Själva grafen/intervallflikarna visar istället guldterminer (Yahoo `GC=F`) eftersom goldprice.devs gratisnivå bara ger 30 dagars historik utan intradagsdata — inte tillräckligt för graferna. Termins- och spotpris ligger normalt ~0,5–1,5% ifrån varandra, vilket är helt normalt. Guld hämtas max en gång i timmen (oavsett hur ofta bakgrundsjobbet kör) för att hålla sig inom goldprice.devs gratiskvot (1 000 anrop/månad).
 
+## LONG/SHORT/NEUTRAL-signal
+
+Bredvid varje panels titel (OMX, Nasdaq-100, Guld) visas en liten etikett — samma tekniska signal som [marknadssignaler](https://github.com/merthedman-rgb/marknadssignaler)-projektet, portad till detta script. Kräver ALLA fem samtidigt för LONG (motsatta fem för SHORT), annars visas NEUTRAL:
+
+1. MA20 över/under MA50 (5-minuterskurser)
+2. RSI(14) inte överköpt/översåld (under 70 för LONG, över 30 för SHORT)
+3. MACD-histogram åt rätt håll
+4. Volymbekräftelse — senaste candelns volym över sitt eget 20-periodssnitt
+5. Dagstrend (MA20/MA50 på dagskurser) håller med — ett multi-tidsramsfilter så en kortsiktig studs inte tolkas som en trend
+
+"Läge sedan HH:MM" visar när signalen senast bytte läge (inte när den senast räknades om).
+
+**Viktig begränsning:** OMX Stockholm 30 är ett rent prisindex, inte ett handlat instrument — Yahoo saknar därför riktig volymdata för `^OMX`. Villkor 4 (volymbekräftelse) blir alltså strukturellt alltid falskt för OMX, vilket gör att OMX i praktiken aldrig kan visa LONG eller SHORT, bara NEUTRAL. Samma begränsning finns i marknadssignaler-projektet — inte något den här portningen råkat införa.
+
+Det här är, precis som i marknadssignaler, ett tekniskt underlag — inte investeringsrådgivning. MA/RSI/MACD släpar alltid efter priset och ger ibland falska signaler, särskilt i sidledes marknader.
+
 ## Justera senare
 
 - **Schema:** cron-raden i `.github/workflows/update.yml` (`*/15 5-21 * * 1-5` betyder "var 15:e minut, 05-21 UTC, måndag-fredag").
@@ -77,6 +93,7 @@ Tre paneler högst upp, samma stil (stort pris, dagsförändring, graf, interval
 - **Guld-intervallet:** `GOLD_MIN_INTERVAL` i `fetch_data.py` (just nu 55 minuter).
 - **Fler/färre intervallflikar:** `RANGE_DEFS` (visning, i `index.html`) och `INDEX_HISTORY_RANGES` (hämtning, i `fetch_data.py`) — håll dem i synk om du lägger till eller tar bort ett intervall.
 - **Nyhetskälla:** `fetch_news()` i `fetch_data.py`, skrapar Placera.se:s nyhetslista.
+- **Signalregler:** `determine_signal()` i `fetch_data.py` — samma fem villkor som beskrivs ovan, gör dem strängare/mjukare där.
 
 ## Viktigt att ha i huvudet
 

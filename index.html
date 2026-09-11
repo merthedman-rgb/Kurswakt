@@ -175,6 +175,24 @@
     flex: none;
     box-shadow: 0 0 0 3px var(--accent-soft);
   }
+  .signal-badge {
+    font-family: var(--font-body);
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 999px;
+  }
+  .signal-badge.long { background: var(--pos-soft); color: var(--pos); }
+  .signal-badge.short { background: var(--neg-soft); color: var(--neg); }
+  .signal-badge.neutral { background: var(--surface-2); color: var(--text-muted); }
+  .signal-since {
+    padding: 0 18px 10px;
+    margin-top: -4px;
+    font-size: 11.5px;
+    color: var(--text-faint);
+  }
   .index-updated {
     font-size: 11.5px;
     color: var(--text-muted);
@@ -783,6 +801,7 @@
       <div class="index-title">
         <span class="index-dot"></span>
         <h2>OMX Stockholm 30</h2>
+        <span class="signal-badge" id="signal-badge-omx" style="display:none"></span>
       </div>
       <span class="index-updated" id="index-updated-omx"></span>
     </div>
@@ -791,6 +810,7 @@
       <span class="chg-pill" id="index-chg-pill-omx" style="display:none"></span>
       <span class="index-chg-abs tabular" id="index-chg-abs-omx"></span>
     </div>
+    <div class="signal-since" id="signal-since-omx"></div>
     <div class="index-chart-wrap">
       <svg class="index-chart" id="history-chart-omx" viewBox="0 0 700 190" preserveAspectRatio="none" aria-hidden="true" style="display:none"></svg>
       <p class="waiting history-waiting" id="history-waiting-omx">Väntar på historik…</p>
@@ -803,6 +823,7 @@
       <div class="index-title">
         <span class="index-dot"></span>
         <h2>Nasdaq-100</h2>
+        <span class="signal-badge" id="signal-badge-ndx" style="display:none"></span>
       </div>
       <span class="index-updated" id="index-updated-ndx"></span>
     </div>
@@ -811,6 +832,7 @@
       <span class="chg-pill" id="index-chg-pill-ndx" style="display:none"></span>
       <span class="index-chg-abs tabular" id="index-chg-abs-ndx"></span>
     </div>
+    <div class="signal-since" id="signal-since-ndx"></div>
     <div class="index-chart-wrap">
       <svg class="index-chart" id="history-chart-ndx" viewBox="0 0 700 190" preserveAspectRatio="none" aria-hidden="true" style="display:none"></svg>
       <p class="waiting history-waiting" id="history-waiting-ndx">Väntar på historik…</p>
@@ -823,6 +845,7 @@
       <div class="index-title">
         <span class="index-dot"></span>
         <h2>Guld (XAU/USD)</h2>
+        <span class="signal-badge" id="signal-badge-gold" style="display:none"></span>
       </div>
       <span class="index-updated" id="index-updated-gold"></span>
     </div>
@@ -831,6 +854,7 @@
       <span class="chg-pill" id="index-chg-pill-gold" style="display:none"></span>
       <span class="index-chg-abs tabular" id="index-chg-abs-gold"></span>
     </div>
+    <div class="signal-since" id="signal-since-gold"></div>
     <div class="index-chart-wrap">
       <svg class="index-chart" id="history-chart-gold" viewBox="0 0 700 190" preserveAspectRatio="none" aria-hidden="true" style="display:none"></svg>
       <p class="waiting history-waiting" id="history-waiting-gold">Väntar på historik…</p>
@@ -1010,6 +1034,10 @@
   var indexData = { omx: {}, ndx: {}, gold: {} };
   var historyData = { omx: {}, ndx: {}, gold: {} };
   var selectedRange = { omx: 'd1', ndx: 'd1', gold: 'd1' };
+  // LONG/SHORT/NEUTRAL per panel — same 5-condition rule (MA20/MA50, RSI14,
+  // MACD histogram, volume confirmation, daily-trend filter) as the sibling
+  // marknadssignaler project, computed server-side in fetch_data.py.
+  var signalsData = { omx: {}, ndx: {}, gold: {} };
 
   // Holdings-table sort state. Never persisted (no localStorage) — every fresh
   // page load starts back at alphabetical-by-ticker, per the user's request.
@@ -1073,7 +1101,9 @@
       updated: document.getElementById('index-updated-' + p.key),
       rangeTabs: document.getElementById('range-tabs-' + p.key),
       historyChart: document.getElementById('history-chart-' + p.key),
-      historyWaiting: document.getElementById('history-waiting-' + p.key)
+      historyWaiting: document.getElementById('history-waiting-' + p.key),
+      signalBadge: document.getElementById('signal-badge-' + p.key),
+      signalSince: document.getElementById('signal-since-' + p.key)
     };
   });
   var elNewsList = document.getElementById('news-list');
@@ -1360,9 +1390,24 @@
     els.updated.textContent = idx.updatedAt ? 'Uppdaterad ' + fmtClockSince(idx.updatedAt) : '';
   }
 
+  function renderSignal(panelKey) {
+    var els = indexEls[panelKey];
+    var sig = signalsData[panelKey] || {};
+    if (!sig.signal) {
+      els.signalBadge.style.display = 'none';
+      els.signalSince.textContent = '';
+      return;
+    }
+    els.signalBadge.style.display = 'inline-block';
+    els.signalBadge.className = 'signal-badge ' + sig.signal;
+    els.signalBadge.textContent = sig.signal.toUpperCase();
+    els.signalSince.textContent = sig.since ? 'Läge ' + fmtClockSince(sig.since) : '';
+  }
+
   function renderAllIndexPanels() {
     INDEX_PANELS.forEach(function (p) {
       renderIndexTicker(p.key, p.unit, p.deltaUnit);
+      renderSignal(p.key);
       renderRangeTabs(p.key);
       renderHistoryChart(p.key);
     });
@@ -1778,6 +1823,7 @@
       prices = data.prices || {};
       indexData = data.indices || { omx: {}, ndx: {}, gold: {} };
       historyData = data.indicesHistory || { omx: {}, ndx: {}, gold: {} };
+      signalsData = data.signals || { omx: {}, ndx: {}, gold: {} };
       fxData = data.fx || {};
       newsData = data.news || {};
       render();

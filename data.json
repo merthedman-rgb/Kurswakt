@@ -233,14 +233,18 @@
   },
   "fx": {
     "DKK": 1.5019,
-    "EUR": 11.2445,
-    "GBP": 13.0797,
+    "EUR": 11.2432,
+    "GBP": 13.0791,
     "NOK": 1.0428,
-    "USD": 9.6867,
-    "updatedAt": "2026-09-11T05:03:51.808044+00:00"
+    "USD": 9.6858,
+    "updatedAt": "2026-09-11T05:06:33.224851+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Strateg tror på försvarslyft för rymdbolagen",
+        "url": "https://www.placera.se/nyheter/strateg-tror-pa-forsvarslyft-for-rymdbolagen-2026-09-11"
+      },
       {
         "title": "Stockholmsbörsen stängde ned 0,4% på torsdagen",
         "url": "https://www.placera.se/nyheter/stockholmsborsen-stangde-ned-04-pa-torsdagen-2026-09-10"
@@ -268,15 +272,11 @@
       {
         "title": "Saab stiger på ny order",
         "url": "https://www.placera.se/nyheter/saab-stiger-pa-ny-order-2026-09-10"
-      },
-      {
-        "title": "Börsuppgången raderad – Hemnet rasar",
-        "url": "https://www.placera.se/nyheter/borsuppgangen-raderad--hemnet-rasar-2026-09-10"
       }
     ],
-    "updatedAt": "2026-09-11T05:03:53.089678+00:00"
+    "updatedAt": "2026-09-11T05:06:34.553621+00:00"
   },
-  "updatedAt": "2026-09-11T05:03:53.089757+00:00",
+  "updatedAt": "2026-09-11T05:06:34.553686+00:00",
   "indices": {
     "omx": {
       "value": 3244.984,
@@ -3933,7 +3933,7 @@
       "macdHist": 0.696,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-11T05:03:49.926819+00:00"
+      "updatedAt": "2026-09-11T05:06:30.734581+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -3945,19 +3945,19 @@
       "macdHist": -1.306,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-11T05:03:50.350635+00:00"
+      "updatedAt": "2026-09-11T05:06:31.475517+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4373.5,
-      "ma20": 4366.69,
-      "ma50": 4364.41,
-      "rsi": 57.64,
-      "macdHist": 0.885,
+      "price": 4374.3,
+      "ma20": 4367.43,
+      "ma50": 4364.77,
+      "rsi": 57.91,
+      "macdHist": 0.999,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-11T05:03:50.910965+00:00"
+      "updatedAt": "2026-09-11T05:06:32.052877+00:00"
     }
   }
 }

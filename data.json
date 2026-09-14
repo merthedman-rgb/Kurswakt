@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.5054,
-    "EUR": 11.2711,
-    "GBP": 13.1743,
+    "DKK": 1.5053,
+    "EUR": 11.2713,
+    "GBP": 13.1746,
     "NOK": 1.0453,
-    "USD": 9.7619,
-    "updatedAt": "2026-09-14T20:07:31.108755+00:00"
+    "USD": 9.7611,
+    "updatedAt": "2026-09-14T20:25:01.859900+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/goldman-sachs-och-jp-morgan-raknar-med-fed-hojning-pa-onsdag-2026-09-14"
       }
     ],
-    "updatedAt": "2026-09-14T20:07:32.467932+00:00"
+    "updatedAt": "2026-09-14T20:25:03.151748+00:00"
   },
-  "updatedAt": "2026-09-14T20:07:32.467996+00:00",
+  "updatedAt": "2026-09-14T20:25:03.151788+00:00",
   "indices": {
     "omx": {
       "value": 3222.651,
@@ -4077,7 +4077,7 @@
       "macdHist": -0.073,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-14T20:07:30.680996+00:00"
+      "updatedAt": "2026-09-14T20:25:00.176482+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4089,19 +4089,19 @@
       "macdHist": -11.324,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-14T20:07:30.782010+00:00"
+      "updatedAt": "2026-09-14T20:25:00.584400+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4324.4,
-      "ma20": 4340.23,
-      "ma50": 4344.7,
-      "rsi": 21.69,
-      "macdHist": -2.138,
+      "price": 4328.4,
+      "ma20": 4336.7,
+      "ma50": 4344.51,
+      "rsi": 32.91,
+      "macdHist": -0.94,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-14T20:07:30.878467+00:00"
+      "updatedAt": "2026-09-14T20:25:00.860175+00:00"
     }
   }
 }

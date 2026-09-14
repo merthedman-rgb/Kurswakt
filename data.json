@@ -232,15 +232,23 @@
     }
   },
   "fx": {
-    "DKK": 1.5038,
-    "EUR": 11.2594,
-    "GBP": 13.1404,
-    "NOK": 1.0448,
-    "USD": 9.7311,
-    "updatedAt": "2026-09-14T05:38:00.377567+00:00"
+    "DKK": 1.504,
+    "EUR": 11.2591,
+    "GBP": 13.1402,
+    "NOK": 1.0451,
+    "USD": 9.732,
+    "updatedAt": "2026-09-14T05:52:01.692782+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Sam Altman: OpenAI går inte till börsen i år",
+        "url": "https://www.placera.se/nyheter/sam-altman-openai-gar-inte-till-borsen-i-ar-2026-09-14"
+      },
+      {
+        "title": "Lagarde: Inflationschocken dröjer kvar",
+        "url": "https://www.placera.se/nyheter/lagarde-inflationschocken-drojer-kvar-2026-09-14"
+      },
       {
         "title": "Uppgifter: Nvidia överväger miljardinvestering i Anthropic",
         "url": "https://www.placera.se/nyheter/uppgifter-nvidia-overvager-miljardinvestering-i-anthropic-2026-09-14"
@@ -264,19 +272,11 @@
       {
         "title": "Sjöfartsaktierna rusar – bäst på över tio år",
         "url": "https://www.placera.se/nyheter/sjofartsaktierna-rusar--bast-arsfacit-pa-over-tio-ar-2026-09-11"
-      },
-      {
-        "title": "Valet kan sänka kronan: &quot;Då blir Riksbanken nervös&quot;",
-        "url": "https://www.placera.se/nyheter/valet-kan-sanka-kronan-da-blir-riksbanken-nervos-2026-09-11"
-      },
-      {
-        "title": "UBS räknar med ytterligare ECB-höjning",
-        "url": "https://www.placera.se/nyheter/ubs-raknar-med-ytterligare-ecb-hojning-2026-09-11"
       }
     ],
-    "updatedAt": "2026-09-14T05:38:01.756549+00:00"
+    "updatedAt": "2026-09-14T05:52:03.661828+00:00"
   },
-  "updatedAt": "2026-09-14T05:38:01.756609+00:00",
+  "updatedAt": "2026-09-14T05:52:03.661896+00:00",
   "indices": {
     "omx": {
       "value": 3260.797,
@@ -3937,7 +3937,7 @@
       "macdHist": -0.406,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-14T05:37:59.922261+00:00"
+      "updatedAt": "2026-09-14T05:52:01.140309+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -3949,19 +3949,19 @@
       "macdHist": -3.465,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-14T05:38:00.048717+00:00"
+      "updatedAt": "2026-09-14T05:52:01.298637+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4368.8,
-      "ma20": 4369.54,
-      "ma50": 4375.65,
-      "rsi": 44.48,
-      "macdHist": 0.448,
+      "price": 4372.6,
+      "ma20": 4369.63,
+      "ma50": 4376.61,
+      "rsi": 51.46,
+      "macdHist": 0.974,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-14T05:38:00.154908+00:00"
+      "updatedAt": "2026-09-14T05:52:01.443191+00:00"
     }
   }
 }

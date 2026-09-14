@@ -232,15 +232,19 @@
     }
   },
   "fx": {
-    "DKK": 1.5031,
-    "EUR": 11.2546,
-    "GBP": 13.1367,
-    "NOK": 1.0446,
-    "USD": 9.7346,
-    "updatedAt": "2026-09-14T06:09:47.488787+00:00"
+    "DKK": 1.5035,
+    "EUR": 11.2587,
+    "GBP": 13.1471,
+    "NOK": 1.0447,
+    "USD": 9.7423,
+    "updatedAt": "2026-09-14T06:33:14.066818+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Inflationen oförändrad – högre än Riksbankens prognos",
+        "url": "https://www.placera.se/nyheter/inflationen-oforandrad--hogre-an-riksbankens-prognos-2026-09-14"
+      },
       {
         "title": "Trump tonar ned AI-risker efter varningar",
         "url": "https://www.placera.se/nyheter/trump-tonar-ned-ai-risker-efter-varningar-2026-09-14"
@@ -262,21 +266,17 @@
         "url": "https://www.placera.se/nyheter/uppgifter-nvidia-overvager-miljardinvestering-i-anthropic-2026-09-14"
       },
       {
-        "title": "Just nu: SBAB höjer bundna bolåneräntor",
+        "title": "SBAB höjer bundna bolåneräntor",
         "url": "https://www.placera.se/nyheter/sbab-hojer-bundna-bolanerantor-2026-09-14"
       },
       {
         "title": "Rysarval – oppositionen har knapp ledning",
         "url": "https://www.placera.se/nyheter/rysarval--oppositionen-har-knapp-ledning-2026-09-14"
-      },
-      {
-        "title": "Miljarder av bankernas ”övervinster” har gått till arbetarrörelsen",
-        "url": "https://www.placera.se/nyheter/miljarder-av-bankernas-overvinster-har-gatt-till-arbetarrorelsen-2026-09-11"
       }
     ],
-    "updatedAt": "2026-09-14T06:09:48.545629+00:00"
+    "updatedAt": "2026-09-14T06:33:15.244763+00:00"
   },
-  "updatedAt": "2026-09-14T06:09:48.545688+00:00",
+  "updatedAt": "2026-09-14T06:33:15.244801+00:00",
   "indices": {
     "omx": {
       "value": 3260.797,
@@ -3947,7 +3947,7 @@
       "macdHist": -0.406,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-14T06:09:47.131670+00:00"
+      "updatedAt": "2026-09-14T06:33:12.082979+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -3959,19 +3959,19 @@
       "macdHist": -3.465,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-14T06:09:47.212083+00:00"
+      "updatedAt": "2026-09-14T06:33:12.443361+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4377.2,
-      "ma20": 4370.31,
-      "ma50": 4374.14,
-      "rsi": 55.86,
-      "macdHist": 1.227,
+      "price": 4368.5,
+      "ma20": 4370.97,
+      "ma50": 4373.2,
+      "rsi": 45.72,
+      "macdHist": -0.067,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-14T06:09:47.313485+00:00"
+      "updatedAt": "2026-09-14T06:33:13.122532+00:00"
     }
   }
 }

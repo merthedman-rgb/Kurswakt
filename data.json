@@ -233,14 +233,26 @@
   },
   "fx": {
     "DKK": 1.5038,
-    "EUR": 11.259,
+    "EUR": 11.2594,
     "GBP": 13.1404,
     "NOK": 1.0448,
-    "USD": 9.7343,
-    "updatedAt": "2026-09-14T05:24:46.278065+00:00"
+    "USD": 9.7311,
+    "updatedAt": "2026-09-14T05:38:00.377567+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Uppgifter: Nvidia överväger miljardinvestering i Anthropic",
+        "url": "https://www.placera.se/nyheter/uppgifter-nvidia-overvager-miljardinvestering-i-anthropic-2026-09-14"
+      },
+      {
+        "title": "Just nu: SBAB höjer bundna bolåneräntor",
+        "url": "https://www.placera.se/nyheter/sbab-hojer-bundna-bolanerantor-2026-09-14"
+      },
+      {
+        "title": "Rysarval – oppositionen har knapp ledning",
+        "url": "https://www.placera.se/nyheter/rysarval--oppositionen-har-knapp-ledning-2026-09-14"
+      },
       {
         "title": "Miljarder av bankernas ”övervinster” har gått till arbetarrörelsen",
         "url": "https://www.placera.se/nyheter/miljarder-av-bankernas-overvinster-har-gatt-till-arbetarrorelsen-2026-09-11"
@@ -260,23 +272,11 @@
       {
         "title": "UBS räknar med ytterligare ECB-höjning",
         "url": "https://www.placera.se/nyheter/ubs-raknar-med-ytterligare-ecb-hojning-2026-09-11"
-      },
-      {
-        "title": "Skanska tecknar miljardavtal för tunnlar",
-        "url": "https://www.placera.se/nyheter/skanska-tecknar-miljardavtal-for-tunnlar-2026-09-11"
-      },
-      {
-        "title": "Börsen: Asker rasar på dubbelsänkning",
-        "url": "https://www.placera.se/nyheter/asker-rasar-pa-dubbelsankning-2026-09-11"
-      },
-      {
-        "title": "Skanska bygger tunnel i Norge – för 1,5 miljarder",
-        "url": "https://www.placera.se/nyheter/skanska-bygger-tunnel-i-norge--for-15-miljarder--2026-09-11"
       }
     ],
-    "updatedAt": "2026-09-14T05:24:47.462042+00:00"
+    "updatedAt": "2026-09-14T05:38:01.756549+00:00"
   },
-  "updatedAt": "2026-09-14T05:24:47.462111+00:00",
+  "updatedAt": "2026-09-14T05:38:01.756609+00:00",
   "indices": {
     "omx": {
       "value": 3260.797,
@@ -3937,7 +3937,7 @@
       "macdHist": -0.406,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-14T05:24:45.490406+00:00"
+      "updatedAt": "2026-09-14T05:37:59.922261+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -3949,19 +3949,19 @@
       "macdHist": -3.465,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-14T05:24:45.704531+00:00"
+      "updatedAt": "2026-09-14T05:38:00.048717+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4370.5,
-      "ma20": 4369.91,
-      "ma50": 4375.44,
-      "rsi": 47.87,
-      "macdHist": 0.611,
+      "price": 4368.8,
+      "ma20": 4369.54,
+      "ma50": 4375.65,
+      "rsi": 44.48,
+      "macdHist": 0.448,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-14T05:24:45.879387+00:00"
+      "updatedAt": "2026-09-14T05:38:00.154908+00:00"
     }
   }
 }

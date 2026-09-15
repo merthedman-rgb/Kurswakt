@@ -232,15 +232,39 @@
     }
   },
   "fx": {
-    "DKK": 1.5065,
-    "EUR": 11.2777,
-    "GBP": 13.1797,
-    "NOK": 1.0461,
-    "USD": 9.7758,
-    "updatedAt": "2026-09-15T05:53:35.274609+00:00"
+    "DKK": 1.5062,
+    "EUR": 11.2775,
+    "GBP": 13.176,
+    "NOK": 1.0463,
+    "USD": 9.7779,
+    "updatedAt": "2026-09-15T06:09:31.452949+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Just nu: SBB föreslår återköp och inlösen av samtliga D-aktier",
+        "url": "https://www.placera.se/nyheter/sbb-foreslar-aterkop-och-inlosen-av-samtliga-d-aktier-2026-09-15"
+      },
+      {
+        "title": "Nordea ser attraktivt ingångsläge i Axfood – höjer till köp",
+        "url": "https://www.placera.se/nyheter/nordea-ser-attraktivt-ingangslage-i-axfood--hojer-till-kop-2026-09-15"
+      },
+      {
+        "title": "Trump slopar Bidens utsläppskrav för kraftverk",
+        "url": "https://www.placera.se/nyheter/trump-slopar-bidens-utslappskrav-for-kraftverk-2026-09-15"
+      },
+      {
+        "title": "Musks bolag avslutar rättstvist mot Apple – fortsätter mot OpenAI",
+        "url": "https://www.placera.se/nyheter/musks-bolag-avslutar-rattstvist-mot-apple--fortsatter-mot-openai-2026-09-15"
+      },
+      {
+        "title": "Just nu: Mestadels nedåt i Asien",
+        "url": "https://www.placera.se/nyheter/mestadels-nedat-i-asien-2026-09-15"
+      },
+      {
+        "title": "Fyra av tio svenskar tror på stigande bostadspriser",
+        "url": "https://www.placera.se/nyheter/fyra-av-tio-svenskar-tror-pa-stigande-bostadspriser--2026-09-15"
+      },
       {
         "title": "Börsen struntar i valet – men inte friskoleaktien",
         "url": "https://www.placera.se/nyheter/borsen-struntar-i-valet--men-inte-academedia-2026-09-15"
@@ -248,35 +272,11 @@
       {
         "title": "Stockholmsbörsen föll 1,1% under måndagen",
         "url": "https://www.placera.se/nyheter/stockholmsborsen-foll-11-under-mandagen-2026-09-14"
-      },
-      {
-        "title": "Kvartil säljer Investor — ser uppsida i Latour",
-        "url": "https://www.placera.se/nyheter/kvartil-saljer-investor--ser-uppsida-i-latour-2026-09-14"
-      },
-      {
-        "title": "Wall Street backar – AI-aktier pressas",
-        "url": "https://www.placera.se/nyheter/wall-street-inleder-veckan-nedat-2026-09-14"
-      },
-      {
-        "title": "Efter valrysaren – så agerar spararna",
-        "url": "https://www.placera.se/nyheter/efter-valrysaren--sa-agerar-spararna-2026-09-14"
-      },
-      {
-        "title": "Centerpartiet redo att samarbeta med Socialdemokraterna",
-        "url": "https://www.placera.se/nyheter/centerpartiet-redo-att-samarbeta-med-socialdemokraterna-2026-09-14"
-      },
-      {
-        "title": "Uppgifter: Centerpartiet avvaktar valresultatet innan regeringssamtal",
-        "url": "https://www.placera.se/nyheter/uppgifter-centerpartiet-avvaktar-valresultatet-innan-regeringssamtal-2026-09-14"
-      },
-      {
-        "title": "Nedgång på Stockholmsbörsen",
-        "url": "https://www.placera.se/nyheter/nedgang-pa-stockholmsborsen-2026-09-14"
       }
     ],
-    "updatedAt": "2026-09-15T05:53:36.893791+00:00"
+    "updatedAt": "2026-09-15T06:09:33.093113+00:00"
   },
-  "updatedAt": "2026-09-15T05:53:36.893846+00:00",
+  "updatedAt": "2026-09-15T06:09:33.093169+00:00",
   "indices": {
     "omx": {
       "value": 3222.651,
@@ -425,23 +425,31 @@
       "updatedAt": "2026-09-14T19:50:32.703472+00:00"
     },
     "gold": {
-      "value": 4305.18,
-      "changeAbs": -56.64,
-      "changePercent": -1.299,
-      "updatedAt": "2026-09-15T05:07:11.846200+00:00",
+      "value": 4291.31,
+      "changeAbs": -70.51,
+      "changePercent": -1.617,
+      "updatedAt": "2026-09-15T06:09:25.687637+00:00",
       "series": [
         4348.0,
         4344.0,
         4345.4,
         4344.8,
-        4347.0
+        4341.6,
+        4337.2,
+        4336.4,
+        4331.2,
+        4331.3
       ],
       "seriesTimes": [
         1789444800,
         1789445700,
         1789446600,
         1789447500,
-        1789448225
+        1789448400,
+        1789449300,
+        1789450200,
+        1789451100,
+        1789451955
       ]
     }
   },
@@ -2793,8 +2801,9 @@
           4333.6,
           4344.1,
           4354.9,
-          4347.0,
-          4347.1
+          4344.8,
+          4331.2,
+          4331.3
         ],
         "seriesTimes": [
           1789012800,
@@ -2866,7 +2875,8 @@
           1789434000,
           1789437600,
           1789444800,
-          1789448230
+          1789448400,
+          1789451955
         ]
       },
       "m1": {
@@ -2891,7 +2901,7 @@
           4364.5,
           4408.9,
           4351.9,
-          4347.0
+          4331.3
         ],
         "seriesTimes": [
           1786939200,
@@ -2982,7 +2992,7 @@
           4364.5,
           4408.9,
           4351.9,
-          4347.1
+          4331.3
         ],
         "seriesTimes": [
           1781496000,
@@ -3228,7 +3238,7 @@
           4364.5,
           4408.9,
           4351.9,
-          4347.1
+          4331.3
         ],
         "seriesTimes": [
           1767330000,
@@ -3662,7 +3672,7 @@
           4364.5,
           4408.9,
           4351.9,
-          4347.1
+          4331.3
         ],
         "seriesTimes": [
           1757908800,
@@ -3919,7 +3929,7 @@
           1789444800
         ]
       },
-      "updatedAt": "2026-09-15T05:07:12.456069+00:00"
+      "updatedAt": "2026-09-15T06:09:27.536241+00:00"
     }
   },
   "signals": {
@@ -3933,7 +3943,7 @@
       "macdHist": -0.073,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-15T05:53:34.248241+00:00"
+      "updatedAt": "2026-09-15T06:09:28.338934+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -3945,19 +3955,19 @@
       "macdHist": -11.324,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-15T05:53:34.484053+00:00"
+      "updatedAt": "2026-09-15T06:09:29.153339+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4335.5,
-      "ma20": 4341.54,
-      "ma50": 4337.45,
-      "rsi": 39.27,
-      "macdHist": -1.318,
+      "price": 4331.2,
+      "ma20": 4339.66,
+      "ma50": 4342.12,
+      "rsi": 31.62,
+      "macdHist": -1.056,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-15T05:53:34.764713+00:00"
+      "updatedAt": "2026-09-15T06:09:30.065317+00:00"
     }
   }
 }

@@ -232,15 +232,19 @@
     }
   },
   "fx": {
-    "DKK": 1.5069,
-    "EUR": 11.2814,
-    "GBP": 13.1856,
-    "NOK": 1.0465,
-    "USD": 9.7801,
-    "updatedAt": "2026-09-15T05:40:39.181358+00:00"
+    "DKK": 1.5065,
+    "EUR": 11.2777,
+    "GBP": 13.1797,
+    "NOK": 1.0461,
+    "USD": 9.7758,
+    "updatedAt": "2026-09-15T05:53:35.274609+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Börsen struntar i valet – men inte friskoleaktien",
+        "url": "https://www.placera.se/nyheter/borsen-struntar-i-valet--men-inte-academedia-2026-09-15"
+      },
       {
         "title": "Stockholmsbörsen föll 1,1% under måndagen",
         "url": "https://www.placera.se/nyheter/stockholmsborsen-foll-11-under-mandagen-2026-09-14"
@@ -268,15 +272,11 @@
       {
         "title": "Nedgång på Stockholmsbörsen",
         "url": "https://www.placera.se/nyheter/nedgang-pa-stockholmsborsen-2026-09-14"
-      },
-      {
-        "title": "Goldman Sachs och JP Morgan räknar med Fed-höjning på onsdag",
-        "url": "https://www.placera.se/nyheter/goldman-sachs-och-jp-morgan-raknar-med-fed-hojning-pa-onsdag-2026-09-14"
       }
     ],
-    "updatedAt": "2026-09-15T05:40:40.186358+00:00"
+    "updatedAt": "2026-09-15T05:53:36.893791+00:00"
   },
-  "updatedAt": "2026-09-15T05:40:40.186416+00:00",
+  "updatedAt": "2026-09-15T05:53:36.893846+00:00",
   "indices": {
     "omx": {
       "value": 3222.651,
@@ -3933,7 +3933,7 @@
       "macdHist": -0.073,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-15T05:40:38.674230+00:00"
+      "updatedAt": "2026-09-15T05:53:34.248241+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -3945,19 +3945,19 @@
       "macdHist": -11.324,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-15T05:40:38.867276+00:00"
+      "updatedAt": "2026-09-15T05:53:34.484053+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4337.5,
-      "ma20": 4342.83,
-      "ma50": 4341.79,
-      "rsi": 38.14,
-      "macdHist": -1.161,
+      "price": 4335.5,
+      "ma20": 4341.54,
+      "ma50": 4337.45,
+      "rsi": 39.27,
+      "macdHist": -1.318,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-15T05:40:38.957506+00:00"
+      "updatedAt": "2026-09-15T05:53:34.764713+00:00"
     }
   }
 }

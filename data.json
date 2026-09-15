@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.5057,
-    "EUR": 11.2711,
-    "GBP": 13.1725,
-    "NOK": 1.0406,
-    "USD": 9.7491,
-    "updatedAt": "2026-09-15T21:23:38.137299+00:00"
+    "DKK": 1.5064,
+    "EUR": 11.2816,
+    "GBP": 13.1688,
+    "NOK": 1.041,
+    "USD": 9.7598,
+    "updatedAt": "2026-09-15T21:36:10.619052+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/sbbs-vd-vill-bli-av-med-bromsklossen-2026-09-15"
       }
     ],
-    "updatedAt": "2026-09-15T21:23:39.560572+00:00"
+    "updatedAt": "2026-09-15T21:36:12.058474+00:00"
   },
-  "updatedAt": "2026-09-15T21:23:39.560629+00:00",
+  "updatedAt": "2026-09-15T21:36:12.058541+00:00",
   "indices": {
     "omx": {
       "value": 3219.902,
@@ -4107,7 +4107,7 @@
       "macdHist": -0.286,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-15T21:23:36.794405+00:00"
+      "updatedAt": "2026-09-15T21:36:10.151283+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4119,7 +4119,7 @@
       "macdHist": 1.558,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-15T21:23:37.126795+00:00"
+      "updatedAt": "2026-09-15T21:36:10.251391+00:00"
     },
     "gold": {
       "signal": "neutral",
@@ -4131,7 +4131,7 @@
       "macdHist": -0.258,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-15T21:23:37.548716+00:00"
+      "updatedAt": "2026-09-15T21:36:10.368701+00:00"
     }
   }
 }

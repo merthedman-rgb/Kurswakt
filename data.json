@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.5097,
-    "EUR": 11.3056,
-    "GBP": 13.1886,
-    "NOK": 1.0452,
-    "USD": 9.8561,
-    "updatedAt": "2026-09-16T20:07:48.785836+00:00"
+    "DKK": 1.5104,
+    "EUR": 11.3097,
+    "GBP": 13.193,
+    "NOK": 1.0453,
+    "USD": 9.8668,
+    "updatedAt": "2026-09-16T20:25:39.488770+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/ytterligare-en-bank-hojer-bundna-bolanerantor-2026-09-16"
       }
     ],
-    "updatedAt": "2026-09-16T20:07:50.189082+00:00"
+    "updatedAt": "2026-09-16T20:25:40.601881+00:00"
   },
-  "updatedAt": "2026-09-16T20:07:50.189143+00:00",
+  "updatedAt": "2026-09-16T20:25:40.601921+00:00",
   "indices": {
     "omx": {
       "value": 3250.413,
@@ -4109,7 +4109,7 @@
       "macdHist": 0.375,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-16T20:07:48.202588+00:00"
+      "updatedAt": "2026-09-16T20:25:38.497362+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4121,19 +4121,19 @@
       "macdHist": 12.494,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-16T20:07:48.384046+00:00"
+      "updatedAt": "2026-09-16T20:25:38.688880+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4308.1,
-      "ma20": 4310.91,
-      "ma50": 4354.98,
-      "rsi": 40.52,
-      "macdHist": 3.532,
+      "price": 4303.6,
+      "ma20": 4303.9,
+      "ma50": 4348.07,
+      "rsi": 38.18,
+      "macdHist": 3.111,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-16T20:07:48.513559+00:00"
+      "updatedAt": "2026-09-16T20:25:38.942257+00:00"
     }
   }
 }

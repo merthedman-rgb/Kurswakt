@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.5071,
-    "EUR": 11.2838,
-    "GBP": 13.1711,
-    "NOK": 1.0464,
-    "USD": 9.7709,
-    "updatedAt": "2026-09-16T06:31:19.368870+00:00"
+    "DKK": 1.5074,
+    "EUR": 11.2853,
+    "GBP": 13.1717,
+    "NOK": 1.0455,
+    "USD": 9.7741,
+    "updatedAt": "2026-09-16T06:54:56.368267+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/dormy-tappar-fart-infor-miljardnoteringen-2026-09-15"
       }
     ],
-    "updatedAt": "2026-09-16T06:31:20.399079+00:00"
+    "updatedAt": "2026-09-16T06:54:57.729080+00:00"
   },
-  "updatedAt": "2026-09-16T06:31:20.399148+00:00",
+  "updatedAt": "2026-09-16T06:54:57.729128+00:00",
   "indices": {
     "omx": {
       "value": 3219.902,
@@ -3961,7 +3961,7 @@
       "macdHist": -0.286,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-16T06:31:18.990260+00:00"
+      "updatedAt": "2026-09-16T06:54:55.295127+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -3973,19 +3973,19 @@
       "macdHist": 1.558,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-16T06:31:19.090719+00:00"
+      "updatedAt": "2026-09-16T06:54:55.567375+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4367.1,
-      "ma20": 4366.24,
-      "ma50": 4364.65,
-      "rsi": 53.26,
-      "macdHist": -0.429,
+      "price": 4368.0,
+      "ma20": 4366.98,
+      "ma50": 4362.32,
+      "rsi": 55.75,
+      "macdHist": -0.484,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-16T06:31:19.178394+00:00"
+      "updatedAt": "2026-09-16T06:54:55.871493+00:00"
     }
   }
 }

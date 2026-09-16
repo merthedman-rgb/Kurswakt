@@ -232,15 +232,27 @@
     }
   },
   "fx": {
-    "DKK": 1.5064,
-    "EUR": 11.2778,
-    "GBP": 13.1711,
-    "NOK": 1.0467,
-    "USD": 9.7671,
-    "updatedAt": "2026-09-16T05:38:32.681363+00:00"
+    "DKK": 1.5062,
+    "EUR": 11.2776,
+    "GBP": 13.1722,
+    "NOK": 1.0456,
+    "USD": 9.7661,
+    "updatedAt": "2026-09-16T05:51:42.429060+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Premium lyfter när modehandeln tappar fart",
+        "url": "https://www.placera.se/nyheter/premium-lyfter-nar-modehandeln-tappar-fart-2026-09-16"
+      },
+      {
+        "title": "Just nu: Asienbörserna stiger under morgonen",
+        "url": "https://www.placera.se/nyheter/asienborserna-stiger-under-morgonen-2026-09-16"
+      },
+      {
+        "title": "Just nu: OpenAI kan värderas till över 1 biljon dollar",
+        "url": "https://www.placera.se/nyheter/openai-kan-varderas-till-over-1-biljon-dollar--2026-09-16"
+      },
       {
         "title": "Stockholmsbörsen återhämtade sig under tisdagen",
         "url": "https://www.placera.se/nyheter/stockholmsborsen-aterhamtade-sig-under-tisdagen-2026-09-15"
@@ -260,23 +272,11 @@
       {
         "title": "Dags att bli fysiska – se de verkliga siffrorna bakom robotik och fysisk AI",
         "url": "https://www.placera.se/nyheter/dags-att-bli-fysiska--se-de-verkliga-siffrorna-bakom-robotik-och-fysisk-ai-2026-09-15"
-      },
-      {
-        "title": "Spotifys VD säljer aktier för en halv miljard",
-        "url": "https://www.placera.se/nyheter/spotifys-vd-saljer-aktier-for-en-halv-miljard-2026-09-15"
-      },
-      {
-        "title": "Ränteoro pressar börsen – SBB rusar",
-        "url": "https://www.placera.se/nyheter/ranteoro-pressar-borsen--sbb-rusar-2026-09-15"
-      },
-      {
-        "title": "SBB:s VD: Vill bli av med bromsklossen",
-        "url": "https://www.placera.se/nyheter/sbbs-vd-vill-bli-av-med-bromsklossen-2026-09-15"
       }
     ],
-    "updatedAt": "2026-09-16T05:38:33.982687+00:00"
+    "updatedAt": "2026-09-16T05:51:43.953184+00:00"
   },
-  "updatedAt": "2026-09-16T05:38:33.982784+00:00",
+  "updatedAt": "2026-09-16T05:51:43.953238+00:00",
   "indices": {
     "omx": {
       "value": 3219.902,
@@ -3951,7 +3951,7 @@
       "macdHist": -0.286,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-16T05:38:31.467170+00:00"
+      "updatedAt": "2026-09-16T05:51:41.322790+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -3963,19 +3963,19 @@
       "macdHist": 1.558,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-16T05:38:31.693229+00:00"
+      "updatedAt": "2026-09-16T05:51:41.551348+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4367.1,
-      "ma20": 4365.84,
-      "ma50": 4349.52,
-      "rsi": 60.66,
-      "macdHist": -1.121,
+      "price": 4370.2,
+      "ma20": 4365.69,
+      "ma50": 4352.66,
+      "rsi": 64.48,
+      "macdHist": -0.421,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-16T05:38:32.051168+00:00"
+      "updatedAt": "2026-09-16T05:51:41.879646+00:00"
     }
   }
 }

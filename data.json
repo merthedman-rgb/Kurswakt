@@ -233,11 +233,11 @@
   },
   "fx": {
     "DKK": 1.5057,
-    "EUR": 11.2727,
-    "GBP": 13.1124,
-    "NOK": 1.0413,
-    "USD": 9.8204,
-    "updatedAt": "2026-09-17T20:37:49.062964+00:00"
+    "EUR": 11.2733,
+    "GBP": 13.1149,
+    "NOK": 1.0415,
+    "USD": 9.8227,
+    "updatedAt": "2026-09-17T20:49:13.428084+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/rusning-till-scandi-standards-emission--tecknades-till-209-2026-09-17"
       }
     ],
-    "updatedAt": "2026-09-17T20:37:50.444610+00:00"
+    "updatedAt": "2026-09-17T20:49:14.422756+00:00"
   },
-  "updatedAt": "2026-09-17T20:37:50.444675+00:00",
+  "updatedAt": "2026-09-17T20:49:14.422825+00:00",
   "indices": {
     "omx": {
       "value": 3293.98,
@@ -4139,7 +4139,7 @@
       "macdHist": -0.824,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-17T20:37:48.680498+00:00"
+      "updatedAt": "2026-09-17T20:49:12.911698+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4151,19 +4151,19 @@
       "macdHist": 0.771,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-17T20:37:48.766024+00:00"
+      "updatedAt": "2026-09-17T20:49:13.035704+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4382.8,
-      "ma20": 4386.14,
-      "ma50": 4393.85,
-      "rsi": 36.71,
-      "macdHist": 0.199,
+      "price": 4381.0,
+      "ma20": 4384.9,
+      "ma50": 4392.93,
+      "rsi": 34.93,
+      "macdHist": 0.134,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-17T20:37:48.856857+00:00"
+      "updatedAt": "2026-09-17T20:49:13.189221+00:00"
     }
   }
 }

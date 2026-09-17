@@ -233,14 +233,18 @@
   },
   "fx": {
     "DKK": 1.5072,
-    "EUR": 11.2844,
-    "GBP": 13.1676,
-    "NOK": 1.0443,
-    "USD": 9.8415,
-    "updatedAt": "2026-09-17T05:06:55.918265+00:00"
+    "EUR": 11.2839,
+    "GBP": 13.1667,
+    "NOK": 1.0441,
+    "USD": 9.8426,
+    "updatedAt": "2026-09-17T05:25:00.572116+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Just nu: Blandat på Asien-börser",
+        "url": "https://www.placera.se/nyheter/blandat-pa-asien-borser-2026-09-17"
+      },
       {
         "title": "Federal Reserve höjer räntan",
         "url": "https://www.placera.se/nyheter/federal-reserve-hojer-rantan-2026-09-16"
@@ -268,15 +272,11 @@
       {
         "title": "Få Evolution-aktier lämnades in i Candle Lakes budpliktsbud",
         "url": "https://www.placera.se/nyheter/fa-evolution-aktier-lamnades-in-i-candle-lakes-budpliktsbud-2026-09-16"
-      },
-      {
-        "title": "Ytterligare en bank höjer bundna bolåneräntor",
-        "url": "https://www.placera.se/nyheter/ytterligare-en-bank-hojer-bundna-bolanerantor-2026-09-16"
       }
     ],
-    "updatedAt": "2026-09-17T05:06:56.866228+00:00"
+    "updatedAt": "2026-09-17T05:25:01.661286+00:00"
   },
-  "updatedAt": "2026-09-17T05:06:56.866296+00:00",
+  "updatedAt": "2026-09-17T05:25:01.661323+00:00",
   "indices": {
     "omx": {
       "value": 3250.413,
@@ -3969,7 +3969,7 @@
       "macdHist": 0.375,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-17T05:06:55.286289+00:00"
+      "updatedAt": "2026-09-17T05:24:59.668491+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -3981,19 +3981,19 @@
       "macdHist": 12.494,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-17T05:06:55.448706+00:00"
+      "updatedAt": "2026-09-17T05:24:59.882331+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4336.3,
-      "ma20": 4328.78,
-      "ma50": 4314.35,
-      "rsi": 71.89,
-      "macdHist": 0.128,
+      "price": 4332.8,
+      "ma20": 4331.55,
+      "ma50": 4316.24,
+      "rsi": 61.99,
+      "macdHist": -0.661,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-17T05:06:55.553933+00:00"
+      "updatedAt": "2026-09-17T05:25:00.071392+00:00"
     }
   }
 }

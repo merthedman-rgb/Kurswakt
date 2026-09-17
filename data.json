@@ -232,15 +232,27 @@
     }
   },
   "fx": {
-    "DKK": 1.5071,
-    "EUR": 11.2838,
-    "GBP": 13.169,
+    "DKK": 1.5073,
+    "EUR": 11.2849,
+    "GBP": 13.1659,
     "NOK": 1.0429,
-    "USD": 9.8417,
-    "updatedAt": "2026-09-17T05:38:24.262561+00:00"
+    "USD": 9.8408,
+    "updatedAt": "2026-09-17T05:52:09.189132+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Just nu: Torsten Jansson köper aktier för 30 miljoner kronor",
+        "url": "https://www.placera.se/nyheter/torsten-jansson-koper-aktier-for-30-miljoner-kronor-2026-09-17"
+      },
+      {
+        "title": "Warsh: Inflation har varit för hög för länge",
+        "url": "https://www.placera.se/nyheter/warsh-inflation-har-varit-for-hog-for-lange-2026-09-17"
+      },
+      {
+        "title": "SBAB: Riksbanken höjer räntan två gånger i närtid",
+        "url": "https://www.placera.se/nyheter/sbab-riksbanken-hojer-rantan-tva-ganger-i-nartid--2026-09-17"
+      },
       {
         "title": "Just nu: Volvo Cars ska lansera 13 nya bilar",
         "url": "https://www.placera.se/nyheter/volvo-cars-ska-lansera-13-nya-bilar-2026-09-17"
@@ -260,23 +272,11 @@
       {
         "title": "Investorägda Mölnlycke vill dela upp verksamheten",
         "url": "https://www.placera.se/nyheter/investoragda-molnlycke-vill-dela-upp-verksamheten-2026-09-16"
-      },
-      {
-        "title": "Prisjakt vill stämma Google på 21,4 miljarder",
-        "url": "https://www.placera.se/nyheter/prisjakt-vill-stamma-google-pa-214-miljarder-2026-09-16"
-      },
-      {
-        "title": "Michael Burry blir rådgivare åt ny blankningsfond",
-        "url": "https://www.placera.se/nyheter/michael-burry-blir-radgivare-at-ny-blankningsfond-2026-09-16"
-      },
-      {
-        "title": "Turkiska börsen rasar 6 procent – handeln stoppades",
-        "url": "https://www.placera.se/nyheter/turkiska-borsen-rasar-6-procent--handeln-stoppades-2026-09-16"
       }
     ],
-    "updatedAt": "2026-09-17T05:38:25.226443+00:00"
+    "updatedAt": "2026-09-17T05:52:10.139266+00:00"
   },
-  "updatedAt": "2026-09-17T05:38:25.226503+00:00",
+  "updatedAt": "2026-09-17T05:52:10.139332+00:00",
   "indices": {
     "omx": {
       "value": 3250.413,
@@ -3969,7 +3969,7 @@
       "macdHist": 0.375,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-17T05:38:23.733701+00:00"
+      "updatedAt": "2026-09-17T05:52:08.680612+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -3981,19 +3981,19 @@
       "macdHist": 12.494,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-17T05:38:23.880610+00:00"
+      "updatedAt": "2026-09-17T05:52:08.791284+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4325.9,
-      "ma20": 4331.64,
-      "ma50": 4317.5,
-      "rsi": 48.02,
-      "macdHist": -1.87,
+      "price": 4334.6,
+      "ma20": 4332.54,
+      "ma50": 4330.62,
+      "rsi": 55.22,
+      "macdHist": 0.001,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-17T05:38:24.024344+00:00"
+      "updatedAt": "2026-09-17T05:52:08.949210+00:00"
     }
   }
 }

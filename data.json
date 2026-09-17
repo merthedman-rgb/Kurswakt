@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.5069,
-    "EUR": 11.2823,
-    "GBP": 13.1655,
-    "NOK": 1.0432,
-    "USD": 9.8383,
-    "updatedAt": "2026-09-17T06:09:04.117148+00:00"
+    "DKK": 1.5061,
+    "EUR": 11.2747,
+    "GBP": 13.1548,
+    "NOK": 1.0426,
+    "USD": 9.8239,
+    "updatedAt": "2026-09-17T06:31:39.112458+00:00"
   },
   "news": {
     "items": [
@@ -258,11 +258,11 @@
         "url": "https://www.placera.se/nyheter/sbab-riksbanken-hojer-rantan-tva-ganger-i-nartid--2026-09-17"
       },
       {
-        "title": "Just nu: Volvo Cars ska lansera 13 nya bilar",
+        "title": "Volvo Cars ska lansera 13 nya bilar",
         "url": "https://www.placera.se/nyheter/volvo-cars-ska-lansera-13-nya-bilar-2026-09-17"
       },
       {
-        "title": "Just nu: Blandat på Asien-börser",
+        "title": "Blandat på Asien-börser",
         "url": "https://www.placera.se/nyheter/blandat-pa-asien-borser-2026-09-17"
       },
       {
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/stockholmsborsen-handlades-upp-under-onsdagen-2026-09-16"
       }
     ],
-    "updatedAt": "2026-09-17T06:09:05.453336+00:00"
+    "updatedAt": "2026-09-17T06:31:40.447170+00:00"
   },
-  "updatedAt": "2026-09-17T06:09:05.453394+00:00",
+  "updatedAt": "2026-09-17T06:31:40.447229+00:00",
   "indices": {
     "omx": {
       "value": 3250.413,
@@ -3985,7 +3985,7 @@
       "macdHist": 0.375,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-17T06:09:03.746636+00:00"
+      "updatedAt": "2026-09-17T06:31:38.576179+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -3997,19 +3997,19 @@
       "macdHist": 12.494,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-17T06:09:03.838021+00:00"
+      "updatedAt": "2026-09-17T06:31:38.740707+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4342.6,
-      "ma20": 4334.21,
-      "ma50": 4330.42,
-      "rsi": 66.1,
-      "macdHist": 1.082,
+      "price": 4344.8,
+      "ma20": 4337.86,
+      "ma50": 4332.04,
+      "rsi": 61.58,
+      "macdHist": 0.901,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-17T06:09:03.922823+00:00"
+      "updatedAt": "2026-09-17T06:31:38.882957+00:00"
     }
   }
 }

@@ -232,15 +232,23 @@
     }
   },
   "fx": {
-    "DKK": 1.5043,
-    "EUR": 11.2627,
-    "GBP": 13.1064,
-    "NOK": 1.0412,
-    "USD": 9.8103,
-    "updatedAt": "2026-09-18T05:50:19.552487+00:00"
+    "DKK": 1.504,
+    "EUR": 11.2564,
+    "GBP": 13.1011,
+    "NOK": 1.0409,
+    "USD": 9.8043,
+    "updatedAt": "2026-09-18T06:08:51.556465+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Lundinfamiljen vill minska i Aker BP för drygt 5 miljarder",
+        "url": "https://www.placera.se/nyheter/lundinfamiljen-vill-minska-i-aker-bp-for-drygt-5-miljarder-2026-09-18"
+      },
+      {
+        "title": "Just nu: Trump överväger nya omfattande attacker mot Iran",
+        "url": "https://www.placera.se/nyheter/trump-overvager-nya-omfattande-attacker-mot-iran-2026-09-18"
+      },
       {
         "title": "Just nu: Asienbörserna stiger brett",
         "url": "https://www.placera.se/nyheter/asienborserna-stiger-brett-2026-09-18"
@@ -264,19 +272,11 @@
       {
         "title": "Kristersson avgår som statsminister",
         "url": "https://www.placera.se/nyheter/kristersson-avgar-som-statsminister--2026-09-17"
-      },
-      {
-        "title": "Rösträkningen klar: Oppositionen vinnare",
-        "url": "https://www.placera.se/nyheter/klart-oppositionen-vinner-valet-2026-09-17"
-      },
-      {
-        "title": "Uppgifter: C ser två möjliga regeringsalternativ med S",
-        "url": "https://www.placera.se/nyheter/uppgifter-c-ser-tva-mojliga-regeringsalternativ-med-s--2026-09-17"
       }
     ],
-    "updatedAt": "2026-09-18T05:50:20.354278+00:00"
+    "updatedAt": "2026-09-18T06:08:52.857701+00:00"
   },
-  "updatedAt": "2026-09-18T05:50:20.354341+00:00",
+  "updatedAt": "2026-09-18T06:08:52.857749+00:00",
   "indices": {
     "omx": {
       "value": 3293.98,
@@ -425,23 +425,31 @@
       "updatedAt": "2026-09-17T19:49:21.073091+00:00"
     },
     "gold": {
-      "value": 4364.97,
-      "changeAbs": 18.48,
-      "changePercent": 0.425,
-      "updatedAt": "2026-09-18T05:06:16.464605+00:00",
+      "value": 4382.34,
+      "changeAbs": 35.85,
+      "changePercent": 0.825,
+      "updatedAt": "2026-09-18T06:08:49.709298+00:00",
       "series": [
         4395.5,
         4397.5,
         4403.8,
         4406.4,
-        4402.5
+        4405.4,
+        4404.2,
+        4416.7,
+        4416.9,
+        4416.7
       ],
       "seriesTimes": [
         1789704000,
         1789704900,
         1789705800,
         1789706700,
-        1789707374
+        1789707600,
+        1789708500,
+        1789709400,
+        1789710300,
+        1789711127
       ]
     }
   },
@@ -2842,9 +2850,10 @@
           4383.0,
           4385.0,
           4394.9,
-          4387.5,
-          4403.4,
-          4402.5
+          4401.0,
+          4406.4,
+          4416.5,
+          4416.3
         ],
         "seriesTimes": [
           1789358400,
@@ -2938,7 +2947,8 @@
           1789689600,
           1789693200,
           1789704000,
-          1789707374
+          1789707600,
+          1789711129
         ]
       },
       "m1": {
@@ -2965,7 +2975,7 @@
           4332.8,
           4387.5,
           4399.7,
-          4402.5
+          4416.3
         ],
         "seriesTimes": [
           1787025600,
@@ -3058,7 +3068,7 @@
           4332.8,
           4387.5,
           4399.7,
-          4402.5
+          4416.3
         ],
         "seriesTimes": [
           1781755200,
@@ -3307,7 +3317,7 @@
           4332.8,
           4387.5,
           4399.7,
-          4402.5
+          4416.3
         ],
         "seriesTimes": [
           1767330000,
@@ -3744,7 +3754,7 @@
           4332.8,
           4387.5,
           4399.7,
-          4402.5
+          4416.7
         ],
         "seriesTimes": [
           1758168000,
@@ -4001,7 +4011,7 @@
           1789704000
         ]
       },
-      "updatedAt": "2026-09-18T05:06:16.824014+00:00"
+      "updatedAt": "2026-09-18T06:08:50.342713+00:00"
     }
   },
   "signals": {
@@ -4015,7 +4025,7 @@
       "macdHist": -0.824,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-18T05:50:19.143702+00:00"
+      "updatedAt": "2026-09-18T06:08:50.601451+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4027,19 +4037,19 @@
       "macdHist": 0.771,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-18T05:50:19.238883+00:00"
+      "updatedAt": "2026-09-18T06:08:50.836870+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4410.7,
-      "ma20": 4403.44,
-      "ma50": 4396.9,
-      "rsi": 61.65,
-      "macdHist": 0.469,
+      "price": 4416.3,
+      "ma20": 4406.81,
+      "ma50": 4398.06,
+      "rsi": 64.21,
+      "macdHist": 0.696,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-18T05:50:19.371470+00:00"
+      "updatedAt": "2026-09-18T06:08:51.074095+00:00"
     }
   }
 }

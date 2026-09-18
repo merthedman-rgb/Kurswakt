@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.504,
-    "EUR": 11.2564,
-    "GBP": 13.1011,
+    "DKK": 1.5041,
+    "EUR": 11.261,
+    "GBP": 13.1125,
     "NOK": 1.0409,
-    "USD": 9.8043,
-    "updatedAt": "2026-09-18T06:08:51.556465+00:00"
+    "USD": 9.8061,
+    "updatedAt": "2026-09-18T06:29:51.427749+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/kristersson-avgar-som-statsminister--2026-09-17"
       }
     ],
-    "updatedAt": "2026-09-18T06:08:52.857701+00:00"
+    "updatedAt": "2026-09-18T06:29:52.342512+00:00"
   },
-  "updatedAt": "2026-09-18T06:08:52.857749+00:00",
+  "updatedAt": "2026-09-18T06:29:52.342570+00:00",
   "indices": {
     "omx": {
       "value": 3293.98,
@@ -4025,7 +4025,7 @@
       "macdHist": -0.824,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-18T06:08:50.601451+00:00"
+      "updatedAt": "2026-09-18T06:29:51.026113+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4037,19 +4037,19 @@
       "macdHist": 0.771,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-18T06:08:50.836870+00:00"
+      "updatedAt": "2026-09-18T06:29:51.118950+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4416.3,
-      "ma20": 4406.81,
-      "ma50": 4398.06,
-      "rsi": 64.21,
-      "macdHist": 0.696,
+      "price": 4424.9,
+      "ma20": 4412.44,
+      "ma50": 4402.11,
+      "rsi": 66.58,
+      "macdHist": 1.302,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-18T06:08:51.074095+00:00"
+      "updatedAt": "2026-09-18T06:29:51.249568+00:00"
     }
   }
 }

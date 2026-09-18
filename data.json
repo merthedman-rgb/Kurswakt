@@ -232,19 +232,15 @@
     }
   },
   "fx": {
-    "DKK": 1.5046,
-    "EUR": 11.2647,
-    "GBP": 13.109,
-    "NOK": 1.0413,
-    "USD": 9.8097,
-    "updatedAt": "2026-09-18T05:23:15.718066+00:00"
+    "DKK": 1.5045,
+    "EUR": 11.2633,
+    "GBP": 13.1077,
+    "NOK": 1.0402,
+    "USD": 9.8101,
+    "updatedAt": "2026-09-18T05:37:08.042853+00:00"
   },
   "news": {
     "items": [
-      {
-        "title": "Lista: Här är bolagen med aktieägarrabatt",
-        "url": "https://www.placera.se/nyheter/lista-har-ar-bolagen-med-aktieagarrabatt-2026-09-18"
-      },
       {
         "title": "Stockholmsbörsen steg — priset på olja sjönk",
         "url": "https://www.placera.se/nyheter/stockholmsborsen-steg--priset-pa-olja-sjonk-2026-09-17"
@@ -272,11 +268,15 @@
       {
         "title": "Lidl öppnar på NK",
         "url": "https://www.placera.se/nyheter/lidl-oppnar-pa-nk--2026-09-17"
+      },
+      {
+        "title": "Rusning till Scandi Standards emission – tecknades till 209%",
+        "url": "https://www.placera.se/nyheter/rusning-till-scandi-standards-emission--tecknades-till-209-2026-09-17"
       }
     ],
-    "updatedAt": "2026-09-18T05:23:16.653480+00:00"
+    "updatedAt": "2026-09-18T05:37:09.415498+00:00"
   },
-  "updatedAt": "2026-09-18T05:23:16.653557+00:00",
+  "updatedAt": "2026-09-18T05:37:09.415554+00:00",
   "indices": {
     "omx": {
       "value": 3293.98,
@@ -4015,7 +4015,7 @@
       "macdHist": -0.824,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-18T05:23:15.188683+00:00"
+      "updatedAt": "2026-09-18T05:37:07.538021+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4027,19 +4027,19 @@
       "macdHist": 0.771,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-18T05:23:15.309130+00:00"
+      "updatedAt": "2026-09-18T05:37:07.666331+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4407.2,
-      "ma20": 4398.32,
-      "ma50": 4393.96,
-      "rsi": 62.54,
-      "macdHist": 0.798,
+      "price": 4405.2,
+      "ma20": 4401.82,
+      "ma50": 4394.41,
+      "rsi": 58.18,
+      "macdHist": -0.03,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-18T05:23:15.464311+00:00"
+      "updatedAt": "2026-09-18T05:37:07.814701+00:00"
     }
   }
 }

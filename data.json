@@ -233,11 +233,11 @@
   },
   "fx": {
     "DKK": 1.5082,
-    "EUR": 11.2928,
-    "GBP": 13.1645,
-    "NOK": 1.0436,
-    "USD": 9.8286,
-    "updatedAt": "2026-09-18T20:24:00.070161+00:00"
+    "EUR": 11.2916,
+    "GBP": 13.1665,
+    "NOK": 1.044,
+    "USD": 9.8289,
+    "updatedAt": "2026-09-18T20:37:04.034517+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/warren-buffett-avgar-som-ordforande-2026-09-18"
       }
     ],
-    "updatedAt": "2026-09-18T20:24:01.549679+00:00"
+    "updatedAt": "2026-09-18T20:37:04.989283+00:00"
   },
-  "updatedAt": "2026-09-18T20:24:01.549742+00:00",
+  "updatedAt": "2026-09-18T20:37:04.989347+00:00",
   "indices": {
     "omx": {
       "value": 3259.624,
@@ -4173,7 +4173,7 @@
       "macdHist": 0.884,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-18T20:23:57.430692+00:00"
+      "updatedAt": "2026-09-18T20:37:03.463259+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4185,19 +4185,19 @@
       "macdHist": 8.222,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-18T20:23:58.131190+00:00"
+      "updatedAt": "2026-09-18T20:37:03.583628+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4419.6,
-      "ma20": 4419.49,
-      "ma50": 4421.83,
-      "rsi": 49.13,
-      "macdHist": -0.235,
+      "price": 4420.3,
+      "ma20": 4419.46,
+      "ma50": 4422.78,
+      "rsi": 50.81,
+      "macdHist": 0.178,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-18T20:23:58.746777+00:00"
+      "updatedAt": "2026-09-18T20:37:03.726519+00:00"
     }
   }
 }

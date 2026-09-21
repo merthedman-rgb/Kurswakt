@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.5072,
-    "EUR": 11.2853,
-    "GBP": 13.1572,
+    "DKK": 1.5069,
+    "EUR": 11.2814,
+    "GBP": 13.1535,
     "NOK": 1.041,
-    "USD": 9.8436,
-    "updatedAt": "2026-09-21T20:24:13.480851+00:00"
+    "USD": 9.8393,
+    "updatedAt": "2026-09-21T20:36:38.531762+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/analytiker-laxpriset-kommer-rusa--kop-de-har-fem-aktierna-2026-09-21"
       }
     ],
-    "updatedAt": "2026-09-21T20:24:14.937365+00:00"
+    "updatedAt": "2026-09-21T20:36:39.423081+00:00"
   },
-  "updatedAt": "2026-09-21T20:24:14.937423+00:00",
+  "updatedAt": "2026-09-21T20:36:39.423148+00:00",
   "indices": {
     "omx": {
       "value": 3311.0518,
@@ -4115,7 +4115,7 @@
       "macdHist": 0.511,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-21T20:24:10.966372+00:00"
+      "updatedAt": "2026-09-21T20:36:37.827914+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4127,19 +4127,19 @@
       "macdHist": -7.303,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-21T20:24:11.584121+00:00"
+      "updatedAt": "2026-09-21T20:36:37.948458+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4380.8,
-      "ma20": 4384.34,
-      "ma50": 4384.69,
-      "rsi": 42.1,
-      "macdHist": -0.698,
+      "price": 4379.1,
+      "ma20": 4383.24,
+      "ma50": 4383.91,
+      "rsi": 38.73,
+      "macdHist": -0.686,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-21T20:24:12.216257+00:00"
+      "updatedAt": "2026-09-21T20:36:38.076138+00:00"
     }
   }
 }

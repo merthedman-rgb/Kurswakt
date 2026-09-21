@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.5071,
-    "EUR": 11.2864,
-    "GBP": 13.1565,
-    "NOK": 1.0432,
-    "USD": 9.8362,
-    "updatedAt": "2026-09-21T06:32:36.493362+00:00"
+    "DKK": 1.508,
+    "EUR": 11.2905,
+    "GBP": 13.1629,
+    "NOK": 1.043,
+    "USD": 9.8371,
+    "updatedAt": "2026-09-21T06:55:52.525076+00:00"
   },
   "news": {
     "items": [
@@ -254,7 +254,7 @@
         "url": "https://www.placera.se/nyheter/novo-agare-efterlyser-forvarv-for-att-minska-ozempic-beroendet-2026-09-21"
       },
       {
-        "title": "UBS: AI-investeringar väntas nå 1,4 biljoner dollar 2027",
+        "title": "UBS: AI-investeringar når 1,4 biljoner dollar 2027",
         "url": "https://www.placera.se/nyheter/ubs-ai-investeringar-vantas-na-14-biljoner-dollar-2027-2026-09-21"
       },
       {
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/analytiker-sa-ska-du-gora-med-sveriges-popularaste-aktier-2026-09-19"
       }
     ],
-    "updatedAt": "2026-09-21T06:32:38.023220+00:00"
+    "updatedAt": "2026-09-21T06:55:53.868953+00:00"
   },
-  "updatedAt": "2026-09-21T06:32:38.023280+00:00",
+  "updatedAt": "2026-09-21T06:55:53.869009+00:00",
   "indices": {
     "omx": {
       "value": 3259.624,
@@ -3979,7 +3979,7 @@
       "macdHist": 0.884,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-21T06:32:35.949800+00:00"
+      "updatedAt": "2026-09-21T06:55:52.012219+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -3991,19 +3991,19 @@
       "macdHist": 8.222,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-21T06:32:36.088144+00:00"
+      "updatedAt": "2026-09-21T06:55:52.203033+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4385.8,
-      "ma20": 4391.22,
-      "ma50": 4397.1,
-      "rsi": 36.6,
-      "macdHist": -0.289,
+      "price": 4390.4,
+      "ma20": 4390.14,
+      "ma50": 4395.49,
+      "rsi": 47.6,
+      "macdHist": 0.603,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-21T06:32:36.270738+00:00"
+      "updatedAt": "2026-09-21T06:55:52.359348+00:00"
     }
   }
 }

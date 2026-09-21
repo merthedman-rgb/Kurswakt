@@ -234,13 +234,29 @@
   "fx": {
     "DKK": 1.5074,
     "EUR": 11.2855,
-    "GBP": 13.1535,
-    "NOK": 1.0431,
-    "USD": 9.8348,
-    "updatedAt": "2026-09-21T05:24:50.853220+00:00"
+    "GBP": 13.1544,
+    "NOK": 1.0418,
+    "USD": 9.8353,
+    "updatedAt": "2026-09-21T05:38:29.055290+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Just nu: UBS: AI-investeringar väntas nå 1,4 biljoner dollar 2027",
+        "url": "https://www.placera.se/nyheter/ubs-ai-investeringar-vantas-na-14-biljoner-dollar-2027-2026-09-21"
+      },
+      {
+        "title": "Trump portar medier från Vita huset",
+        "url": "https://www.placera.se/nyheter/trump-portar-medier-fran-vita-huset-2026-09-21"
+      },
+      {
+        "title": "Just nu: Mestadels uppåt i Asien",
+        "url": "https://www.placera.se/nyheter/mestadels-uppat-i-asien-2026-09-21"
+      },
+      {
+        "title": "Nasa utökar Spacex-avtal",
+        "url": "https://www.placera.se/nyheter/nasa-utokar-spacex-avtal-2026-09-21"
+      },
       {
         "title": "Analytiker: Så ska du göra med Sveriges populäraste aktier",
         "url": "https://www.placera.se/nyheter/analytiker-sa-ska-du-gora-med-sveriges-popularaste-aktier-2026-09-19"
@@ -256,27 +272,11 @@
       {
         "title": "Börsveckans vinnare och förlorare – SBB D har rusat 38%",
         "url": "https://www.placera.se/nyheter/borsveckans-vinnare-och-forlorare--sbb-d-har-rusat-38-2026-09-18"
-      },
-      {
-        "title": "Här är årets bästa och sämsta Sverigefonder",
-        "url": "https://www.placera.se/nyheter/har-ar-arets-basta-och-samsta-sverigefonder-2026-09-18"
-      },
-      {
-        "title": "Investor kan bli vinnare när Mölnlycke delas",
-        "url": "https://www.placera.se/nyheter/investor-kan-bli-vinnare-nar-molnlycke-delas-2026-09-18"
-      },
-      {
-        "title": "Uppgifter: Saudiarabien stoppar oljeleveranser till Europa",
-        "url": "https://www.placera.se/nyheter/uppgifter-saudiarabien-stoppar-oljeleveranser-till-europa-i-oktober--2026-09-18"
-      },
-      {
-        "title": "Teleoperatörer faller på röd börs",
-        "url": "https://www.placera.se/nyheter/-teleoperatorer-faller-pa-rod-bors-2026-09-18"
       }
     ],
-    "updatedAt": "2026-09-21T05:24:52.128514+00:00"
+    "updatedAt": "2026-09-21T05:38:30.141729+00:00"
   },
-  "updatedAt": "2026-09-21T05:24:52.128581+00:00",
+  "updatedAt": "2026-09-21T05:38:30.141787+00:00",
   "indices": {
     "omx": {
       "value": 3259.624,
@@ -3969,7 +3969,7 @@
       "macdHist": 0.884,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-21T05:24:49.183297+00:00"
+      "updatedAt": "2026-09-21T05:38:28.586560+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -3981,19 +3981,19 @@
       "macdHist": 8.222,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-21T05:24:49.674992+00:00"
+      "updatedAt": "2026-09-21T05:38:28.704261+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4393.1,
-      "ma20": 4400.71,
-      "ma50": 4405.97,
-      "rsi": 37.02,
-      "macdHist": -0.513,
+      "price": 4394.8,
+      "ma20": 4397.62,
+      "ma50": 4404.84,
+      "rsi": 42.06,
+      "macdHist": 0.177,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-21T05:24:50.062803+00:00"
+      "updatedAt": "2026-09-21T05:38:28.820870+00:00"
     }
   }
 }

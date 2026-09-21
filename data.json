@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.5076,
-    "EUR": 11.2882,
-    "GBP": 13.1582,
-    "NOK": 1.0438,
-    "USD": 9.8397,
-    "updatedAt": "2026-09-21T06:09:46.760602+00:00"
+    "DKK": 1.5071,
+    "EUR": 11.2864,
+    "GBP": 13.1565,
+    "NOK": 1.0432,
+    "USD": 9.8362,
+    "updatedAt": "2026-09-21T06:32:36.493362+00:00"
   },
   "news": {
     "items": [
@@ -254,7 +254,7 @@
         "url": "https://www.placera.se/nyheter/novo-agare-efterlyser-forvarv-for-att-minska-ozempic-beroendet-2026-09-21"
       },
       {
-        "title": "Just nu: UBS: AI-investeringar väntas nå 1,4 biljoner dollar 2027",
+        "title": "UBS: AI-investeringar väntas nå 1,4 biljoner dollar 2027",
         "url": "https://www.placera.se/nyheter/ubs-ai-investeringar-vantas-na-14-biljoner-dollar-2027-2026-09-21"
       },
       {
@@ -262,7 +262,7 @@
         "url": "https://www.placera.se/nyheter/trump-portar-medier-fran-vita-huset-2026-09-21"
       },
       {
-        "title": "Just nu: Mestadels uppåt i Asien",
+        "title": "Mestadels uppåt i Asien",
         "url": "https://www.placera.se/nyheter/mestadels-uppat-i-asien-2026-09-21"
       },
       {
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/analytiker-sa-ska-du-gora-med-sveriges-popularaste-aktier-2026-09-19"
       }
     ],
-    "updatedAt": "2026-09-21T06:09:47.717867+00:00"
+    "updatedAt": "2026-09-21T06:32:38.023220+00:00"
   },
-  "updatedAt": "2026-09-21T06:09:47.717924+00:00",
+  "updatedAt": "2026-09-21T06:32:38.023280+00:00",
   "indices": {
     "omx": {
       "value": 3259.624,
@@ -3979,7 +3979,7 @@
       "macdHist": 0.884,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-21T06:09:46.412404+00:00"
+      "updatedAt": "2026-09-21T06:32:35.949800+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -3991,19 +3991,19 @@
       "macdHist": 8.222,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-21T06:09:46.507267+00:00"
+      "updatedAt": "2026-09-21T06:32:36.088144+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4389.2,
-      "ma20": 4393.92,
-      "ma50": 4402.15,
-      "rsi": 39.63,
-      "macdHist": -0.085,
+      "price": 4385.8,
+      "ma20": 4391.22,
+      "ma50": 4397.1,
+      "rsi": 36.6,
+      "macdHist": -0.289,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-21T06:09:46.586848+00:00"
+      "updatedAt": "2026-09-21T06:32:36.270738+00:00"
     }
   }
 }

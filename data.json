@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.5073,
-    "EUR": 11.2844,
-    "GBP": 13.1546,
-    "NOK": 1.0421,
-    "USD": 9.8337,
-    "updatedAt": "2026-09-21T05:07:15.704115+00:00"
+    "DKK": 1.5074,
+    "EUR": 11.2855,
+    "GBP": 13.1535,
+    "NOK": 1.0431,
+    "USD": 9.8348,
+    "updatedAt": "2026-09-21T05:24:50.853220+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/-teleoperatorer-faller-pa-rod-bors-2026-09-18"
       }
     ],
-    "updatedAt": "2026-09-21T05:07:16.768807+00:00"
+    "updatedAt": "2026-09-21T05:24:52.128514+00:00"
   },
-  "updatedAt": "2026-09-21T05:07:16.768870+00:00",
+  "updatedAt": "2026-09-21T05:24:52.128581+00:00",
   "indices": {
     "omx": {
       "value": 3259.624,
@@ -3969,7 +3969,7 @@
       "macdHist": 0.884,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-21T05:07:15.285094+00:00"
+      "updatedAt": "2026-09-21T05:24:49.183297+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -3981,19 +3981,19 @@
       "macdHist": 8.222,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-21T05:07:15.378599+00:00"
+      "updatedAt": "2026-09-21T05:24:49.674992+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4397.0,
-      "ma20": 4402.66,
-      "ma50": 4407.39,
-      "rsi": 41.62,
-      "macdHist": -0.504,
+      "price": 4393.1,
+      "ma20": 4400.71,
+      "ma50": 4405.97,
+      "rsi": 37.02,
+      "macdHist": -0.513,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-21T05:07:15.498841+00:00"
+      "updatedAt": "2026-09-21T05:24:50.062803+00:00"
     }
   }
 }

@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.5039,
-    "EUR": 11.2601,
-    "GBP": 13.1212,
-    "NOK": 1.0408,
-    "USD": 9.8349,
-    "updatedAt": "2026-09-22T20:37:52.614264+00:00"
+    "DKK": 1.504,
+    "EUR": 11.2612,
+    "GBP": 13.1182,
+    "NOK": 1.0407,
+    "USD": 9.8354,
+    "updatedAt": "2026-09-22T20:50:54.236802+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/iran-kan-oppna-hormuzsundet-inom-sju-dagar-2026-09-22"
       }
     ],
-    "updatedAt": "2026-09-22T20:37:53.843062+00:00"
+    "updatedAt": "2026-09-22T20:50:55.247196+00:00"
   },
-  "updatedAt": "2026-09-22T20:37:53.843129+00:00",
+  "updatedAt": "2026-09-22T20:50:55.247259+00:00",
   "indices": {
     "omx": {
       "value": 3339.2285,
@@ -4133,7 +4133,7 @@
       "macdHist": -0.052,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-22T20:37:52.005351+00:00"
+      "updatedAt": "2026-09-22T20:50:53.791288+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4145,19 +4145,19 @@
       "macdHist": 0.107,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-22T20:37:52.171959+00:00"
+      "updatedAt": "2026-09-22T20:50:53.883709+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4398.1,
-      "ma20": 4399.46,
-      "ma50": 4388.56,
-      "rsi": 54.6,
-      "macdHist": -1.348,
+      "price": 4396.7,
+      "ma20": 4399.94,
+      "ma50": 4390.38,
+      "rsi": 51.42,
+      "macdHist": -1.359,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-22T20:37:52.343927+00:00"
+      "updatedAt": "2026-09-22T20:50:54.012024+00:00"
     }
   }
 }

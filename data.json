@@ -233,14 +233,18 @@
   },
   "fx": {
     "DKK": 1.5066,
-    "EUR": 11.2789,
-    "GBP": 13.1548,
-    "NOK": 1.0417,
-    "USD": 9.8281,
-    "updatedAt": "2026-09-22T05:23:58.849576+00:00"
+    "EUR": 11.2798,
+    "GBP": 13.1546,
+    "NOK": 1.0419,
+    "USD": 9.8314,
+    "updatedAt": "2026-09-22T05:37:39.568351+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Läkemedelsbolag pressar USA om Kina-affärer",
+        "url": "https://www.placera.se/nyheter/lakemedelsbolag-pressar-usa-om-kina-affarer--2026-09-22"
+      },
       {
         "title": "Aktiechef: Bankerna har mer att ge",
         "url": "https://www.placera.se/nyheter/aktiechef-bankerna-har-mer-att-ge-2026-09-21"
@@ -268,15 +272,11 @@
       {
         "title": "Morgan Stanley ser risk för S&amp;P 500-fall på 7%",
         "url": "https://www.placera.se/nyheter/morgan-stanley-ser-risk-for-sp-500-fall-pa-7-2026-09-21"
-      },
-      {
-        "title": "Analytiker: Laxpriset kommer rusa – köp de här fem aktierna",
-        "url": "https://www.placera.se/nyheter/analytiker-laxpriset-kommer-rusa--kop-de-har-fem-aktierna-2026-09-21"
       }
     ],
-    "updatedAt": "2026-09-22T05:24:00.595796+00:00"
+    "updatedAt": "2026-09-22T05:37:40.659516+00:00"
   },
-  "updatedAt": "2026-09-22T05:24:00.595853+00:00",
+  "updatedAt": "2026-09-22T05:37:40.659571+00:00",
   "indices": {
     "omx": {
       "value": 3311.0518,
@@ -3967,7 +3967,7 @@
       "macdHist": 0.511,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-22T05:23:58.359177+00:00"
+      "updatedAt": "2026-09-22T05:37:39.177355+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -3979,19 +3979,19 @@
       "macdHist": -7.303,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-22T05:23:58.478229+00:00"
+      "updatedAt": "2026-09-22T05:37:39.255180+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4383.8,
-      "ma20": 4379.05,
-      "ma50": 4390.59,
-      "rsi": 51.74,
-      "macdHist": 1.468,
+      "price": 4367.3,
+      "ma20": 4376.33,
+      "ma50": 4385.75,
+      "rsi": 33.41,
+      "macdHist": -0.712,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-22T05:23:58.629697+00:00"
+      "updatedAt": "2026-09-22T05:37:39.396023+00:00"
     }
   }
 }

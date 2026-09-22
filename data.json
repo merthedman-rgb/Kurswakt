@@ -232,15 +232,19 @@
     }
   },
   "fx": {
-    "DKK": 1.5067,
-    "EUR": 11.2804,
-    "GBP": 13.1594,
+    "DKK": 1.5063,
+    "EUR": 11.2761,
+    "GBP": 13.1522,
     "NOK": 1.043,
-    "USD": 9.8418,
-    "updatedAt": "2026-09-22T06:30:06.968249+00:00"
+    "USD": 9.8386,
+    "updatedAt": "2026-09-22T06:48:58.241061+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Just nu: DNB Teknologi petas när PPM gör om fondutbudet",
+        "url": "https://www.placera.se/nyheter/dnb-teknologi-aker-ut-nar-ppm-gor-om-fondutbudet-2026-09-22"
+      },
       {
         "title": "Lockheed Martin får miljardkontrakt för robotar",
         "url": "https://www.placera.se/nyheter/lockheed-martin-far-miljardkontrakt-for-robotar-2026-09-22"
@@ -268,15 +272,11 @@
       {
         "title": "Svensk e-handel ökar",
         "url": "https://www.placera.se/nyheter/svensk-e-handel-okar-2026-09-22"
-      },
-      {
-        "title": "Läkemedelsbolag pressar USA om Kina-affärer",
-        "url": "https://www.placera.se/nyheter/lakemedelsbolag-pressar-usa-om-kina-affarer--2026-09-22"
       }
     ],
-    "updatedAt": "2026-09-22T06:30:08.078321+00:00"
+    "updatedAt": "2026-09-22T06:48:59.428746+00:00"
   },
-  "updatedAt": "2026-09-22T06:30:08.078384+00:00",
+  "updatedAt": "2026-09-22T06:48:59.428812+00:00",
   "indices": {
     "omx": {
       "value": 3311.0518,
@@ -3979,7 +3979,7 @@
       "macdHist": 0.511,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-22T06:30:05.394386+00:00"
+      "updatedAt": "2026-09-22T06:48:57.452586+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -3991,19 +3991,19 @@
       "macdHist": -7.303,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-22T06:30:05.734799+00:00"
+      "updatedAt": "2026-09-22T06:48:57.651253+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4353.5,
-      "ma20": 4365.79,
-      "ma50": 4376.92,
-      "rsi": 31.56,
-      "macdHist": -0.695,
+      "price": 4356.3,
+      "ma20": 4362.31,
+      "ma50": 4374.57,
+      "rsi": 36.2,
+      "macdHist": 0.22,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-22T06:30:06.141900+00:00"
+      "updatedAt": "2026-09-22T06:48:57.892760+00:00"
     }
   }
 }

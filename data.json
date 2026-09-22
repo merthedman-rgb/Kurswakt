@@ -232,15 +232,39 @@
     }
   },
   "fx": {
-    "DKK": 1.5066,
-    "EUR": 11.2798,
-    "GBP": 13.1546,
-    "NOK": 1.0419,
-    "USD": 9.8314,
-    "updatedAt": "2026-09-22T05:37:39.568351+00:00"
+    "DKK": 1.5064,
+    "EUR": 11.2774,
+    "GBP": 13.1526,
+    "NOK": 1.0418,
+    "USD": 9.8301,
+    "updatedAt": "2026-09-22T05:51:00.031625+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Teknikrally lyfter Asienbörserna",
+        "url": "https://www.placera.se/nyheter/teknikrally-lyfter-asienborserna-2026-09-22"
+      },
+      {
+        "title": "Just nu: Trumps stöd faller till rekordlåga nivåer",
+        "url": "https://www.placera.se/nyheter/trumps-stod-faller-till-rekordlaga-nivaer-2026-09-22"
+      },
+      {
+        "title": "NCC tecknar tioårigt avtal värt upp till 5 miljarder",
+        "url": "https://www.placera.se/nyheter/ncc-tecknar-tioarigt-avtal-vart-upp-till-5-miljarder-2026-09-22"
+      },
+      {
+        "title": "BoE varnar för AI-risker på finansmarknaden",
+        "url": "https://www.placera.se/nyheter/boe-varnar-for-ai-risker-pa-finansmarknaden--2026-09-22"
+      },
+      {
+        "title": "Expert: Börsrallyt döljer ovanlig varningssignal",
+        "url": "https://www.placera.se/nyheter/expert-borsrallyt-doljer-ovanlig-varningssignal-2026-09-22"
+      },
+      {
+        "title": "Just nu: Svensk e-handel ökar",
+        "url": "https://www.placera.se/nyheter/svensk-e-handel-okar-2026-09-22"
+      },
       {
         "title": "Läkemedelsbolag pressar USA om Kina-affärer",
         "url": "https://www.placera.se/nyheter/lakemedelsbolag-pressar-usa-om-kina-affarer--2026-09-22"
@@ -248,35 +272,11 @@
       {
         "title": "Aktiechef: Bankerna har mer att ge",
         "url": "https://www.placera.se/nyheter/aktiechef-bankerna-har-mer-att-ge-2026-09-21"
-      },
-      {
-        "title": "Bankerna lyfte på stigande Stockholmsbörs",
-        "url": "https://www.placera.se/nyheter/bankerna-lyfte-pa-stigande-stockholmsbors-2026-09-21"
-      },
-      {
-        "title": "SEB: Riksbanken kan varna hushållen – höjning närmar sig",
-        "url": "https://www.placera.se/nyheter/seb-riksbanken-kan-varna-hushallen--hojning-narmar-sig-2026-09-21"
-      },
-      {
-        "title": "BofA ser Saab bland vinnarna på fortsatt försvarsboom",
-        "url": "https://www.placera.se/nyheter/bofa-ser-saab-bland-vinnarna-pa-fortsatt-forsvarsboom-2026-09-21"
-      },
-      {
-        "title": "Haaland äger Hacksaw",
-        "url": "https://www.placera.se/nyheter/haaland-ager-hacksaw-2026-09-21"
-      },
-      {
-        "title": "Calviks norska offensiv – fyra bolagsköp på en vecka",
-        "url": "https://www.placera.se/nyheter/calviks-norska-offensiv--fyra-bolagskop-pa-en-vecka-2026-09-21"
-      },
-      {
-        "title": "Morgan Stanley ser risk för S&amp;P 500-fall på 7%",
-        "url": "https://www.placera.se/nyheter/morgan-stanley-ser-risk-for-sp-500-fall-pa-7-2026-09-21"
       }
     ],
-    "updatedAt": "2026-09-22T05:37:40.659516+00:00"
+    "updatedAt": "2026-09-22T05:51:01.140465+00:00"
   },
-  "updatedAt": "2026-09-22T05:37:40.659571+00:00",
+  "updatedAt": "2026-09-22T05:51:01.140504+00:00",
   "indices": {
     "omx": {
       "value": 3311.0518,
@@ -3967,7 +3967,7 @@
       "macdHist": 0.511,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-22T05:37:39.177355+00:00"
+      "updatedAt": "2026-09-22T05:50:59.122550+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -3979,19 +3979,19 @@
       "macdHist": -7.303,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-22T05:37:39.255180+00:00"
+      "updatedAt": "2026-09-22T05:50:59.332231+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4367.3,
-      "ma20": 4376.33,
-      "ma50": 4385.75,
-      "rsi": 33.41,
-      "macdHist": -0.712,
+      "price": 4359.7,
+      "ma20": 4373.09,
+      "ma50": 4382.88,
+      "rsi": 29.53,
+      "macdHist": -1.631,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-22T05:37:39.396023+00:00"
+      "updatedAt": "2026-09-22T05:50:59.522891+00:00"
     }
   }
 }

@@ -1,20 +1,20 @@
 {
   "prices": {
     "AAPL": {
-      "price": 336.54,
-      "changePercent": -0.945,
+      "price": 336.215,
+      "changePercent": -1.04,
       "currency": "USD",
       "name": "Apple Inc.",
       "type": "aktie",
-      "updatedAt": "2026-09-23T15:25:46.874263+00:00"
+      "updatedAt": "2026-09-23T15:40:10.429643+00:00"
     },
     "AMZN": {
-      "price": 250.575,
-      "changePercent": -1.728,
+      "price": 250.14,
+      "changePercent": -1.898,
       "currency": "USD",
       "name": "Amazon.com, Inc.",
       "type": "aktie",
-      "updatedAt": "2026-09-23T15:25:46.946267+00:00"
+      "updatedAt": "2026-09-23T15:40:10.466876+00:00"
     },
     "ATCO-B.ST": {
       "price": 179.8,
@@ -65,12 +65,12 @@
       "updatedAt": "2026-09-23T15:25:47.426966+00:00"
     },
     "GOOG": {
-      "price": 338.165,
-      "changePercent": -2.661,
+      "price": 337.65,
+      "changePercent": -2.809,
       "currency": "USD",
       "name": "Alphabet Inc.",
       "type": "aktie",
-      "updatedAt": "2026-09-23T15:25:47.469634+00:00"
+      "updatedAt": "2026-09-23T15:40:10.525083+00:00"
     },
     "INVE-A.ST": {
       "price": 402.3,
@@ -81,12 +81,12 @@
       "updatedAt": "2026-09-23T15:25:47.609254+00:00"
     },
     "KO": {
-      "price": 88.29,
-      "changePercent": -0.361,
+      "price": 88.33,
+      "changePercent": -0.316,
       "currency": "USD",
       "name": "The Coca-Cola Company",
       "type": "aktie",
-      "updatedAt": "2026-09-23T15:25:47.706320+00:00"
+      "updatedAt": "2026-09-23T15:40:10.638209+00:00"
     },
     "LATO-B.ST": {
       "price": 210.9,
@@ -105,12 +105,12 @@
       "updatedAt": "2026-09-23T15:25:47.875226+00:00"
     },
     "MSFT": {
-      "price": 498.663,
-      "changePercent": 0.133,
+      "price": 498.76,
+      "changePercent": 0.153,
       "currency": "USD",
       "name": "Microsoft Corporation",
       "type": "aktie",
-      "updatedAt": "2026-09-23T15:25:47.938418+00:00"
+      "updatedAt": "2026-09-23T15:40:10.687023+00:00"
     },
     "NDA-SE.ST": {
       "price": 200.9,
@@ -121,12 +121,12 @@
       "updatedAt": "2026-09-23T15:25:48.050084+00:00"
     },
     "NVDA": {
-      "price": 225.615,
-      "changePercent": -1.422,
+      "price": 225.34,
+      "changePercent": -1.542,
       "currency": "USD",
       "name": "NVIDIA Corporation",
       "type": "aktie",
-      "updatedAt": "2026-09-23T15:25:48.128249+00:00"
+      "updatedAt": "2026-09-23T15:40:10.698837+00:00"
     },
     "SE0000538944": {
       "price": 1970.73,
@@ -199,20 +199,20 @@
       "updatedAt": "2026-09-23T15:25:49.419803+00:00"
     },
     "TSLA": {
-      "price": 381.65,
-      "changePercent": 0.726,
+      "price": 380.68,
+      "changePercent": 0.47,
       "currency": "USD",
       "name": "Tesla, Inc.",
       "type": "aktie",
-      "updatedAt": "2026-09-23T15:25:49.492252+00:00"
+      "updatedAt": "2026-09-23T15:40:11.579090+00:00"
     },
     "VARO.XD": {
-      "price": 52.12,
-      "changePercent": 1.46,
+      "price": 52.34,
+      "changePercent": 1.888,
       "currency": "NOK",
       "name": "Var Energi ASA",
       "type": "aktie",
-      "updatedAt": "2026-09-23T15:25:49.529347+00:00"
+      "updatedAt": "2026-09-23T15:40:11.625920+00:00"
     },
     "VOLV-B.ST": {
       "price": 327.5,
@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.5068,
-    "EUR": 11.2822,
-    "GBP": 13.126,
-    "NOK": 1.0438,
-    "USD": 9.9013,
-    "updatedAt": "2026-09-23T15:25:51.018338+00:00"
+    "DKK": 1.5076,
+    "EUR": 11.2902,
+    "GBP": 13.1349,
+    "NOK": 1.0446,
+    "USD": 9.912,
+    "updatedAt": "2026-09-23T15:40:12.921909+00:00"
   },
   "news": {
     "items": [
@@ -246,7 +246,7 @@
         "url": "https://www.placera.se/nyheter/disney-hojer-priserna-pa-flera-av-sina-streamingabonnemang-2026-09-23"
       },
       {
-        "title": "Just nu: Tesla tar hem rekordavtal – Volvo blir andrahandsval",
+        "title": "Tesla tar hem rekordavtal – Volvo blir andrahandsval",
         "url": "https://www.placera.se/nyheter/tesla-tar-hem-rekordavtal--volvo-blir-andrahandsval-2026-09-23"
       },
       {
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/oncozenges-emission-tecknades-till-92--far-fem-flaggor-2026-09-23"
       }
     ],
-    "updatedAt": "2026-09-23T15:25:52.156861+00:00"
+    "updatedAt": "2026-09-23T15:40:13.974717+00:00"
   },
-  "updatedAt": "2026-09-23T15:25:52.156922+00:00",
+  "updatedAt": "2026-09-23T15:40:13.974779+00:00",
   "indices": {
     "omx": {
       "value": 3318.9019,
@@ -360,9 +360,9 @@
       "updatedAt": "2026-09-23T15:25:49.737078+00:00"
     },
     "ndx": {
-      "value": 30519.225,
-      "changeAbs": -213.172,
-      "changePercent": -0.694,
+      "value": 30472.895,
+      "changeAbs": -259.502,
+      "changePercent": -0.844,
       "previousClose": 30732.396,
       "series": [
         30624.46,
@@ -372,8 +372,9 @@
         30425.94,
         30533.68,
         30497.44,
-        30517.54,
-        30519.22
+        30482.15,
+        30473.62,
+        30472.89
       ],
       "seriesTimes": [
         1790170200,
@@ -384,9 +385,10 @@
         1790174700,
         1790175600,
         1790176500,
-        1790177146
+        1790177400,
+        1790178008
       ],
-      "updatedAt": "2026-09-23T15:25:50.077037+00:00"
+      "updatedAt": "2026-09-23T15:40:11.673111+00:00"
     },
     "gold": {
       "value": 4293.52,
@@ -1687,8 +1689,9 @@
           30722.72,
           30728.4,
           30389.8,
-          30517.54,
-          30519.22
+          30482.15,
+          30473.62,
+          30472.89
         ],
         "seriesTimes": [
           1789651800,
@@ -1721,7 +1724,8 @@
           1790105400,
           1790170200,
           1790173800,
-          1790177146
+          1790177400,
+          1790178008
         ]
       },
       "m1": {
@@ -1746,7 +1750,7 @@
           29446.98,
           29644.17,
           30482.35,
-          30519.22
+          30472.89
         ],
         "seriesTimes": [
           1787578200,
@@ -1837,7 +1841,7 @@
           29446.98,
           29644.17,
           30482.35,
-          30519.22
+          30472.89
         ],
         "seriesTimes": [
           1782221400,
@@ -2088,7 +2092,7 @@
           29446.98,
           29644.17,
           30482.35,
-          30519.22
+          30472.89
         ],
         "seriesTimes": [
           1767364200,
@@ -2526,7 +2530,7 @@
           29446.98,
           29644.17,
           30482.35,
-          30519.22
+          30472.89
         ],
         "seriesTimes": [
           1758634200,
@@ -2782,7 +2786,7 @@
           1790170200
         ]
       },
-      "updatedAt": "2026-09-23T15:25:50.351071+00:00"
+      "updatedAt": "2026-09-23T15:40:12.010969+00:00"
     },
     "gold": {
       "w1": {
@@ -4026,38 +4030,38 @@
     "omx": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:48.417416+00:00",
-      "price": 3318.9,
-      "ma20": 3313.21,
-      "ma50": 3311.23,
-      "rsi": 62.79,
-      "macdHist": 0.727,
+      "price": 3316.9,
+      "ma20": 3313.34,
+      "ma50": 3311.35,
+      "rsi": 57.83,
+      "macdHist": 0.575,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-23T15:25:50.495768+00:00"
+      "updatedAt": "2026-09-23T15:40:12.129181+00:00"
     },
     "ndx": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:48.926371+00:00",
-      "price": 30519.22,
-      "ma20": 30475.15,
-      "ma50": 30605.68,
-      "rsi": 48.42,
-      "macdHist": 14.997,
+      "price": 30472.89,
+      "ma20": 30461.97,
+      "ma50": 30593.03,
+      "rsi": 41.04,
+      "macdHist": 7.983,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-23T15:25:50.580643+00:00"
+      "updatedAt": "2026-09-23T15:40:12.240518+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4330.3,
-      "ma20": 4324.48,
-      "ma50": 4335.8,
-      "rsi": 50.47,
-      "macdHist": 1.639,
+      "price": 4318.6,
+      "ma20": 4324.23,
+      "ma50": 4334.26,
+      "rsi": 40.92,
+      "macdHist": 0.024,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-23T15:25:50.756455+00:00"
+      "updatedAt": "2026-09-23T15:40:12.461456+00:00"
     }
   }
 }

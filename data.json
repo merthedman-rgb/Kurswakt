@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.5066,
-    "EUR": 11.2808,
-    "GBP": 13.1208,
-    "NOK": 1.0438,
-    "USD": 9.9067,
-    "updatedAt": "2026-09-23T20:07:44.620207+00:00"
+    "DKK": 1.5071,
+    "EUR": 11.2833,
+    "GBP": 13.1222,
+    "NOK": 1.0443,
+    "USD": 9.9106,
+    "updatedAt": "2026-09-23T20:25:35.516406+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/sweco-stiger-pa-kopstampel-attraktiv-uppsida-2026-09-23"
       }
     ],
-    "updatedAt": "2026-09-23T20:07:46.030585+00:00"
+    "updatedAt": "2026-09-23T20:25:36.840736+00:00"
   },
-  "updatedAt": "2026-09-23T20:07:46.030628+00:00",
+  "updatedAt": "2026-09-23T20:25:36.840808+00:00",
   "indices": {
     "omx": {
       "value": 3318.9019,
@@ -4129,7 +4129,7 @@
       "macdHist": 0.575,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-23T20:07:43.435241+00:00"
+      "updatedAt": "2026-09-23T20:25:34.317028+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4141,19 +4141,19 @@
       "macdHist": -0.505,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-23T20:07:43.737176+00:00"
+      "updatedAt": "2026-09-23T20:25:34.595408+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4319.2,
-      "ma20": 4322.0,
-      "ma50": 4321.48,
-      "rsi": 44.86,
-      "macdHist": -0.43,
+      "price": 4320.7,
+      "ma20": 4322.11,
+      "ma50": 4321.82,
+      "rsi": 47.54,
+      "macdHist": -0.069,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-23T20:07:44.040484+00:00"
+      "updatedAt": "2026-09-23T20:25:34.920836+00:00"
     }
   }
 }

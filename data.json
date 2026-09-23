@@ -232,15 +232,19 @@
     }
   },
   "fx": {
-    "DKK": 1.5037,
-    "EUR": 11.2597,
-    "GBP": 13.1145,
-    "NOK": 1.0408,
-    "USD": 9.8547,
-    "updatedAt": "2026-09-23T06:09:10.166734+00:00"
+    "DKK": 1.5039,
+    "EUR": 11.2586,
+    "GBP": 13.1171,
+    "NOK": 1.0402,
+    "USD": 9.8549,
+    "updatedAt": "2026-09-23T06:30:56.846312+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Just nu: Landshypotek höjer bundna bolåneräntor",
+        "url": "https://www.placera.se/nyheter/landshypotek-hojer-bundna-bolanerantor-2026-09-23"
+      },
       {
         "title": "Läkemedelsjättar varnar: Europa tappar investeringar",
         "url": "https://www.placera.se/nyheter/lakemedelsjattar-varnar-europa-tappar-investeringar-2026-09-23"
@@ -268,15 +272,11 @@
       {
         "title": "New Wave-ägda glasbruket varslar 55 tjänster",
         "url": "https://www.placera.se/nyheter/new-wave-agda-glasbruket-varslar-55-tjanster-2026-09-22"
-      },
-      {
-        "title": "Citigroup höjer Saabs riktkurs med 101 kronor",
-        "url": "https://www.placera.se/nyheter/citigroup-hojer-saabs-riktkurs-med-101-kronor-2026-09-22"
       }
     ],
-    "updatedAt": "2026-09-23T06:09:11.500074+00:00"
+    "updatedAt": "2026-09-23T06:30:58.144222+00:00"
   },
-  "updatedAt": "2026-09-23T06:09:11.500130+00:00",
+  "updatedAt": "2026-09-23T06:30:58.144285+00:00",
   "indices": {
     "omx": {
       "value": 3339.2285,
@@ -3997,7 +3997,7 @@
       "macdHist": -0.052,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-23T06:09:09.155769+00:00"
+      "updatedAt": "2026-09-23T06:30:56.268542+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4009,19 +4009,19 @@
       "macdHist": 0.107,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-23T06:09:09.455551+00:00"
+      "updatedAt": "2026-09-23T06:30:56.376107+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4371.2,
-      "ma20": 4377.37,
-      "ma50": 4377.19,
-      "rsi": 38.93,
-      "macdHist": -0.898,
+      "price": 4366.6,
+      "ma20": 4373.68,
+      "ma50": 4375.73,
+      "rsi": 31.93,
+      "macdHist": -0.67,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-23T06:09:09.688006+00:00"
+      "updatedAt": "2026-09-23T06:30:56.553791+00:00"
     }
   }
 }

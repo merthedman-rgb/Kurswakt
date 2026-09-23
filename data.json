@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.5039,
-    "EUR": 11.2586,
-    "GBP": 13.1171,
-    "NOK": 1.0402,
-    "USD": 9.8549,
-    "updatedAt": "2026-09-23T06:30:56.846312+00:00"
+    "DKK": 1.5037,
+    "EUR": 11.2594,
+    "GBP": 13.1237,
+    "NOK": 1.04,
+    "USD": 9.854,
+    "updatedAt": "2026-09-23T06:54:17.139102+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/new-wave-agda-glasbruket-varslar-55-tjanster-2026-09-22"
       }
     ],
-    "updatedAt": "2026-09-23T06:30:58.144222+00:00"
+    "updatedAt": "2026-09-23T06:54:18.498312+00:00"
   },
-  "updatedAt": "2026-09-23T06:30:58.144285+00:00",
+  "updatedAt": "2026-09-23T06:54:18.498375+00:00",
   "indices": {
     "omx": {
       "value": 3339.2285,
@@ -3997,7 +3997,7 @@
       "macdHist": -0.052,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-23T06:30:56.268542+00:00"
+      "updatedAt": "2026-09-23T06:54:16.732057+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4009,19 +4009,19 @@
       "macdHist": 0.107,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-23T06:30:56.376107+00:00"
+      "updatedAt": "2026-09-23T06:54:16.830654+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4366.6,
-      "ma20": 4373.68,
-      "ma50": 4375.73,
-      "rsi": 31.93,
-      "macdHist": -0.67,
+      "price": 4370.3,
+      "ma20": 4371.37,
+      "ma50": 4375.03,
+      "rsi": 43.96,
+      "macdHist": 0.277,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-23T06:30:56.553791+00:00"
+      "updatedAt": "2026-09-23T06:54:16.926811+00:00"
     }
   }
 }

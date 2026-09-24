@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.5076,
-    "EUR": 11.2878,
-    "GBP": 13.111,
-    "NOK": 1.0429,
-    "USD": 9.922,
-    "updatedAt": "2026-09-24T20:40:46.482521+00:00"
+    "DKK": 1.5073,
+    "EUR": 11.2855,
+    "GBP": 13.1012,
+    "NOK": 1.0422,
+    "USD": 9.9169,
+    "updatedAt": "2026-09-24T20:53:00.810044+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/analytiker-tullaterbetalningar-dopade-hms-resultat-2026-09-24"
       }
     ],
-    "updatedAt": "2026-09-24T20:40:47.831330+00:00"
+    "updatedAt": "2026-09-24T20:53:02.063821+00:00"
   },
-  "updatedAt": "2026-09-24T20:40:47.831377+00:00",
+  "updatedAt": "2026-09-24T20:53:02.063889+00:00",
   "indices": {
     "omx": {
       "value": 3277.0664,
@@ -4155,7 +4155,7 @@
       "macdHist": -0.855,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-24T20:40:45.166429+00:00"
+      "updatedAt": "2026-09-24T20:53:00.311876+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4167,19 +4167,19 @@
       "macdHist": -0.413,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-24T20:40:45.473613+00:00"
+      "updatedAt": "2026-09-24T20:53:00.475534+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4300.7,
-      "ma20": 4305.58,
-      "ma50": 4304.45,
-      "rsi": 42.37,
-      "macdHist": -1.068,
+      "price": 4305.3,
+      "ma20": 4305.88,
+      "ma50": 4304.32,
+      "rsi": 51.05,
+      "macdHist": -0.377,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-24T20:40:45.808718+00:00"
+      "updatedAt": "2026-09-24T20:53:00.597741+00:00"
     }
   }
 }

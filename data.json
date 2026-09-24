@@ -232,15 +232,23 @@
     }
   },
   "fx": {
-    "DKK": 1.5079,
-    "EUR": 11.2889,
-    "GBP": 13.1284,
-    "NOK": 1.0431,
-    "USD": 9.9163,
-    "updatedAt": "2026-09-24T05:24:20.513040+00:00"
+    "DKK": 1.508,
+    "EUR": 11.2908,
+    "GBP": 13.1343,
+    "NOK": 1.0435,
+    "USD": 9.919,
+    "updatedAt": "2026-09-24T05:38:23.078886+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Just nu: Schneider vill köpa Plejd-utmanaren",
+        "url": "https://www.placera.se/nyheter/schneider-vill-kopa-plejd-utmanaren-2026-09-24"
+      },
+      {
+        "title": "Just nu: Akelius: Castellum borde lämna Norge, Danmark och Finland",
+        "url": "https://www.placera.se/nyheter/akelius-castellum-bore-lamna-norge-danmark-och-finland-2026-09-24"
+      },
       {
         "title": "Just nu: Uppgifter: Schneider nära miljardförvärv av Plejd-utmanaren",
         "url": "https://www.placera.se/nyheter/uppgifter-schneider-nara-miljardforvarv-av-plejd-utmanaren-2026-09-24"
@@ -264,19 +272,11 @@
       {
         "title": "Lista: Aktierna som är bäst i världen",
         "url": "https://www.placera.se/nyheter/arets-basta-aktier-usa-och-sydkorea-i-topp-2026-09-23"
-      },
-      {
-        "title": "Börserna som rusat mest i år – Sydkorea och Taiwan i toppen",
-        "url": "https://www.placera.se/nyheter/stockholmsborsen-ligger-efter-bade-grekland-och-turkiet-2026-09-23"
-      },
-      {
-        "title": "Mölnlycke varslar omkring 150 tjänster",
-        "url": "https://www.placera.se/nyheter/molnlycke-varslar-omkring-150-tjanster--2026-09-23"
       }
     ],
-    "updatedAt": "2026-09-24T05:24:21.579097+00:00"
+    "updatedAt": "2026-09-24T05:38:24.177893+00:00"
   },
-  "updatedAt": "2026-09-24T05:24:21.579139+00:00",
+  "updatedAt": "2026-09-24T05:38:24.177970+00:00",
   "indices": {
     "omx": {
       "value": 3318.9019,
@@ -3997,7 +3997,7 @@
       "macdHist": 0.575,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-24T05:24:19.623666+00:00"
+      "updatedAt": "2026-09-24T05:38:21.630153+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4009,19 +4009,19 @@
       "macdHist": -0.505,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-24T05:24:19.846429+00:00"
+      "updatedAt": "2026-09-24T05:38:21.980327+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4325.2,
-      "ma20": 4323.34,
-      "ma50": 4323.67,
-      "rsi": 52.99,
-      "macdHist": 0.526,
+      "price": 4324.4,
+      "ma20": 4322.86,
+      "ma50": 4322.43,
+      "rsi": 52.61,
+      "macdHist": 0.196,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-24T05:24:20.058427+00:00"
+      "updatedAt": "2026-09-24T05:38:22.352999+00:00"
     }
   }
 }

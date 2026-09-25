@@ -233,14 +233,22 @@
   },
   "fx": {
     "DKK": 1.5066,
-    "EUR": 11.2833,
-    "GBP": 13.1078,
-    "NOK": 1.0406,
-    "USD": 9.9175,
-    "updatedAt": "2026-09-25T06:08:47.667424+00:00"
+    "EUR": 11.281,
+    "GBP": 13.1056,
+    "NOK": 1.0409,
+    "USD": 9.9087,
+    "updatedAt": "2026-09-25T06:30:50.777622+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Just nu: Börsdebutantens erbjudande övertecknat flera gånger",
+        "url": "https://www.placera.se/nyheter/borsdebutantens-erbjudande-overtecknat-flera-ganger-2026-09-25"
+      },
+      {
+        "title": "Uppsalabolag tecknar miljardavtal med Novo: &quot;Stolta&quot;",
+        "url": "https://www.placera.se/nyheter/uppsalabolag-tecknar-miljardavtal-med-novo-stolta-2026-09-25"
+      },
       {
         "title": "Just nu: Tokyo och Hongkong drar åt olika håll",
         "url": "https://www.placera.se/nyheter/tokyo-och-hongkong-drar-at-olika-hall-2026-09-25"
@@ -250,11 +258,11 @@
         "url": "https://www.placera.se/nyheter/hm-rapport-splittrar-analytikerna-2026-09-25"
       },
       {
-        "title": "Just nu: Lundin Gold hittar ny guldfyndighet",
+        "title": "Lundin Gold hittar ny guldfyndighet",
         "url": "https://www.placera.se/nyheter/lundin-golds-nya-guldfyndighet-forlanger-trend-2026-09-25"
       },
       {
-        "title": "Just nu: Uppgifter: UBS överväger fusion för att lämna Schweiz",
+        "title": "Uppgifter: UBS överväger fusion för att lämna Schweiz",
         "url": "https://www.placera.se/nyheter/uppgifter-ubs-overvager-fusion-for-att-lamna-schweiz-2026-09-25"
       },
       {
@@ -264,19 +272,11 @@
       {
         "title": "H&amp;M:s VD: &quot;Vi är inte nöjda&quot;",
         "url": "https://www.placera.se/nyheter/hms-vd-vi-ar-inte-nojda-2026-09-24"
-      },
-      {
-        "title": "Alcur ny publik blankare i Hemnet",
-        "url": "https://www.placera.se/nyheter/alcur-ny-publik-blankare-i-hemnet-2026-09-24"
-      },
-      {
-        "title": "Handelsbanken: Köp aktien – trots rallyt på 350%",
-        "url": "https://www.placera.se/nyheter/handelsbanken-kop-aktien--trots-rallyt-pa-350--2026-09-24"
       }
     ],
-    "updatedAt": "2026-09-25T06:08:48.693119+00:00"
+    "updatedAt": "2026-09-25T06:30:51.977138+00:00"
   },
-  "updatedAt": "2026-09-25T06:08:48.693178+00:00",
+  "updatedAt": "2026-09-25T06:30:51.977187+00:00",
   "indices": {
     "omx": {
       "value": 3277.0664,
@@ -4047,7 +4047,7 @@
       "macdHist": -0.855,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-25T06:08:47.255589+00:00"
+      "updatedAt": "2026-09-25T06:30:50.402714+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4059,19 +4059,19 @@
       "macdHist": -0.413,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-25T06:08:47.393695+00:00"
+      "updatedAt": "2026-09-25T06:30:50.501075+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4301.8,
-      "ma20": 4301.46,
-      "ma50": 4307.27,
-      "rsi": 46.47,
-      "macdHist": 0.778,
+      "price": 4314.6,
+      "ma20": 4302.91,
+      "ma50": 4307.95,
+      "rsi": 60.76,
+      "macdHist": 1.876,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-25T06:08:47.489049+00:00"
+      "updatedAt": "2026-09-25T06:30:50.609260+00:00"
     }
   }
 }

@@ -232,15 +232,19 @@
     }
   },
   "fx": {
-    "DKK": 1.5075,
-    "EUR": 11.2855,
-    "GBP": 13.1106,
-    "NOK": 1.0415,
-    "USD": 9.9229,
-    "updatedAt": "2026-09-25T05:24:25.953933+00:00"
+    "DKK": 1.507,
+    "EUR": 11.2822,
+    "GBP": 13.1099,
+    "NOK": 1.0399,
+    "USD": 9.9195,
+    "updatedAt": "2026-09-25T05:38:54.454887+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Uppgifter: UBS överväger fusion för att lämna Schweiz",
+        "url": "https://www.placera.se/nyheter/uppgifter-ubs-overvager-fusion-for-att-lamna-schweiz-2026-09-25"
+      },
       {
         "title": "Stockholmsbörsen sjönk – EQT och Arjo i botten",
         "url": "https://www.placera.se/nyheter/stockholmsborsen-sjonk--eqt-och-arjo-i-botten-2026-09-24"
@@ -268,15 +272,11 @@
       {
         "title": "Saab stärker rymdsatsning",
         "url": "https://www.placera.se/nyheter/saab-starker-rymdsatsning-2026-09-24"
-      },
-      {
-        "title": "Analytiker: Tullåterbetalningar dopade H&amp;M:s resultat",
-        "url": "https://www.placera.se/nyheter/analytiker-tullaterbetalningar-dopade-hms-resultat-2026-09-24"
       }
     ],
-    "updatedAt": "2026-09-25T05:24:28.060500+00:00"
+    "updatedAt": "2026-09-25T05:38:55.356219+00:00"
   },
-  "updatedAt": "2026-09-25T05:24:28.060559+00:00",
+  "updatedAt": "2026-09-25T05:38:55.356276+00:00",
   "indices": {
     "omx": {
       "value": 3277.0664,
@@ -4037,7 +4037,7 @@
       "macdHist": -0.855,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-25T05:24:25.516885+00:00"
+      "updatedAt": "2026-09-25T05:38:54.078443+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4049,19 +4049,19 @@
       "macdHist": -0.413,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-25T05:24:25.610694+00:00"
+      "updatedAt": "2026-09-25T05:38:54.158262+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4292.1,
-      "ma20": 4304.71,
-      "ma50": 4305.6,
-      "rsi": 31.25,
-      "macdHist": -1.721,
+      "price": 4298.3,
+      "ma20": 4302.28,
+      "ma50": 4307.6,
+      "rsi": 41.8,
+      "macdHist": -0.548,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-25T05:24:25.762992+00:00"
+      "updatedAt": "2026-09-25T05:38:54.242600+00:00"
     }
   }
 }

@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.5082,
-    "EUR": 11.2923,
-    "GBP": 13.1276,
-    "NOK": 1.0419,
-    "USD": 9.9099,
-    "updatedAt": "2026-09-25T20:38:40.991706+00:00"
+    "DKK": 1.5084,
+    "EUR": 11.2925,
+    "GBP": 13.1287,
+    "NOK": 1.042,
+    "USD": 9.9119,
+    "updatedAt": "2026-09-25T20:51:55.829210+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/-stockholms-nya-tunnelbana-blir-23-miljarder-2026-09-25"
       }
     ],
-    "updatedAt": "2026-09-25T20:38:42.207816+00:00"
+    "updatedAt": "2026-09-25T20:51:56.717058+00:00"
   },
-  "updatedAt": "2026-09-25T20:38:42.207873+00:00",
+  "updatedAt": "2026-09-25T20:51:56.717119+00:00",
   "indices": {
     "omx": {
       "value": 3292.1685,
@@ -4211,7 +4211,7 @@
       "macdHist": 0.614,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-25T20:38:39.537465+00:00"
+      "updatedAt": "2026-09-25T20:51:55.327903+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4223,19 +4223,19 @@
       "macdHist": 0.9,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-25T20:38:39.839499+00:00"
+      "updatedAt": "2026-09-25T20:51:55.431465+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4323.4,
-      "ma20": 4326.57,
-      "ma50": 4324.37,
-      "rsi": 44.85,
-      "macdHist": -0.615,
+      "price": 4321.1,
+      "ma20": 4325.52,
+      "ma50": 4324.22,
+      "rsi": 40.23,
+      "macdHist": -0.825,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-25T20:38:40.210470+00:00"
+      "updatedAt": "2026-09-25T20:51:55.650038+00:00"
     }
   }
 }

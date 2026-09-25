@@ -232,15 +232,19 @@
     }
   },
   "fx": {
-    "DKK": 1.507,
-    "EUR": 11.2826,
-    "GBP": 13.1083,
-    "NOK": 1.0396,
-    "USD": 9.919,
-    "updatedAt": "2026-09-25T05:52:08.709091+00:00"
+    "DKK": 1.5066,
+    "EUR": 11.2833,
+    "GBP": 13.1078,
+    "NOK": 1.0406,
+    "USD": 9.9175,
+    "updatedAt": "2026-09-25T06:08:47.667424+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Just nu: Tokyo och Hongkong drar åt olika håll",
+        "url": "https://www.placera.se/nyheter/tokyo-och-hongkong-drar-at-olika-hall-2026-09-25"
+      },
       {
         "title": "H&amp;M-rapport splittrar analytikerna",
         "url": "https://www.placera.se/nyheter/hm-rapport-splittrar-analytikerna-2026-09-25"
@@ -268,15 +272,11 @@
       {
         "title": "Handelsbanken: Köp aktien – trots rallyt på 350%",
         "url": "https://www.placera.se/nyheter/handelsbanken-kop-aktien--trots-rallyt-pa-350--2026-09-24"
-      },
-      {
-        "title": "DNB höjde priset – åkte ur PPM",
-        "url": "https://www.placera.se/nyheter/dnb-hojde-priset--akte-ur-ppm-2026-09-24"
       }
     ],
-    "updatedAt": "2026-09-25T05:52:09.623399+00:00"
+    "updatedAt": "2026-09-25T06:08:48.693119+00:00"
   },
-  "updatedAt": "2026-09-25T05:52:09.623458+00:00",
+  "updatedAt": "2026-09-25T06:08:48.693178+00:00",
   "indices": {
     "omx": {
       "value": 3277.0664,
@@ -425,23 +425,31 @@
       "updatedAt": "2026-09-24T19:50:23.405087+00:00"
     },
     "gold": {
-      "value": 4261.15,
-      "changeAbs": -3.88,
-      "changePercent": -0.091,
-      "updatedAt": "2026-09-25T05:06:35.715575+00:00",
+      "value": 4270.74,
+      "changeAbs": 5.71,
+      "changePercent": 0.134,
+      "updatedAt": "2026-09-25T06:08:46.879252+00:00",
       "series": [
         4303.1,
         4306.0,
         4306.7,
         4297.4,
-        4301.0
+        4291.3,
+        4298.7,
+        4309.0,
+        4301.3,
+        4301.8
       ],
       "seriesTimes": [
         1790308800,
         1790309700,
         1790310600,
         1790311500,
-        1790312186
+        1790312400,
+        1790313300,
+        1790314200,
+        1790315100,
+        1790315920
       ]
     }
   },
@@ -2852,8 +2860,9 @@
           4300.1,
           4313.0,
           4327.9,
-          4298.9,
-          4301.0
+          4297.4,
+          4301.8,
+          4301.8
         ],
         "seriesTimes": [
           1789963200,
@@ -2948,7 +2957,8 @@
           1790294400,
           1790298000,
           1790308800,
-          1790312186
+          1790312400,
+          1790315920
         ]
       },
       "m1": {
@@ -2975,7 +2985,7 @@
           4376.4,
           4318.4,
           4298.0,
-          4301.0
+          4301.8
         ],
         "seriesTimes": [
           1787630400,
@@ -3069,7 +3079,7 @@
           4376.4,
           4318.4,
           4298.0,
-          4301.0
+          4301.8
         ],
         "seriesTimes": [
           1782360000,
@@ -3324,7 +3334,7 @@
           4376.4,
           4318.4,
           4298.0,
-          4301.0
+          4301.8
         ],
         "seriesTimes": [
           1767330000,
@@ -3766,7 +3776,7 @@
           4376.4,
           4318.4,
           4298.0,
-          4301.0
+          4301.8
         ],
         "seriesTimes": [
           1758772800,
@@ -4023,7 +4033,7 @@
           1790308800
         ]
       },
-      "updatedAt": "2026-09-25T05:06:35.979534+00:00"
+      "updatedAt": "2026-09-25T06:08:47.136440+00:00"
     }
   },
   "signals": {
@@ -4037,7 +4047,7 @@
       "macdHist": -0.855,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-25T05:52:08.300543+00:00"
+      "updatedAt": "2026-09-25T06:08:47.255589+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4049,19 +4059,19 @@
       "macdHist": -0.413,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-25T05:52:08.408370+00:00"
+      "updatedAt": "2026-09-25T06:08:47.393695+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4308.4,
-      "ma20": 4301.76,
-      "ma50": 4307.66,
-      "rsi": 55.81,
-      "macdHist": 1.374,
+      "price": 4301.8,
+      "ma20": 4301.46,
+      "ma50": 4307.27,
+      "rsi": 46.47,
+      "macdHist": 0.778,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-25T05:52:08.506283+00:00"
+      "updatedAt": "2026-09-25T06:08:47.489049+00:00"
     }
   }
 }

@@ -232,21 +232,33 @@
     }
   },
   "fx": {
-    "DKK": 1.5104,
-    "EUR": 11.307,
-    "GBP": 13.1534,
-    "NOK": 1.0438,
-    "USD": 9.9358,
-    "updatedAt": "2026-09-28T06:09:45.666113+00:00"
+    "DKK": 1.5109,
+    "EUR": 11.3123,
+    "GBP": 13.157,
+    "NOK": 1.0443,
+    "USD": 9.9433,
+    "updatedAt": "2026-09-28T06:34:22.428234+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Solidx omsättning krymper",
+        "url": "https://www.placera.se/nyheter/solidx-omsattning-krymper-2026-09-28"
+      },
+      {
+        "title": "Just nu: Pareto: Brasiliens bettingförbud kommer slå mot Evolution",
+        "url": "https://www.placera.se/nyheter/pareto-brasiliens-bettingforbud-kommer-sla-mot-evolution-2026-09-28"
+      },
+      {
+        "title": "Nordea: Köp de här sex fastighetsaktierna",
+        "url": "https://www.placera.se/nyheter/nordea-kop-de-har-sex-fastighetsaktierna-2026-09-28"
+      },
       {
         "title": "Just nu: Geely köper 30% av Nio Power",
         "url": "https://www.placera.se/nyheter/geely-koper-30-av-nio-power-2026-09-28"
       },
       {
-        "title": "Just nu: Thedéen varnar för lånefinansierad AI-boom",
+        "title": "Thedéen varnar för lånefinansierad AI-boom",
         "url": "https://www.placera.se/nyheter/theden-varnar-for-lanefinansierad-ai-boom-2026-09-28"
       },
       {
@@ -260,23 +272,11 @@
       {
         "title": "Thelenius: Min garanterade pension har stått still i 20 år",
         "url": "https://www.placera.se/nyheter/thelenius-min-garanterade-pension-har-statt-still-i-20-ar-2026-09-26"
-      },
-      {
-        "title": "Stockholmsbörsen avslutade veckan med uppgång",
-        "url": "https://www.placera.se/nyheter/stockholmsborsen-avslutade-veckan-med-uppgang-2026-09-25"
-      },
-      {
-        "title": "Saab tecknar avsiktsförklaring med Kanada",
-        "url": "https://www.placera.se/nyheter/saab-tecknar-avsiktsforklaring-med-kanada-2026-09-25"
-      },
-      {
-        "title": "Handelsbanken: Så dyra blir bolånen nästa år",
-        "url": "https://www.placera.se/nyheter/handelsbanken-sa-dyra-blir-bolanen-nasta-ar-2026-09-25"
       }
     ],
-    "updatedAt": "2026-09-28T06:09:46.581709+00:00"
+    "updatedAt": "2026-09-28T06:34:23.735117+00:00"
   },
-  "updatedAt": "2026-09-28T06:09:46.581777+00:00",
+  "updatedAt": "2026-09-28T06:34:23.735160+00:00",
   "indices": {
     "omx": {
       "value": 3292.1685,
@@ -4015,7 +4015,7 @@
       "macdHist": 0.614,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-28T06:09:45.145402+00:00"
+      "updatedAt": "2026-09-28T06:34:21.175447+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4027,19 +4027,19 @@
       "macdHist": 0.9,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-28T06:09:45.257419+00:00"
+      "updatedAt": "2026-09-28T06:34:21.478684+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4212.5,
-      "ma20": 4222.49,
-      "ma50": 4254.58,
-      "rsi": 23.48,
-      "macdHist": 1.117,
+      "price": 4204.5,
+      "ma20": 4216.72,
+      "ma50": 4226.41,
+      "rsi": 27.49,
+      "macdHist": -0.672,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-28T06:09:45.405213+00:00"
+      "updatedAt": "2026-09-28T06:34:21.781906+00:00"
     }
   }
 }

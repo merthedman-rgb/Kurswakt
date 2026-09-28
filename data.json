@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.5109,
-    "EUR": 11.3123,
-    "GBP": 13.157,
-    "NOK": 1.0443,
-    "USD": 9.9433,
-    "updatedAt": "2026-09-28T06:34:22.428234+00:00"
+    "DKK": 1.5105,
+    "EUR": 11.3105,
+    "GBP": 13.1624,
+    "NOK": 1.0434,
+    "USD": 9.9411,
+    "updatedAt": "2026-09-28T06:58:13.236168+00:00"
   },
   "news": {
     "items": [
@@ -246,7 +246,7 @@
         "url": "https://www.placera.se/nyheter/solidx-omsattning-krymper-2026-09-28"
       },
       {
-        "title": "Just nu: Pareto: Brasiliens bettingförbud kommer slå mot Evolution",
+        "title": "Just nu: Pareto: Brasiliens bettingförbud väntas slå mot Evolution",
         "url": "https://www.placera.se/nyheter/pareto-brasiliens-bettingforbud-kommer-sla-mot-evolution-2026-09-28"
       },
       {
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/thelenius-min-garanterade-pension-har-statt-still-i-20-ar-2026-09-26"
       }
     ],
-    "updatedAt": "2026-09-28T06:34:23.735117+00:00"
+    "updatedAt": "2026-09-28T06:58:14.593892+00:00"
   },
-  "updatedAt": "2026-09-28T06:34:23.735160+00:00",
+  "updatedAt": "2026-09-28T06:58:14.593964+00:00",
   "indices": {
     "omx": {
       "value": 3292.1685,
@@ -4015,7 +4015,7 @@
       "macdHist": 0.614,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-28T06:34:21.175447+00:00"
+      "updatedAt": "2026-09-28T06:58:12.688840+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4027,19 +4027,19 @@
       "macdHist": 0.9,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-28T06:34:21.478684+00:00"
+      "updatedAt": "2026-09-28T06:58:12.868646+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4204.5,
-      "ma20": 4216.72,
-      "ma50": 4226.41,
-      "rsi": 27.49,
-      "macdHist": -0.672,
+      "price": 4205.2,
+      "ma20": 4211.49,
+      "ma50": 4222.62,
+      "rsi": 36.82,
+      "macdHist": 0.191,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-28T06:34:21.781906+00:00"
+      "updatedAt": "2026-09-28T06:58:13.006065+00:00"
     }
   }
 }

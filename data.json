@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.5104,
-    "EUR": 11.3094,
-    "GBP": 13.1524,
-    "NOK": 1.0421,
-    "USD": 9.9328,
-    "updatedAt": "2026-09-28T05:41:54.321032+00:00"
+    "DKK": 1.5107,
+    "EUR": 11.3117,
+    "GBP": 13.1548,
+    "NOK": 1.0423,
+    "USD": 9.9377,
+    "updatedAt": "2026-09-28T05:53:46.137011+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/hm-far-kalla-handen-av-analytiker-efter-rapport-2026-09-25"
       }
     ],
-    "updatedAt": "2026-09-28T05:41:55.192366+00:00"
+    "updatedAt": "2026-09-28T05:53:47.179656+00:00"
   },
-  "updatedAt": "2026-09-28T05:41:55.192419+00:00",
+  "updatedAt": "2026-09-28T05:53:47.179708+00:00",
   "indices": {
     "omx": {
       "value": 3292.1685,
@@ -4005,7 +4005,7 @@
       "macdHist": 0.614,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-28T05:41:53.862809+00:00"
+      "updatedAt": "2026-09-28T05:53:45.734572+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4017,19 +4017,19 @@
       "macdHist": 0.9,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-28T05:41:53.990534+00:00"
+      "updatedAt": "2026-09-28T05:53:45.839103+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4218.8,
-      "ma20": 4226.99,
-      "ma50": 4262.86,
-      "rsi": 20.12,
-      "macdHist": 1.265,
+      "price": 4214.5,
+      "ma20": 4225.13,
+      "ma50": 4259.52,
+      "rsi": 20.0,
+      "macdHist": 0.954,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-28T05:41:54.107396+00:00"
+      "updatedAt": "2026-09-28T05:53:45.962064+00:00"
     }
   }
 }

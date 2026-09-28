@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.512,
-    "EUR": 11.3198,
-    "GBP": 13.1957,
-    "NOK": 1.0382,
-    "USD": 9.9428,
-    "updatedAt": "2026-09-28T21:25:21.380960+00:00"
+    "DKK": 1.5124,
+    "EUR": 11.3188,
+    "GBP": 13.1967,
+    "NOK": 1.039,
+    "USD": 9.9416,
+    "updatedAt": "2026-09-28T21:38:48.141458+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/finlands-president-har-25-nya-datacenter-pa-gang-2026-09-28"
       }
     ],
-    "updatedAt": "2026-09-28T21:25:22.381999+00:00"
+    "updatedAt": "2026-09-28T21:38:49.372411+00:00"
   },
-  "updatedAt": "2026-09-28T21:25:22.382075+00:00",
+  "updatedAt": "2026-09-28T21:38:49.372478+00:00",
   "indices": {
     "omx": {
       "value": 3289.9314,
@@ -4155,7 +4155,7 @@
       "macdHist": -1.983,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-28T21:25:20.869591+00:00"
+      "updatedAt": "2026-09-28T21:38:47.313723+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4167,7 +4167,7 @@
       "macdHist": -5.164,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-28T21:25:20.998360+00:00"
+      "updatedAt": "2026-09-28T21:38:47.521712+00:00"
     },
     "gold": {
       "signal": "neutral",
@@ -4179,7 +4179,7 @@
       "macdHist": -0.343,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-28T21:25:21.135927+00:00"
+      "updatedAt": "2026-09-28T21:38:47.744375+00:00"
     }
   }
 }

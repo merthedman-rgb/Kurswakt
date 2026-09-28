@@ -232,15 +232,23 @@
     }
   },
   "fx": {
-    "DKK": 1.5096,
-    "EUR": 11.3047,
-    "GBP": 13.1469,
-    "NOK": 1.0418,
-    "USD": 9.9291,
-    "updatedAt": "2026-09-28T05:06:59.214099+00:00"
+    "DKK": 1.5101,
+    "EUR": 11.306,
+    "GBP": 13.1496,
+    "NOK": 1.0432,
+    "USD": 9.9294,
+    "updatedAt": "2026-09-28T05:26:51.285339+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Just nu: Blandat i Asien – Nikkei ned 0,1%",
+        "url": "https://www.placera.se/nyheter/blandat-i-asien--nikkei-ned-01-2026-09-28"
+      },
+      {
+        "title": "Ax:son Johnsons matjätte höjs – här är dagens aktierekar",
+        "url": "https://www.placera.se/nyheter/seb-hojer-axson-johnsons-matjatte--har-ar-dagens-aktierekar-2026-09-28"
+      },
       {
         "title": "Thelenius: Min garanterade pension har stått still i 20 år",
         "url": "https://www.placera.se/nyheter/thelenius-min-garanterade-pension-har-statt-still-i-20-ar-2026-09-26"
@@ -264,19 +272,11 @@
       {
         "title": "H&amp;M får kalla handen av analytiker efter rapport",
         "url": "https://www.placera.se/nyheter/hm-far-kalla-handen-av-analytiker-efter-rapport-2026-09-25"
-      },
-      {
-        "title": "Blankare kliver in i fyra svenska bolag",
-        "url": "https://www.placera.se/nyheter/blankare-kliver-in-i-fyra-svenska-bolag-2026-09-25"
-      },
-      {
-        "title": "Volkswagen återkallar över två miljoner bilar",
-        "url": "https://www.placera.se/nyheter/volkswagen-aterkallar-over-tva-miljoner-bilar-2026-09-25"
       }
     ],
-    "updatedAt": "2026-09-28T05:07:00.042324+00:00"
+    "updatedAt": "2026-09-28T05:26:52.148294+00:00"
   },
-  "updatedAt": "2026-09-28T05:07:00.042389+00:00",
+  "updatedAt": "2026-09-28T05:26:52.148348+00:00",
   "indices": {
     "omx": {
       "value": 3292.1685,
@@ -4005,7 +4005,7 @@
       "macdHist": 0.614,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-28T05:06:58.824873+00:00"
+      "updatedAt": "2026-09-28T05:26:50.898791+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4017,19 +4017,19 @@
       "macdHist": 0.9,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-28T05:06:58.928191+00:00"
+      "updatedAt": "2026-09-28T05:26:50.987058+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4228.6,
-      "ma20": 4242.39,
-      "ma50": 4274.42,
-      "rsi": 16.53,
-      "macdHist": 0.879,
+      "price": 4225.9,
+      "ma20": 4233.62,
+      "ma50": 4267.84,
+      "rsi": 19.63,
+      "macdHist": 1.58,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-28T05:06:59.024857+00:00"
+      "updatedAt": "2026-09-28T05:26:51.089251+00:00"
     }
   }
 }

@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.5134,
-    "EUR": 11.3274,
-    "GBP": 13.2085,
-    "NOK": 1.0382,
-    "USD": 9.9801,
-    "updatedAt": "2026-09-29T21:07:41.997058+00:00"
+    "DKK": 1.5126,
+    "EUR": 11.3243,
+    "GBP": 13.2044,
+    "NOK": 1.0361,
+    "USD": 9.9647,
+    "updatedAt": "2026-09-29T21:26:19.582477+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/analytiker-kop-tre-danska-juveler-2026-09-29"
       }
     ],
-    "updatedAt": "2026-09-29T21:07:43.006502+00:00"
+    "updatedAt": "2026-09-29T21:26:20.854820+00:00"
   },
-  "updatedAt": "2026-09-29T21:07:43.006566+00:00",
+  "updatedAt": "2026-09-29T21:26:20.854882+00:00",
   "indices": {
     "omx": {
       "value": 3290.842,
@@ -4171,7 +4171,7 @@
       "macdHist": -0.733,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-29T21:07:41.338316+00:00"
+      "updatedAt": "2026-09-29T21:26:18.770873+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4183,19 +4183,19 @@
       "macdHist": -3.267,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-29T21:07:41.474899+00:00"
+      "updatedAt": "2026-09-29T21:26:19.001578+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4214.1,
-      "ma20": 4208.77,
-      "ma50": 4197.97,
-      "rsi": 62.64,
-      "macdHist": 0.078,
+      "price": 4215.0,
+      "ma20": 4208.86,
+      "ma50": 4198.01,
+      "rsi": 63.64,
+      "macdHist": 0.168,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-29T21:07:41.615787+00:00"
+      "updatedAt": "2026-09-29T21:26:19.158788+00:00"
     }
   }
 }

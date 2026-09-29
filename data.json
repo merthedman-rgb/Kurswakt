@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.5142,
-    "EUR": 11.3349,
-    "GBP": 13.2009,
+    "DKK": 1.5131,
+    "EUR": 11.3285,
+    "GBP": 13.1993,
     "NOK": 1.0431,
-    "USD": 9.9734,
-    "updatedAt": "2026-09-29T06:32:13.289050+00:00"
+    "USD": 9.9713,
+    "updatedAt": "2026-09-29T06:57:04.495881+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/seb-kopstamplar-nischbanken--evolution-sanks-2026-09-29"
       }
     ],
-    "updatedAt": "2026-09-29T06:32:14.615641+00:00"
+    "updatedAt": "2026-09-29T06:57:05.677941+00:00"
   },
-  "updatedAt": "2026-09-29T06:32:14.615713+00:00",
+  "updatedAt": "2026-09-29T06:57:05.677999+00:00",
   "indices": {
     "omx": {
       "value": 3289.9314,
@@ -4009,7 +4009,7 @@
       "macdHist": -1.983,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-29T06:32:12.121102+00:00"
+      "updatedAt": "2026-09-29T06:57:03.295844+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4021,19 +4021,19 @@
       "macdHist": -5.164,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-29T06:32:12.346800+00:00"
+      "updatedAt": "2026-09-29T06:57:03.592571+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4175.5,
-      "ma20": 4166.94,
-      "ma50": 4160.87,
-      "rsi": 61.83,
-      "macdHist": 0.885,
+      "price": 4173.9,
+      "ma20": 4170.6,
+      "ma50": 4163.05,
+      "rsi": 58.6,
+      "macdHist": -0.166,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-29T06:32:12.613545+00:00"
+      "updatedAt": "2026-09-29T06:57:03.889323+00:00"
     }
   }
 }

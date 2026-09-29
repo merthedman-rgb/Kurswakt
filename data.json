@@ -232,17 +232,33 @@
     }
   },
   "fx": {
-    "DKK": 1.5139,
-    "EUR": 11.3341,
-    "GBP": 13.2057,
-    "NOK": 1.0442,
-    "USD": 9.973,
-    "updatedAt": "2026-09-29T06:09:27.184762+00:00"
+    "DKK": 1.5142,
+    "EUR": 11.3349,
+    "GBP": 13.2009,
+    "NOK": 1.0431,
+    "USD": 9.9734,
+    "updatedAt": "2026-09-29T06:32:13.289050+00:00"
   },
   "news": {
     "items": [
       {
-        "title": "Just nu: Avanzas fondsparare köper brett och säljer småbolag",
+        "title": "Just nu: Hemnet bantar kraftigt – kapar nära 40% av personalstyrkan",
+        "url": "https://www.placera.se/nyheter/hemnet-bantar-kraftigt--kapar-nara-40-av-personalstyrkan-2026-09-29"
+      },
+      {
+        "title": "Pareto: Egetis FDA-godkännande var väntat",
+        "url": "https://www.placera.se/nyheter/pareto-egetis-fda-godkannande-var-vantat-2026-09-29"
+      },
+      {
+        "title": "Just nu: ABG säljstämplar Fabege",
+        "url": "https://www.placera.se/nyheter/abg-saljstamplar-fabege-2026-09-29"
+      },
+      {
+        "title": "Trump öppen för sanktionslättnader för Iran",
+        "url": "https://www.placera.se/nyheter/trump-oppen-for-sanktionslattnader-for-iran-2026-09-29"
+      },
+      {
+        "title": "Just nu: Avanzas fondsparare säljer småbolag",
         "url": "https://www.placera.se/nyheter/avanzas-fondsparare-koper-brett-och-saljer-smabolag-2026-09-29"
       },
       {
@@ -256,27 +272,11 @@
       {
         "title": "Nischbanken köpstämplas – Evolution sänks",
         "url": "https://www.placera.se/nyheter/seb-kopstamplar-nischbanken--evolution-sanks-2026-09-29"
-      },
-      {
-        "title": "Cibus VD Hök köper aktier för 1,9 miljoner",
-        "url": "https://www.placera.se/nyheter/cibus-vd-hok-koper-aktier-for-19-miljoner-2026-09-28"
-      },
-      {
-        "title": "Boozt höjer prognosen för helåret efter starkt kvartal",
-        "url": "https://www.placera.se/nyheter/boozt-hojer-prognosen-for-helaret-efter-starkt-kvartal-2026-09-28"
-      },
-      {
-        "title": "Better Collective föll på svag Stockholmsbörs",
-        "url": "https://www.placera.se/nyheter/better-collective-foll-pa-svag-stockholmsbors-2026-09-28"
-      },
-      {
-        "title": "Så bygger du en stabil utdelningsportfölj",
-        "url": "https://www.placera.se/nyheter/sa-bygger-du-en-stabil-utdelningsportfolj-2026-09-28"
       }
     ],
-    "updatedAt": "2026-09-29T06:09:28.155495+00:00"
+    "updatedAt": "2026-09-29T06:32:14.615641+00:00"
   },
-  "updatedAt": "2026-09-29T06:09:28.155563+00:00",
+  "updatedAt": "2026-09-29T06:32:14.615713+00:00",
   "indices": {
     "omx": {
       "value": 3289.9314,
@@ -4009,7 +4009,7 @@
       "macdHist": -1.983,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-29T06:09:26.747333+00:00"
+      "updatedAt": "2026-09-29T06:32:12.121102+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4021,19 +4021,19 @@
       "macdHist": -5.164,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-29T06:09:26.854089+00:00"
+      "updatedAt": "2026-09-29T06:32:12.346800+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4169.7,
-      "ma20": 4162.45,
-      "ma50": 4160.07,
-      "rsi": 59.24,
-      "macdHist": 1.073,
+      "price": 4175.5,
+      "ma20": 4166.94,
+      "ma50": 4160.87,
+      "rsi": 61.83,
+      "macdHist": 0.885,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-29T06:09:26.982928+00:00"
+      "updatedAt": "2026-09-29T06:32:12.613545+00:00"
     }
   }
 }

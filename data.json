@@ -232,17 +232,29 @@
     }
   },
   "fx": {
-    "DKK": 1.5156,
-    "EUR": 11.3451,
-    "GBP": 13.2164,
-    "NOK": 1.0435,
-    "USD": 9.9905,
-    "updatedAt": "2026-09-29T05:54:31.256586+00:00"
+    "DKK": 1.5139,
+    "EUR": 11.3341,
+    "GBP": 13.2057,
+    "NOK": 1.0442,
+    "USD": 9.973,
+    "updatedAt": "2026-09-29T06:09:27.184762+00:00"
   },
   "news": {
     "items": [
       {
-        "title": "SEB köpstämplar nischbanken – Evolution sänks",
+        "title": "Just nu: Avanzas fondsparare köper brett och säljer småbolag",
+        "url": "https://www.placera.se/nyheter/avanzas-fondsparare-koper-brett-och-saljer-smabolag-2026-09-29"
+      },
+      {
+        "title": "”Big Short”-profilen ökar bettet på Palantir-fall",
+        "url": "https://www.placera.se/nyheter/big-short-profilen-okar-bettet-pa-palantir-fall-2026-09-29"
+      },
+      {
+        "title": "Eli Lilly-chefen öppnar för större läkemedelsaffärer",
+        "url": "https://www.placera.se/nyheter/eli-lilly-chefen-oppnar-for-storre-lakemedelsaffarer-2026-09-29"
+      },
+      {
+        "title": "Nischbanken köpstämplas – Evolution sänks",
         "url": "https://www.placera.se/nyheter/seb-kopstamplar-nischbanken--evolution-sanks-2026-09-29"
       },
       {
@@ -260,23 +272,11 @@
       {
         "title": "Så bygger du en stabil utdelningsportfölj",
         "url": "https://www.placera.se/nyheter/sa-bygger-du-en-stabil-utdelningsportfolj-2026-09-28"
-      },
-      {
-        "title": "Bettingbolaget drar tillbaka finansiella mål efter Brasiliens förbud",
-        "url": "https://www.placera.se/nyheter/-bettingbolaget-drar-tillbaka-finansiella-mal-efter-brasiliens-forbud-2026-09-28"
-      },
-      {
-        "title": "Misstänkt insiderhärva kring jättebudet – premien var 227%",
-        "url": "https://www.placera.se/nyheter/misstankt-insiderharva-efter-jattebudet--premien-var-227-2026-09-28"
-      },
-      {
-        "title": "Här har villapriserna ökat mest mot inkomsterna",
-        "url": "https://www.placera.se/nyheter/har-har-villapriserna-okat-mest-mot-inkomsterna-2026-09-28"
       }
     ],
-    "updatedAt": "2026-09-29T05:54:32.492021+00:00"
+    "updatedAt": "2026-09-29T06:09:28.155495+00:00"
   },
-  "updatedAt": "2026-09-29T05:54:32.492083+00:00",
+  "updatedAt": "2026-09-29T06:09:28.155563+00:00",
   "indices": {
     "omx": {
       "value": 3289.9314,
@@ -425,23 +425,31 @@
       "updatedAt": "2026-09-28T19:53:31.065205+00:00"
     },
     "gold": {
-      "value": 4127.77,
-      "changeAbs": 0.3,
-      "changePercent": 0.007,
-      "updatedAt": "2026-09-29T05:07:07.827710+00:00",
+      "value": 4142.31,
+      "changeAbs": 14.84,
+      "changePercent": 0.36,
+      "updatedAt": "2026-09-29T06:09:26.291820+00:00",
       "series": [
         4162.6,
         4161.0,
         4158.4,
         4158.2,
-        4157.7
+        4159.8,
+        4161.3,
+        4169.2,
+        4169.9,
+        4169.7
       ],
       "seriesTimes": [
         1790654400,
         1790655300,
         1790656200,
         1790657100,
-        1790657813
+        1790658000,
+        1790658900,
+        1790659800,
+        1790660700,
+        1790661564
       ]
     }
   },
@@ -2837,8 +2845,9 @@
           4150.0,
           4166.9,
           4166.5,
-          4157.7,
-          4157.7
+          4158.2,
+          4169.9,
+          4169.7
         ],
         "seriesTimes": [
           1790222400,
@@ -2910,7 +2919,8 @@
           1790643600,
           1790647200,
           1790654400,
-          1790657813
+          1790658000,
+          1790661564
         ]
       },
       "m1": {
@@ -2935,7 +2945,7 @@
           4298.0,
           4321.2,
           4168.4,
-          4157.7
+          4169.7
         ],
         "seriesTimes": [
           1788148800,
@@ -3027,7 +3037,7 @@
           4298.0,
           4321.2,
           4168.4,
-          4157.7
+          4169.7
         ],
         "seriesTimes": [
           1782705600,
@@ -3284,7 +3294,7 @@
           4298.0,
           4321.2,
           4168.4,
-          4157.7
+          4169.7
         ],
         "seriesTimes": [
           1767330000,
@@ -3728,7 +3738,7 @@
           4298.0,
           4321.2,
           4168.4,
-          4157.7
+          4169.7
         ],
         "seriesTimes": [
           1759118400,
@@ -3985,7 +3995,7 @@
           1790654400
         ]
       },
-      "updatedAt": "2026-09-29T05:07:08.126457+00:00"
+      "updatedAt": "2026-09-29T06:09:26.638281+00:00"
     }
   },
   "signals": {
@@ -3999,7 +4009,7 @@
       "macdHist": -1.983,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-29T05:54:29.847138+00:00"
+      "updatedAt": "2026-09-29T06:09:26.747333+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4011,19 +4021,19 @@
       "macdHist": -5.164,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-29T05:54:30.205126+00:00"
+      "updatedAt": "2026-09-29T06:09:26.854089+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4170.4,
-      "ma20": 4161.21,
-      "ma50": 4159.17,
-      "rsi": 63.29,
-      "macdHist": 0.963,
+      "price": 4169.7,
+      "ma20": 4162.45,
+      "ma50": 4160.07,
+      "rsi": 59.24,
+      "macdHist": 1.073,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-29T05:54:30.552232+00:00"
+      "updatedAt": "2026-09-29T06:09:26.982928+00:00"
     }
   }
 }

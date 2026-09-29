@@ -232,15 +232,19 @@
     }
   },
   "fx": {
-    "DKK": 1.5152,
-    "EUR": 11.3434,
-    "GBP": 13.2138,
-    "NOK": 1.0448,
-    "USD": 9.9872,
-    "updatedAt": "2026-09-29T05:41:07.216782+00:00"
+    "DKK": 1.5156,
+    "EUR": 11.3451,
+    "GBP": 13.2164,
+    "NOK": 1.0435,
+    "USD": 9.9905,
+    "updatedAt": "2026-09-29T05:54:31.256586+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "SEB köpstämplar nischbanken – Evolution sänks",
+        "url": "https://www.placera.se/nyheter/seb-kopstamplar-nischbanken--evolution-sanks-2026-09-29"
+      },
       {
         "title": "Cibus VD Hök köper aktier för 1,9 miljoner",
         "url": "https://www.placera.se/nyheter/cibus-vd-hok-koper-aktier-for-19-miljoner-2026-09-28"
@@ -268,15 +272,11 @@
       {
         "title": "Här har villapriserna ökat mest mot inkomsterna",
         "url": "https://www.placera.se/nyheter/har-har-villapriserna-okat-mest-mot-inkomsterna-2026-09-28"
-      },
-      {
-        "title": "Finlands president: Har 25 nya datacenter på gång",
-        "url": "https://www.placera.se/nyheter/finlands-president-har-25-nya-datacenter-pa-gang-2026-09-28"
       }
     ],
-    "updatedAt": "2026-09-29T05:41:08.158670+00:00"
+    "updatedAt": "2026-09-29T05:54:32.492021+00:00"
   },
-  "updatedAt": "2026-09-29T05:41:08.158730+00:00",
+  "updatedAt": "2026-09-29T05:54:32.492083+00:00",
   "indices": {
     "omx": {
       "value": 3289.9314,
@@ -3999,7 +3999,7 @@
       "macdHist": -1.983,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-29T05:41:06.710067+00:00"
+      "updatedAt": "2026-09-29T05:54:29.847138+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4011,19 +4011,19 @@
       "macdHist": -5.164,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-29T05:41:06.828257+00:00"
+      "updatedAt": "2026-09-29T05:54:30.205126+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4158.3,
-      "ma20": 4160.26,
-      "ma50": 4158.59,
-      "rsi": 46.38,
-      "macdHist": -0.28,
+      "price": 4170.4,
+      "ma20": 4161.21,
+      "ma50": 4159.17,
+      "rsi": 63.29,
+      "macdHist": 0.963,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-29T05:41:06.955936+00:00"
+      "updatedAt": "2026-09-29T05:54:30.552232+00:00"
     }
   }
 }

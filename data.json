@@ -232,15 +232,23 @@
     }
   },
   "fx": {
-    "DKK": 1.5136,
-    "EUR": 11.3343,
-    "GBP": 13.2322,
-    "NOK": 1.041,
-    "USD": 9.9853,
-    "updatedAt": "2026-09-30T06:33:51.290530+00:00"
+    "DKK": 1.5131,
+    "EUR": 11.327,
+    "GBP": 13.2255,
+    "NOK": 1.0405,
+    "USD": 9.9777,
+    "updatedAt": "2026-09-30T06:57:27.959149+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Just nu: Skistar omsatte över förväntan – höjer utdelningen",
+        "url": "https://www.placera.se/nyheter/skistar-omsatte-over-forvantan--hojer-utdelningen-2026-09-30"
+      },
+      {
+        "title": "Sinch har rusat 46% – Pareto sticker hål på AI-planen",
+        "url": "https://www.placera.se/nyheter/sinch-har-rusat-46--pareto-sticker-hal-pa-ai-planen-2026-09-30"
+      },
       {
         "title": "Just nu: Skandia höjer bundna bolåneräntor",
         "url": "https://www.placera.se/nyheter/skandia-hojer-bundna-bolanerantor-2026-09-30"
@@ -250,7 +258,7 @@
         "url": "https://www.placera.se/nyheter/lonerna-okade-29-i-juli-2026-09-30"
       },
       {
-        "title": "Just nu: Montroses kunder köpte Investor och bottenfiskade i Hemnet",
+        "title": "Montroses kunder köpte Investor och bottenfiskade i Hemnet",
         "url": "https://www.placera.se/nyheter/montroses-kunder-kopte-investor-och-bottenfiskade-i-hemnet-2026-09-30"
       },
       {
@@ -258,25 +266,17 @@
         "url": "https://www.placera.se/nyheter/oregelbundet-i-asien--tokyo-stiger-over-2-2026-09-30"
       },
       {
-        "title": "Fastighetssektorn rödstryks – banken kapar 14 riktkurser",
+        "title": "Fastighetssektorn synas – banken kapar 14 riktkurser",
         "url": "https://www.placera.se/nyheter/riktkurserna-kapas--tva-fastighetsaktier-far-salj-2026-09-30"
       },
       {
         "title": "Måttlig börsuppgång när börsen tappade fart",
         "url": "https://www.placera.se/nyheter/mattlig-borsuppgang-nar-borsen-tappade-fart-2026-09-29"
-      },
-      {
-        "title": "Alecta kan få bostäder för 110 miljarder",
-        "url": "https://www.placera.se/nyheter/-alecta-kan-fa-bostader-for-110-miljarder-2026-09-29"
-      },
-      {
-        "title": "Preservium Property ska utvärdera uppköpsbudet från PPI",
-        "url": "https://www.placera.se/nyheter/preservium-property-ska-utvardera-uppkopsbudet-fran-ppi-2026-09-29"
       }
     ],
-    "updatedAt": "2026-09-30T06:33:52.384530+00:00"
+    "updatedAt": "2026-09-30T06:57:29.381205+00:00"
   },
-  "updatedAt": "2026-09-30T06:33:52.384589+00:00",
+  "updatedAt": "2026-09-30T06:57:29.381271+00:00",
   "indices": {
     "omx": {
       "value": 3290.842,
@@ -4029,7 +4029,7 @@
       "macdHist": -0.733,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-30T06:33:50.785845+00:00"
+      "updatedAt": "2026-09-30T06:57:27.492829+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4041,19 +4041,19 @@
       "macdHist": -3.267,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-30T06:33:50.915315+00:00"
+      "updatedAt": "2026-09-30T06:57:27.614931+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4213.5,
-      "ma20": 4209.65,
-      "ma50": 4209.76,
-      "rsi": 56.56,
-      "macdHist": 0.61,
+      "price": 4212.0,
+      "ma20": 4210.45,
+      "ma50": 4209.81,
+      "rsi": 52.03,
+      "macdHist": 0.099,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-30T06:33:51.044249+00:00"
+      "updatedAt": "2026-09-30T06:57:27.720696+00:00"
     }
   }
 }

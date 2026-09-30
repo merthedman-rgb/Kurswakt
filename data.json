@@ -232,15 +232,23 @@
     }
   },
   "fx": {
-    "DKK": 1.5131,
-    "EUR": 11.3294,
-    "GBP": 13.2298,
-    "NOK": 1.0404,
-    "USD": 9.9838,
-    "updatedAt": "2026-09-30T06:11:04.961858+00:00"
+    "DKK": 1.5136,
+    "EUR": 11.3343,
+    "GBP": 13.2322,
+    "NOK": 1.041,
+    "USD": 9.9853,
+    "updatedAt": "2026-09-30T06:33:51.290530+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Just nu: Skandia höjer bundna bolåneräntor",
+        "url": "https://www.placera.se/nyheter/skandia-hojer-bundna-bolanerantor-2026-09-30"
+      },
+      {
+        "title": "Lönerna ökade 2,9% i juli",
+        "url": "https://www.placera.se/nyheter/lonerna-okade-29-i-juli-2026-09-30"
+      },
       {
         "title": "Just nu: Montroses kunder köpte Investor och bottenfiskade i Hemnet",
         "url": "https://www.placera.se/nyheter/montroses-kunder-kopte-investor-och-bottenfiskade-i-hemnet-2026-09-30"
@@ -264,19 +272,11 @@
       {
         "title": "Preservium Property ska utvärdera uppköpsbudet från PPI",
         "url": "https://www.placera.se/nyheter/preservium-property-ska-utvardera-uppkopsbudet-fran-ppi-2026-09-29"
-      },
-      {
-        "title": "Börsaktuella Anthropic gick back 42 miljarder dollar",
-        "url": "https://www.placera.se/nyheter/borsaktuella-anthropic-gick-back-42-miljarder-dollar-2026-09-29"
-      },
-      {
-        "title": "Börsen: Pekar uppåt – Hemnet stiger på omorganisation",
-        "url": "https://www.placera.se/nyheter/pekar-uppat--hemnet-stiger-pa-omorganisation-2026-09-29"
       }
     ],
-    "updatedAt": "2026-09-30T06:11:06.003683+00:00"
+    "updatedAt": "2026-09-30T06:33:52.384530+00:00"
   },
-  "updatedAt": "2026-09-30T06:11:06.003749+00:00",
+  "updatedAt": "2026-09-30T06:33:52.384589+00:00",
   "indices": {
     "omx": {
       "value": 3290.842,
@@ -4029,7 +4029,7 @@
       "macdHist": -0.733,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-30T06:11:04.477896+00:00"
+      "updatedAt": "2026-09-30T06:33:50.785845+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4041,19 +4041,19 @@
       "macdHist": -3.267,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-30T06:11:04.598434+00:00"
+      "updatedAt": "2026-09-30T06:33:50.915315+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4211.0,
-      "ma20": 4209.14,
-      "ma50": 4208.83,
-      "rsi": 54.9,
-      "macdHist": 0.343,
+      "price": 4213.5,
+      "ma20": 4209.65,
+      "ma50": 4209.76,
+      "rsi": 56.56,
+      "macdHist": 0.61,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-30T06:11:04.782603+00:00"
+      "updatedAt": "2026-09-30T06:33:51.044249+00:00"
     }
   }
 }

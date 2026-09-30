@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.5145,
-    "EUR": 11.3388,
-    "GBP": 13.2721,
-    "NOK": 1.04,
-    "USD": 9.9957,
-    "updatedAt": "2026-09-30T21:07:05.799590+00:00"
+    "DKK": 1.5142,
+    "EUR": 11.336,
+    "GBP": 13.2773,
+    "NOK": 1.0369,
+    "USD": 9.994,
+    "updatedAt": "2026-09-30T21:27:35.725799+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/kinnevik-bolagets-vd-spar-kraftigt-vinstlyft-2026-09-30"
       }
     ],
-    "updatedAt": "2026-09-30T21:07:07.382549+00:00"
+    "updatedAt": "2026-09-30T21:27:37.607222+00:00"
   },
-  "updatedAt": "2026-09-30T21:07:07.382617+00:00",
+  "updatedAt": "2026-09-30T21:27:37.607293+00:00",
   "indices": {
     "omx": {
       "value": 3276.5605,
@@ -4183,7 +4183,7 @@
       "macdHist": -0.642,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-30T21:07:05.288424+00:00"
+      "updatedAt": "2026-09-30T21:27:35.243918+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4195,19 +4195,19 @@
       "macdHist": -16.996,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-30T21:07:05.416725+00:00"
+      "updatedAt": "2026-09-30T21:27:35.343582+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4190.7,
-      "ma20": 4188.15,
-      "ma50": 4185.5,
-      "rsi": 57.28,
-      "macdHist": 0.213,
+      "price": 4189.1,
+      "ma20": 4188.08,
+      "ma50": 4185.47,
+      "rsi": 53.67,
+      "macdHist": 0.114,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-30T21:07:05.571927+00:00"
+      "updatedAt": "2026-09-30T21:27:35.463349+00:00"
     }
   }
 }

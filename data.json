@@ -232,15 +232,27 @@
     }
   },
   "fx": {
-    "DKK": 1.513,
-    "EUR": 11.3274,
-    "GBP": 13.2229,
-    "NOK": 1.0405,
-    "USD": 9.9883,
-    "updatedAt": "2026-09-30T05:55:52.328399+00:00"
+    "DKK": 1.5131,
+    "EUR": 11.3294,
+    "GBP": 13.2298,
+    "NOK": 1.0404,
+    "USD": 9.9838,
+    "updatedAt": "2026-09-30T06:11:04.961858+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Just nu: Montroses kunder köpte Investor och bottenfiskade i Hemnet",
+        "url": "https://www.placera.se/nyheter/montroses-kunder-kopte-investor-och-bottenfiskade-i-hemnet-2026-09-30"
+      },
+      {
+        "title": "Just nu: Oregelbundet i Asien – Tokyo stiger över 2%",
+        "url": "https://www.placera.se/nyheter/oregelbundet-i-asien--tokyo-stiger-over-2-2026-09-30"
+      },
+      {
+        "title": "Fastighetssektorn rödstryks – banken kapar 14 riktkurser",
+        "url": "https://www.placera.se/nyheter/riktkurserna-kapas--tva-fastighetsaktier-far-salj-2026-09-30"
+      },
       {
         "title": "Måttlig börsuppgång när börsen tappade fart",
         "url": "https://www.placera.se/nyheter/mattlig-borsuppgang-nar-borsen-tappade-fart-2026-09-29"
@@ -260,23 +272,11 @@
       {
         "title": "Börsen: Pekar uppåt – Hemnet stiger på omorganisation",
         "url": "https://www.placera.se/nyheter/pekar-uppat--hemnet-stiger-pa-omorganisation-2026-09-29"
-      },
-      {
-        "title": "C-Rad och Seetreat ingår partnerskap",
-        "url": "https://www.placera.se/nyheter/-c-rad-och-seetreat-ingar-partnerskap-2026-09-29"
-      },
-      {
-        "title": "SBAB höjer bundna bolåneräntor",
-        "url": "https://www.placera.se/nyheter/sbab-hojer-bundna-bolanerantor-2026-09-29"
-      },
-      {
-        "title": "Analytiker: Köp tre danska juveler",
-        "url": "https://www.placera.se/nyheter/analytiker-kop-tre-danska-juveler-2026-09-29"
       }
     ],
-    "updatedAt": "2026-09-30T05:55:53.543573+00:00"
+    "updatedAt": "2026-09-30T06:11:06.003683+00:00"
   },
-  "updatedAt": "2026-09-30T05:55:53.543624+00:00",
+  "updatedAt": "2026-09-30T06:11:06.003749+00:00",
   "indices": {
     "omx": {
       "value": 3290.842,
@@ -423,23 +423,33 @@
       "updatedAt": "2026-09-29T19:55:36.758797+00:00"
     },
     "gold": {
-      "value": 4179.72,
-      "changeAbs": -5.28,
-      "changePercent": -0.126,
-      "updatedAt": "2026-09-30T05:07:50.222420+00:00",
+      "value": 4181.02,
+      "changeAbs": -3.98,
+      "changePercent": -0.095,
+      "updatedAt": "2026-09-30T06:11:04.032267+00:00",
       "series": [
         4205.8,
         4210.0,
         4213.4,
         4211.4,
-        4210.4
+        4204.8,
+        4207.0,
+        4207.7,
+        4210.2,
+        4213.5,
+        4211.0
       ],
       "seriesTimes": [
         1790740800,
         1790741700,
         1790742600,
         1790743500,
-        1790744267
+        1790744400,
+        1790745300,
+        1790746200,
+        1790747100,
+        1790748000,
+        1790748061
       ]
     }
   },
@@ -2848,8 +2858,10 @@
           4203.6,
           4210.9,
           4207.6,
-          4210.5,
-          4210.4
+          4211.4,
+          4210.2,
+          4209.9,
+          4211.0
         ],
         "seriesTimes": [
           1790308800,
@@ -2922,7 +2934,9 @@
           1790733600,
           1790737200,
           1790740800,
-          1790744267
+          1790744400,
+          1790748000,
+          1790748061
         ]
       },
       "m1": {
@@ -2948,7 +2962,7 @@
           4321.2,
           4168.4,
           4179.7,
-          4210.4
+          4211.0
         ],
         "seriesTimes": [
           1788148800,
@@ -3041,7 +3055,7 @@
           4321.2,
           4168.4,
           4179.7,
-          4210.4
+          4211.0
         ],
         "seriesTimes": [
           1782792000,
@@ -3299,7 +3313,7 @@
           4321.2,
           4168.4,
           4179.7,
-          4210.4
+          4211.0
         ],
         "seriesTimes": [
           1767330000,
@@ -3744,7 +3758,7 @@
           4321.2,
           4168.4,
           4179.7,
-          4210.4
+          4211.0
         ],
         "seriesTimes": [
           1759204800,
@@ -4001,7 +4015,7 @@
           1790740800
         ]
       },
-      "updatedAt": "2026-09-30T05:07:50.703117+00:00"
+      "updatedAt": "2026-09-30T06:11:04.319459+00:00"
     }
   },
   "signals": {
@@ -4015,7 +4029,7 @@
       "macdHist": -0.733,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-30T05:55:51.255790+00:00"
+      "updatedAt": "2026-09-30T06:11:04.477896+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4027,19 +4041,19 @@
       "macdHist": -3.267,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-30T05:55:51.521566+00:00"
+      "updatedAt": "2026-09-30T06:11:04.598434+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4207.9,
-      "ma20": 4209.01,
-      "ma50": 4207.52,
-      "rsi": 49.01,
-      "macdHist": -0.105,
+      "price": 4211.0,
+      "ma20": 4209.14,
+      "ma50": 4208.83,
+      "rsi": 54.9,
+      "macdHist": 0.343,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-09-30T05:55:51.783999+00:00"
+      "updatedAt": "2026-09-30T06:11:04.782603+00:00"
     }
   }
 }

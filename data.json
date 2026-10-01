@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.5074,
-    "EUR": 11.2873,
-    "GBP": 13.2478,
-    "NOK": 1.036,
-    "USD": 10.036,
-    "updatedAt": "2026-10-01T21:06:36.967403+00:00"
+    "DKK": 1.5079,
+    "EUR": 11.2848,
+    "GBP": 13.2452,
+    "NOK": 1.0347,
+    "USD": 10.0138,
+    "updatedAt": "2026-10-01T21:26:40.751956+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/sb1-upprepar-kop-for-electrolux-2026-10-01"
       }
     ],
-    "updatedAt": "2026-10-01T21:06:37.950640+00:00"
+    "updatedAt": "2026-10-01T21:26:42.073523+00:00"
   },
-  "updatedAt": "2026-10-01T21:06:37.950700+00:00",
+  "updatedAt": "2026-10-01T21:26:42.073586+00:00",
   "indices": {
     "omx": {
       "value": 3225.9,
@@ -4203,7 +4203,7 @@
       "macdHist": 0.358,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-01T21:06:36.436287+00:00"
+      "updatedAt": "2026-10-01T21:26:39.273073+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4215,19 +4215,19 @@
       "macdHist": -8.624,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-10-01T21:06:36.549398+00:00"
+      "updatedAt": "2026-10-01T21:26:39.590326+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4206.9,
-      "ma20": 4206.64,
-      "ma50": 4205.43,
-      "rsi": 52.35,
-      "macdHist": -0.154,
+      "price": 4207.8,
+      "ma20": 4206.74,
+      "ma50": 4205.47,
+      "rsi": 54.95,
+      "macdHist": -0.06,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-01T21:06:36.680950+00:00"
+      "updatedAt": "2026-10-01T21:26:39.956692+00:00"
     }
   }
 }

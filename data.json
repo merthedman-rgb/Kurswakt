@@ -1,20 +1,20 @@
 {
   "prices": {
     "AAPL": {
-      "price": 328.76,
-      "changePercent": -1.279,
+      "price": 326.581,
+      "changePercent": -1.933,
       "currency": "USD",
       "name": "Apple Inc.",
       "type": "aktie",
-      "updatedAt": "2026-10-01T15:29:35.100120+00:00"
+      "updatedAt": "2026-10-01T15:47:42.332261+00:00"
     },
     "AMZN": {
-      "price": 246.67,
-      "changePercent": -0.995,
+      "price": 246.815,
+      "changePercent": -0.937,
       "currency": "USD",
       "name": "Amazon.com, Inc.",
       "type": "aktie",
-      "updatedAt": "2026-10-01T15:29:35.153443+00:00"
+      "updatedAt": "2026-10-01T15:47:42.431057+00:00"
     },
     "ATCO-B.ST": {
       "price": 177.8,
@@ -65,12 +65,12 @@
       "updatedAt": "2026-10-01T15:29:35.656139+00:00"
     },
     "GOOG": {
-      "price": 337.86,
-      "changePercent": -0.845,
+      "price": 337.195,
+      "changePercent": -1.04,
       "currency": "USD",
       "name": "Alphabet Inc.",
       "type": "aktie",
-      "updatedAt": "2026-10-01T15:29:35.717236+00:00"
+      "updatedAt": "2026-10-01T15:47:42.535836+00:00"
     },
     "INVE-A.ST": {
       "price": 393.6,
@@ -81,12 +81,12 @@
       "updatedAt": "2026-10-01T15:29:35.817602+00:00"
     },
     "KO": {
-      "price": 86.48,
-      "changePercent": 0.464,
+      "price": 86.46,
+      "changePercent": 0.441,
       "currency": "USD",
       "name": "The Coca-Cola Company",
       "type": "aktie",
-      "updatedAt": "2026-10-01T15:29:35.967907+00:00"
+      "updatedAt": "2026-10-01T15:47:42.683367+00:00"
     },
     "LATO-B.ST": {
       "price": 201.4,
@@ -105,12 +105,12 @@
       "updatedAt": "2026-10-01T15:29:36.107768+00:00"
     },
     "MSFT": {
-      "price": 513.69,
-      "changePercent": 0.154,
+      "price": 513.17,
+      "changePercent": 0.053,
       "currency": "USD",
       "name": "Microsoft Corporation",
       "type": "aktie",
-      "updatedAt": "2026-10-01T15:29:36.148351+00:00"
+      "updatedAt": "2026-10-01T15:47:42.810652+00:00"
     },
     "NDA-SE.ST": {
       "price": 192.5,
@@ -121,12 +121,12 @@
       "updatedAt": "2026-10-01T15:29:36.209116+00:00"
     },
     "NVDA": {
-      "price": 230.59,
-      "changePercent": 0.968,
+      "price": 229.449,
+      "changePercent": 0.468,
       "currency": "USD",
       "name": "NVIDIA Corporation",
       "type": "aktie",
-      "updatedAt": "2026-10-01T15:29:36.261873+00:00"
+      "updatedAt": "2026-10-01T15:47:42.917211+00:00"
     },
     "SE0000538944": {
       "price": 2010.72,
@@ -199,20 +199,20 @@
       "updatedAt": "2026-10-01T15:29:37.298968+00:00"
     },
     "TSLA": {
-      "price": 357.8,
-      "changePercent": 0.843,
+      "price": 356.39,
+      "changePercent": 0.445,
       "currency": "USD",
       "name": "Tesla, Inc.",
       "type": "aktie",
-      "updatedAt": "2026-10-01T15:29:37.311885+00:00"
+      "updatedAt": "2026-10-01T15:47:43.893980+00:00"
     },
     "VARO.XD": {
-      "price": 51.52,
-      "changePercent": 1.497,
+      "price": 51.42,
+      "changePercent": 1.3,
       "currency": "NOK",
       "name": "Var Energi ASA",
       "type": "aktie",
-      "updatedAt": "2026-10-01T15:29:37.346661+00:00"
+      "updatedAt": "2026-10-01T15:47:43.989618+00:00"
     },
     "VOLV-B.ST": {
       "price": 318.1,
@@ -232,15 +232,19 @@
     }
   },
   "fx": {
-    "DKK": 1.51,
-    "EUR": 11.3054,
-    "GBP": 13.2728,
+    "DKK": 1.5099,
+    "EUR": 11.3019,
+    "GBP": 13.2683,
     "NOK": 1.0435,
-    "USD": 10.0448,
-    "updatedAt": "2026-10-01T15:29:39.274976+00:00"
+    "USD": 10.0556,
+    "updatedAt": "2026-10-01T15:47:46.301214+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Nedgång på Stockholmsbörsen — OMXS30 föll 1,3%",
+        "url": "https://www.placera.se/nyheter/nedgang-pa-stockholmsborsen--omxs30-foll-13-2026-10-01"
+      },
       {
         "title": "Aktierna som oftast lyfter på rapport",
         "url": "https://www.placera.se/nyheter/aktierna-som-oftast-lyfter-pa-rapport--2026-10-01"
@@ -268,15 +272,11 @@
       {
         "title": "SB1 upprepar köp för Electrolux",
         "url": "https://www.placera.se/nyheter/sb1-upprepar-kop-for-electrolux-2026-10-01"
-      },
-      {
-        "title": "Stämma godkände avknoppning av SKF:s fordonverksamhet",
-        "url": "https://www.placera.se/nyheter/-stamma-godkande-avknoppning-av-skfs-fordonverksamhet-2026-10-01"
       }
     ],
-    "updatedAt": "2026-10-01T15:29:40.344920+00:00"
+    "updatedAt": "2026-10-01T15:47:47.896410+00:00"
   },
-  "updatedAt": "2026-10-01T15:29:40.344965+00:00",
+  "updatedAt": "2026-10-01T15:47:47.896471+00:00",
   "indices": {
     "omx": {
       "value": 3225.9,
@@ -360,9 +360,9 @@
       "updatedAt": "2026-10-01T15:29:37.547663+00:00"
     },
     "ndx": {
-      "value": 30383.139,
-      "changeAbs": -25.363,
-      "changePercent": -0.083,
+      "value": 30307.438,
+      "changeAbs": -101.064,
+      "changePercent": -0.332,
       "previousClose": 30408.502,
       "series": [
         30501.49,
@@ -372,8 +372,10 @@
         30414.39,
         30371.06,
         30351.27,
-        30388.76,
-        30383.14
+        30379.14,
+        30301.27,
+        30298.58,
+        30307.44
       ],
       "seriesTimes": [
         1790861400,
@@ -384,9 +386,11 @@
         1790865900,
         1790866800,
         1790867700,
-        1790868574
+        1790868600,
+        1790869500,
+        1790869660
       ],
-      "updatedAt": "2026-10-01T15:29:37.996528+00:00"
+      "updatedAt": "2026-10-01T15:47:44.097801+00:00"
     },
     "gold": {
       "value": 4168.06,
@@ -1707,8 +1711,9 @@
           30561.27,
           30410.66,
           30365.23,
-          30388.76,
-          30383.14
+          30379.14,
+          30298.58,
+          30307.44
         ],
         "seriesTimes": [
           1790343000,
@@ -1741,7 +1746,8 @@
           1790796600,
           1790861400,
           1790865000,
-          1790868574
+          1790868600,
+          1790869660
         ]
       },
       "m1": {
@@ -1767,7 +1773,7 @@
           30276.81,
           30339.33,
           30408.5,
-          30383.14
+          30307.44
         ],
         "seriesTimes": [
           1788269400,
@@ -1860,7 +1866,7 @@
           30276.81,
           30339.33,
           30408.5,
-          30383.14
+          30307.44
         ],
         "seriesTimes": [
           1782912600,
@@ -2119,7 +2125,7 @@
           30276.81,
           30339.33,
           30408.5,
-          30383.14
+          30307.44
         ],
         "seriesTimes": [
           1767364200,
@@ -2565,7 +2571,7 @@
           30276.81,
           30339.33,
           30408.5,
-          30383.14
+          30307.44
         ],
         "seriesTimes": [
           1759325400,
@@ -2822,7 +2828,7 @@
           1790861400
         ]
       },
-      "updatedAt": "2026-10-01T15:29:38.397623+00:00"
+      "updatedAt": "2026-10-01T15:47:44.844650+00:00"
     },
     "gold": {
       "w1": {
@@ -4090,38 +4096,38 @@
     "omx": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:48.417416+00:00",
-      "price": 3225.9,
-      "ma20": 3228.63,
-      "ma50": 3240.41,
-      "rsi": 36.18,
-      "macdHist": 0.29,
+      "price": 3226.59,
+      "ma20": 3228.7,
+      "ma50": 3240.44,
+      "rsi": 37.49,
+      "macdHist": 0.358,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-01T15:29:38.556657+00:00"
+      "updatedAt": "2026-10-01T15:47:45.118596+00:00"
     },
     "ndx": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:48.926371+00:00",
-      "price": 30383.14,
-      "ma20": 30384.71,
-      "ma50": 30479.59,
-      "rsi": 45.87,
-      "macdHist": 6.433,
+      "price": 30307.44,
+      "ma20": 30360.11,
+      "ma50": 30456.88,
+      "rsi": 40.27,
+      "macdHist": -1.712,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-10-01T15:29:38.904949+00:00"
+      "updatedAt": "2026-10-01T15:47:45.388718+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4193.0,
-      "ma20": 4191.33,
-      "ma50": 4200.08,
-      "rsi": 49.03,
-      "macdHist": 0.251,
+      "price": 4196.1,
+      "ma20": 4191.91,
+      "ma50": 4199.59,
+      "rsi": 51.97,
+      "macdHist": 0.904,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-01T15:29:39.034505+00:00"
+      "updatedAt": "2026-10-01T15:47:45.768419+00:00"
     }
   }
 }

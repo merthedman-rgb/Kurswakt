@@ -232,21 +232,29 @@
     }
   },
   "fx": {
-    "DKK": 1.5143,
-    "EUR": 11.3382,
-    "GBP": 13.2716,
-    "NOK": 1.0395,
-    "USD": 10.0125,
-    "updatedAt": "2026-10-01T06:18:53.900640+00:00"
+    "DKK": 1.5147,
+    "EUR": 11.3381,
+    "GBP": 13.2833,
+    "NOK": 1.0393,
+    "USD": 10.0237,
+    "updatedAt": "2026-10-01T06:46:28.772295+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Just nu:  Pareto stuvar om i portföljen – tar in Asmodee",
+        "url": "https://www.placera.se/nyheter/-pareto-stuvar-om-i-portfoljen--tar-in-asmodee-2026-10-01"
+      },
+      {
+        "title": "SEB sänker fastigheter – men NP3 och Sagax får köp",
+        "url": "https://www.placera.se/nyheter/sankningar-i-fastighetssektorn--men-sagax-och-np3-kopstamplas-2026-10-01"
+      },
       {
         "title": "Just nu:  Skanska landar order värd 1,5 miljarder",
         "url": "https://www.placera.se/nyheter/-skanska-landar-order-vard-15-miljarder-2026-10-01"
       },
       {
-        "title": "Just nu: Lägre oljepriser när flöden från Mellanöstern ökar",
+        "title": "Lägre oljepriser när flöden från Mellanöstern ökar",
         "url": "https://www.placera.se/nyheter/lagre-oljepriser-nar-floden-fran-mellanostern-okar-2026-10-01"
       },
       {
@@ -264,19 +272,11 @@
       {
         "title": "Kinnevik säger nej till Stegra – igen",
         "url": "https://www.placera.se/nyheter/kinnevik-sager-nej-till-stegra--igen-2026-09-30"
-      },
-      {
-        "title": "Porsches VD försvarar satsning på bensinmodeller",
-        "url": "https://www.placera.se/nyheter/porsches-vd-forsvarar-satsning-pa-bensinmodeller-2026-09-30"
-      },
-      {
-        "title": "Factsets resultat bättre än väntat",
-        "url": "https://www.placera.se/nyheter/factsets-resultat-battre-an-vantat-2026-09-30"
       }
     ],
-    "updatedAt": "2026-10-01T06:18:54.878186+00:00"
+    "updatedAt": "2026-10-01T06:46:30.155203+00:00"
   },
-  "updatedAt": "2026-10-01T06:18:54.878251+00:00",
+  "updatedAt": "2026-10-01T06:46:30.155245+00:00",
   "indices": {
     "omx": {
       "value": 3276.5605,
@@ -4053,7 +4053,7 @@
       "macdHist": -0.642,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-10-01T06:18:53.426045+00:00"
+      "updatedAt": "2026-10-01T06:46:27.471816+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4065,19 +4065,19 @@
       "macdHist": -16.996,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-10-01T06:18:53.554092+00:00"
+      "updatedAt": "2026-10-01T06:46:27.764091+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4220.1,
-      "ma20": 4214.2,
-      "ma50": 4202.3,
-      "rsi": 72.37,
-      "macdHist": -0.105,
+      "price": 4218.2,
+      "ma20": 4217.43,
+      "ma50": 4206.53,
+      "rsi": 61.26,
+      "macdHist": -0.824,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-01T06:18:53.665749+00:00"
+      "updatedAt": "2026-10-01T06:46:28.106340+00:00"
     }
   }
 }

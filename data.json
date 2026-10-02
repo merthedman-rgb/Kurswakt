@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.5071,
-    "EUR": 11.2819,
-    "GBP": 13.2438,
+    "DKK": 1.507,
+    "EUR": 11.2844,
+    "GBP": 13.2473,
     "NOK": 1.0417,
-    "USD": 10.0244,
-    "updatedAt": "2026-10-02T06:09:38.146015+00:00"
+    "USD": 10.0236,
+    "updatedAt": "2026-10-02T06:32:59.944203+00:00"
   },
   "news": {
     "items": [
@@ -246,7 +246,7 @@
         "url": "https://www.placera.se/nyheter/palantir-och-armada-i-ai-samarbete-2026-10-02"
       },
       {
-        "title": "Just nu: Bostadspriserna: &quot;Ökade de mer än vad som är normalt&quot;",
+        "title": "Bostadspriserna: &quot;Ökade de mer än vad som är normalt&quot;",
         "url": "https://www.placera.se/nyheter/bostadspriserna-okade-de-mer-an-vad-som-ar-normalt-2026-10-02"
       },
       {
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/bulten-saljer-industrifastighet-i-hallstahammar-2026-10-01"
       }
     ],
-    "updatedAt": "2026-10-02T06:09:39.530864+00:00"
+    "updatedAt": "2026-10-02T06:33:01.138741+00:00"
   },
-  "updatedAt": "2026-10-02T06:09:39.530916+00:00",
+  "updatedAt": "2026-10-02T06:33:01.138806+00:00",
   "indices": {
     "omx": {
       "value": 3225.9,
@@ -4085,7 +4085,7 @@
       "macdHist": 0.358,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-02T06:09:37.085722+00:00"
+      "updatedAt": "2026-10-02T06:32:58.625137+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4097,19 +4097,19 @@
       "macdHist": -8.624,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-10-02T06:09:37.303740+00:00"
+      "updatedAt": "2026-10-02T06:32:58.909634+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4216.9,
-      "ma20": 4215.79,
-      "ma50": 4206.88,
-      "rsi": 58.24,
-      "macdHist": -0.607,
+      "price": 4221.1,
+      "ma20": 4217.89,
+      "ma50": 4204.7,
+      "rsi": 60.2,
+      "macdHist": -0.369,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-02T06:09:37.532508+00:00"
+      "updatedAt": "2026-10-02T06:32:59.270859+00:00"
     }
   }
 }

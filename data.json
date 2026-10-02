@@ -232,15 +232,27 @@
     }
   },
   "fx": {
-    "DKK": 1.5065,
-    "EUR": 11.2782,
-    "GBP": 13.2426,
-    "NOK": 1.0414,
-    "USD": 10.0262,
-    "updatedAt": "2026-10-02T05:41:52.451876+00:00"
+    "DKK": 1.5063,
+    "EUR": 11.2787,
+    "GBP": 13.2418,
+    "NOK": 1.042,
+    "USD": 10.0288,
+    "updatedAt": "2026-10-02T05:54:58.801129+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Just nu: Bostadspriserna: &quot;Ökade de mer än vad som är normalt&quot;",
+        "url": "https://www.placera.se/nyheter/bostadspriserna-okade-de-mer-an-vad-som-ar-normalt-2026-10-02"
+      },
+      {
+        "title": "Skanska får USA-order värd 2,5 miljarder",
+        "url": "https://www.placera.se/nyheter/skanska-far-usa-order-vard-25-miljarder-2026-10-02"
+      },
+      {
+        "title": "Trelleborg tappar köpstämpel – här är dagens rekar",
+        "url": "https://www.placera.se/nyheter/trelleborg-tappar-kopstampel--har-ar-dagens-rekar-2026-10-02"
+      },
       {
         "title": "Nedgång på Stockholmsbörsen — OMXS30 föll 1,3%",
         "url": "https://www.placera.se/nyheter/nedgang-pa-stockholmsborsen--omxs30-foll-13-2026-10-01"
@@ -260,23 +272,11 @@
       {
         "title": "Sverige får 1,47 miljarder euro från EU:s återhämtningsfond",
         "url": "https://www.placera.se/nyheter/sverige-far-147-miljarder-euro-fran-eus-aterhamtningsfond-2026-10-01"
-      },
-      {
-        "title": "Linjemontage får order värd 200 miljoner",
-        "url": "https://www.placera.se/nyheter/linjemontage-far-order-vard-200-miljoner-2026-10-01"
-      },
-      {
-        "title": "EQT ser miljardregn när AI kräver mer el",
-        "url": "https://www.placera.se/nyheter/eqt-ser-miljardregn-nar-ai-kraver-mer-el-2026-10-01"
-      },
-      {
-        "title": "SB1 upprepar köp för Electrolux",
-        "url": "https://www.placera.se/nyheter/sb1-upprepar-kop-for-electrolux-2026-10-01"
       }
     ],
-    "updatedAt": "2026-10-02T05:41:53.750385+00:00"
+    "updatedAt": "2026-10-02T05:55:00.132979+00:00"
   },
-  "updatedAt": "2026-10-02T05:41:53.750452+00:00",
+  "updatedAt": "2026-10-02T05:55:00.133043+00:00",
   "indices": {
     "omx": {
       "value": 3225.9,
@@ -4075,7 +4075,7 @@
       "macdHist": 0.358,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-02T05:41:52.043372+00:00"
+      "updatedAt": "2026-10-02T05:54:57.743993+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4087,19 +4087,19 @@
       "macdHist": -8.624,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-10-02T05:41:52.146762+00:00"
+      "updatedAt": "2026-10-02T05:54:58.047655+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4217.2,
-      "ma20": 4215.48,
-      "ma50": 4206.05,
-      "rsi": 60.16,
-      "macdHist": 0.155,
+      "price": 4217.7,
+      "ma20": 4215.92,
+      "ma50": 4206.52,
+      "rsi": 60.49,
+      "macdHist": -0.134,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-02T05:41:52.255714+00:00"
+      "updatedAt": "2026-10-02T05:54:58.312235+00:00"
     }
   }
 }

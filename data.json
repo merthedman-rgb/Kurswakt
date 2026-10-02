@@ -237,7 +237,7 @@
     "GBP": 13.2956,
     "NOK": 1.0425,
     "USD": 10.0424,
-    "updatedAt": "2026-10-02T21:42:16.827226+00:00"
+    "updatedAt": "2026-10-02T21:54:28.388747+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/dn-andersson-far-tillbaka-sonderingsuppdraget-2026-10-02"
       }
     ],
-    "updatedAt": "2026-10-02T21:42:17.754227+00:00"
+    "updatedAt": "2026-10-02T21:54:29.453012+00:00"
   },
-  "updatedAt": "2026-10-02T21:42:17.754289+00:00",
+  "updatedAt": "2026-10-02T21:54:29.453076+00:00",
   "indices": {
     "omx": {
       "value": 3259.3086,
@@ -4241,7 +4241,7 @@
       "macdHist": -0.851,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-02T21:42:16.313321+00:00"
+      "updatedAt": "2026-10-02T21:54:27.719472+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4253,7 +4253,7 @@
       "macdHist": 2.298,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-10-02T21:42:16.461465+00:00"
+      "updatedAt": "2026-10-02T21:54:27.936463+00:00"
     },
     "gold": {
       "signal": "neutral",
@@ -4265,7 +4265,7 @@
       "macdHist": -0.214,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-02T21:42:16.598300+00:00"
+      "updatedAt": "2026-10-02T21:54:28.074875+00:00"
     }
   }
 }

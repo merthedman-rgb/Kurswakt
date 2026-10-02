@@ -232,15 +232,19 @@
     }
   },
   "fx": {
-    "DKK": 1.5063,
-    "EUR": 11.2787,
-    "GBP": 13.2418,
-    "NOK": 1.042,
-    "USD": 10.0288,
-    "updatedAt": "2026-10-02T05:54:58.801129+00:00"
+    "DKK": 1.5071,
+    "EUR": 11.2819,
+    "GBP": 13.2438,
+    "NOK": 1.0417,
+    "USD": 10.0244,
+    "updatedAt": "2026-10-02T06:09:38.146015+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Palantir och Armada i AI-samarbete",
+        "url": "https://www.placera.se/nyheter/palantir-och-armada-i-ai-samarbete-2026-10-02"
+      },
       {
         "title": "Just nu: Bostadspriserna: &quot;Ökade de mer än vad som är normalt&quot;",
         "url": "https://www.placera.se/nyheter/bostadspriserna-okade-de-mer-an-vad-som-ar-normalt-2026-10-02"
@@ -268,15 +272,11 @@
       {
         "title": "Bulten säljer industrifastighet i Hallstahammar",
         "url": "https://www.placera.se/nyheter/bulten-saljer-industrifastighet-i-hallstahammar-2026-10-01"
-      },
-      {
-        "title": "Sverige får 1,47 miljarder euro från EU:s återhämtningsfond",
-        "url": "https://www.placera.se/nyheter/sverige-far-147-miljarder-euro-fran-eus-aterhamtningsfond-2026-10-01"
       }
     ],
-    "updatedAt": "2026-10-02T05:55:00.132979+00:00"
+    "updatedAt": "2026-10-02T06:09:39.530864+00:00"
   },
-  "updatedAt": "2026-10-02T05:55:00.133043+00:00",
+  "updatedAt": "2026-10-02T06:09:39.530916+00:00",
   "indices": {
     "omx": {
       "value": 3225.9,
@@ -425,23 +425,31 @@
       "updatedAt": "2026-10-01T19:53:49.605728+00:00"
     },
     "gold": {
-      "value": 4184.43,
-      "changeAbs": 2.42,
-      "changePercent": 0.058,
-      "updatedAt": "2026-10-02T05:07:04.866845+00:00",
+      "value": 4192.64,
+      "changeAbs": 10.63,
+      "changePercent": 0.254,
+      "updatedAt": "2026-10-02T06:09:36.219441+00:00",
       "series": [
         4213.9,
         4218.0,
         4212.3,
         4214.8,
-        4211.7
+        4217.7,
+        4217.3,
+        4217.2,
+        4216.0,
+        4216.9
       ],
       "seriesTimes": [
         1790913600,
         1790914500,
         1790915400,
         1790916300,
-        1790917020
+        1790917200,
+        1790918100,
+        1790919000,
+        1790919900,
+        1790920771
       ]
     }
   },
@@ -2882,9 +2890,10 @@
           4208.3,
           4211.5,
           4182.7,
-          4175.7,
-          4212.2,
-          4211.7
+          4167.6,
+          4214.8,
+          4216.0,
+          4216.9
         ],
         "seriesTimes": [
           1790568000,
@@ -2978,7 +2987,8 @@
           1790899200,
           1790902800,
           1790913600,
-          1790917020
+          1790917200,
+          1790920771
         ]
       },
       "m1": {
@@ -3004,7 +3014,7 @@
           4179.7,
           4186.7,
           4202.3,
-          4211.7
+          4216.9
         ],
         "seriesTimes": [
           1788321600,
@@ -3097,7 +3107,7 @@
           4179.7,
           4186.7,
           4202.3,
-          4211.7
+          4216.9
         ],
         "seriesTimes": [
           1782964800,
@@ -3357,7 +3367,7 @@
           4179.7,
           4186.7,
           4202.3,
-          4211.7
+          4216.9
         ],
         "seriesTimes": [
           1767330000,
@@ -3804,7 +3814,7 @@
           4179.7,
           4186.7,
           4202.3,
-          4211.7
+          4216.9
         ],
         "seriesTimes": [
           1759377600,
@@ -4061,7 +4071,7 @@
           1790913600
         ]
       },
-      "updatedAt": "2026-10-02T05:07:05.111798+00:00"
+      "updatedAt": "2026-10-02T06:09:36.848907+00:00"
     }
   },
   "signals": {
@@ -4075,7 +4085,7 @@
       "macdHist": 0.358,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-02T05:54:57.743993+00:00"
+      "updatedAt": "2026-10-02T06:09:37.085722+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4087,19 +4097,19 @@
       "macdHist": -8.624,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-10-02T05:54:58.047655+00:00"
+      "updatedAt": "2026-10-02T06:09:37.303740+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4217.7,
-      "ma20": 4215.92,
-      "ma50": 4206.52,
-      "rsi": 60.49,
-      "macdHist": -0.134,
+      "price": 4216.9,
+      "ma20": 4215.79,
+      "ma50": 4206.88,
+      "rsi": 58.24,
+      "macdHist": -0.607,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-02T05:54:58.312235+00:00"
+      "updatedAt": "2026-10-02T06:09:37.532508+00:00"
     }
   }
 }

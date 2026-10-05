@@ -233,11 +233,11 @@
   },
   "fx": {
     "DKK": 1.5044,
-    "EUR": 11.2604,
-    "GBP": 13.2618,
-    "NOK": 1.0417,
-    "USD": 10.0338,
-    "updatedAt": "2026-10-05T21:44:39.840328+00:00"
+    "EUR": 11.2606,
+    "GBP": 13.2662,
+    "NOK": 1.0427,
+    "USD": 10.0339,
+    "updatedAt": "2026-10-05T21:57:57.672026+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/matpriskollen-matpriserna-oforandrade-i-september--2026-10-05"
       }
     ],
-    "updatedAt": "2026-10-05T21:44:41.138187+00:00"
+    "updatedAt": "2026-10-05T21:57:59.130186+00:00"
   },
-  "updatedAt": "2026-10-05T21:44:41.138249+00:00",
+  "updatedAt": "2026-10-05T21:57:59.130257+00:00",
   "indices": {
     "omx": {
       "value": 3259.6223,
@@ -4167,7 +4167,7 @@
       "macdHist": 0.047,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-05T21:44:38.456276+00:00"
+      "updatedAt": "2026-10-05T21:57:57.251203+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4179,7 +4179,7 @@
       "macdHist": -5.374,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-10-05T21:44:38.860313+00:00"
+      "updatedAt": "2026-10-05T21:57:57.351651+00:00"
     },
     "gold": {
       "signal": "neutral",
@@ -4191,7 +4191,7 @@
       "macdHist": -0.165,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-05T21:44:39.204540+00:00"
+      "updatedAt": "2026-10-05T21:57:57.459551+00:00"
     }
   }
 }

@@ -233,14 +233,22 @@
   },
   "fx": {
     "DKK": 1.5071,
-    "EUR": 11.2799,
-    "GBP": 13.312,
-    "NOK": 1.0422,
-    "USD": 10.0817,
-    "updatedAt": "2026-10-05T05:45:13.395989+00:00"
+    "EUR": 11.2784,
+    "GBP": 13.311,
+    "NOK": 1.0428,
+    "USD": 10.0752,
+    "updatedAt": "2026-10-05T06:13:17.278856+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Coop sänker priser: &quot;Ska ta fajten&quot;",
+        "url": "https://www.placera.se/nyheter/coop-sanker-priser-ska-ta-fajten-2026-10-05"
+      },
+      {
+        "title": "Just nu: Nordea höjer Investors finska jätte till köp",
+        "url": "https://www.placera.se/nyheter/nordea-hojer-investors-finska-jatte-till-kop-2026-10-05"
+      },
       {
         "title": "Just nu: Stigande kursutveckling i Asien",
         "url": "https://www.placera.se/nyheter/stigande-kursutveckling-i-asien--2026-10-05"
@@ -264,19 +272,11 @@
       {
         "title": "Sex av åtta nyemissioner gav förlust – två bolag åter i farten",
         "url": "https://www.placera.se/nyheter/sex-av-atta-nyemissioner-gav-forlust--tva-bolag-ater-i-farten-2026-10-02"
-      },
-      {
-        "title": "Goldman Sachs ser ny lönsamhetsera för laxsektorn",
-        "url": "https://www.placera.se/nyheter/goldman-sachs-ser-ny-lonsamhetsera-for-laxsektorn-2026-10-02"
-      },
-      {
-        "title": "Trustly säkrar kapitaltillskott på över 40 miljoner dollar",
-        "url": "https://www.placera.se/nyheter/trustly-sakrar-kapitaltillskott-pa-over-40-miljoner-dollar-2026-10-02"
       }
     ],
-    "updatedAt": "2026-10-05T05:45:14.359099+00:00"
+    "updatedAt": "2026-10-05T06:13:18.713693+00:00"
   },
-  "updatedAt": "2026-10-05T05:45:14.359167+00:00",
+  "updatedAt": "2026-10-05T06:13:18.713754+00:00",
   "indices": {
     "omx": {
       "value": 3259.3086,
@@ -4029,7 +4029,7 @@
       "macdHist": -0.851,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-05T05:45:12.938437+00:00"
+      "updatedAt": "2026-10-05T06:13:16.762139+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4041,19 +4041,19 @@
       "macdHist": 2.298,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-10-05T05:45:13.023034+00:00"
+      "updatedAt": "2026-10-05T06:13:16.906682+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4161.2,
-      "ma20": 4161.66,
-      "ma50": 4169.24,
-      "rsi": 42.03,
-      "macdHist": 0.39,
+      "price": 4171.4,
+      "ma20": 4163.51,
+      "ma50": 4169.44,
+      "rsi": 58.29,
+      "macdHist": 1.254,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-05T05:45:13.171354+00:00"
+      "updatedAt": "2026-10-05T06:13:17.056399+00:00"
     }
   }
 }

@@ -232,15 +232,23 @@
     }
   },
   "fx": {
-    "DKK": 1.504,
-    "EUR": 11.2563,
-    "GBP": 13.2618,
-    "NOK": 1.0454,
-    "USD": 10.0382,
-    "updatedAt": "2026-10-06T05:57:14.396579+00:00"
+    "DKK": 1.505,
+    "EUR": 11.2648,
+    "GBP": 13.2738,
+    "NOK": 1.0458,
+    "USD": 10.0541,
+    "updatedAt": "2026-10-06T06:15:21.707220+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Just nu: Höjd riktkurs för SSAB",
+        "url": "https://www.placera.se/nyheter/hojd-riktkurs-for-ssab-2026-10-06"
+      },
+      {
+        "title": "Sparpsykologen: Så undviker du panikbeslut",
+        "url": "https://www.placera.se/nyheter/sparpsykologen-sa-undviker-du-panikbeslut-2026-10-06"
+      },
       {
         "title": "Musk åter biljonär efter Spacex rusning",
         "url": "https://www.placera.se/nyheter/musk-ater-biljonar-efter-spacex-rusning-2026-10-06"
@@ -264,19 +272,11 @@
       {
         "title": "Coop sänker priser: &quot;Ska ta fajten&quot;",
         "url": "https://www.placera.se/nyheter/coop-sanker-priser-ska-ta-fajten-2026-10-05"
-      },
-      {
-        "title": "Nordea höjer Investors finska jätte till köp",
-        "url": "https://www.placera.se/nyheter/nordea-hojer-investors-finska-jatte-till-kop-2026-10-05"
-      },
-      {
-        "title": "Stigande kursutveckling i Asien",
-        "url": "https://www.placera.se/nyheter/stigande-kursutveckling-i-asien--2026-10-05"
       }
     ],
-    "updatedAt": "2026-10-06T05:57:15.585932+00:00"
+    "updatedAt": "2026-10-06T06:15:23.233056+00:00"
   },
-  "updatedAt": "2026-10-06T05:57:15.585999+00:00",
+  "updatedAt": "2026-10-06T06:15:23.233118+00:00",
   "indices": {
     "omx": {
       "value": 3259.6223,
@@ -413,23 +413,33 @@
       "updatedAt": "2026-10-05T18:46:51.084224+00:00"
     },
     "gold": {
-      "value": 4122.73,
-      "changeAbs": -11.58,
-      "changePercent": -0.28,
-      "updatedAt": "2026-10-06T05:07:54.404806+00:00",
+      "value": 4120.49,
+      "changeAbs": -13.82,
+      "changePercent": -0.334,
+      "updatedAt": "2026-10-06T06:15:20.599819+00:00",
       "series": [
         4153.0,
         4154.2,
         4148.3,
         4148.2,
-        4148.5
+        4148.9,
+        4148.2,
+        4148.6,
+        4146.7,
+        4149.6,
+        4143.8
       ],
       "seriesTimes": [
         1791259200,
         1791260100,
         1791261000,
         1791261900,
-        1791262672
+        1791262800,
+        1791263700,
+        1791264600,
+        1791265500,
+        1791266400,
+        1791266716
       ]
     }
   },
@@ -2838,10 +2848,11 @@
           4167.9,
           4161.4,
           4178.4,
-          4157.2,
-          4155.6,
-          4148.6,
-          4148.5
+          4163.6,
+          4148.2,
+          4146.7,
+          4144.7,
+          4143.8
         ],
         "seriesTimes": [
           1790827200,
@@ -2912,9 +2923,10 @@
           1791241200,
           1791244800,
           1791248400,
-          1791252000,
           1791259200,
-          1791262672
+          1791262800,
+          1791266400,
+          1791266716
         ]
       },
       "m1": {
@@ -2939,7 +2951,7 @@
           4202.3,
           4162.3,
           4156.8,
-          4148.5
+          4143.8
         ],
         "seriesTimes": [
           1788840000,
@@ -3032,7 +3044,7 @@
           4202.3,
           4162.3,
           4156.8,
-          4148.3
+          4143.8
         ],
         "seriesTimes": [
           1783310400,
@@ -3295,7 +3307,7 @@
           4202.3,
           4162.3,
           4156.8,
-          4148.5
+          4143.8
         ],
         "seriesTimes": [
           1767330000,
@@ -3744,7 +3756,7 @@
           4202.3,
           4162.3,
           4156.8,
-          4148.5
+          4143.8
         ],
         "seriesTimes": [
           1759723200,
@@ -4001,7 +4013,7 @@
           1791259200
         ]
       },
-      "updatedAt": "2026-10-06T05:07:54.725655+00:00"
+      "updatedAt": "2026-10-06T06:15:21.007202+00:00"
     }
   },
   "signals": {
@@ -4015,7 +4027,7 @@
       "macdHist": 0.047,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-06T05:57:13.037781+00:00"
+      "updatedAt": "2026-10-06T06:15:21.126676+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4027,19 +4039,19 @@
       "macdHist": -5.374,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-10-06T05:57:13.404889+00:00"
+      "updatedAt": "2026-10-06T06:15:21.253401+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4149.4,
-      "ma20": 4150.19,
-      "ma50": 4158.97,
-      "rsi": 40.65,
-      "macdHist": 0.541,
+      "price": 4144.6,
+      "ma20": 4148.31,
+      "ma50": 4158.02,
+      "rsi": 33.39,
+      "macdHist": 0.084,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-06T05:57:13.745252+00:00"
+      "updatedAt": "2026-10-06T06:15:21.447777+00:00"
     }
   }
 }

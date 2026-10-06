@@ -233,11 +233,11 @@
   },
   "fx": {
     "DKK": 1.5023,
-    "EUR": 11.2461,
-    "GBP": 13.2641,
+    "EUR": 11.2454,
+    "GBP": 13.2527,
     "NOK": 1.0433,
     "USD": 9.9874,
-    "updatedAt": "2026-10-06T21:06:27.712600+00:00"
+    "updatedAt": "2026-10-06T21:26:38.720770+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/-klarias-emissionsmiss-ger-dubbelflagga-2026-10-06"
       }
     ],
-    "updatedAt": "2026-10-06T21:06:28.923987+00:00"
+    "updatedAt": "2026-10-06T21:26:39.657933+00:00"
   },
-  "updatedAt": "2026-10-06T21:06:28.924033+00:00",
+  "updatedAt": "2026-10-06T21:26:39.658000+00:00",
   "indices": {
     "omx": {
       "value": 3280.8423,
@@ -4207,7 +4207,7 @@
       "macdHist": 0.916,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-06T21:06:26.429488+00:00"
+      "updatedAt": "2026-10-06T21:26:37.866938+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4219,19 +4219,19 @@
       "macdHist": -5.105,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-10-06T21:06:26.861651+00:00"
+      "updatedAt": "2026-10-06T21:26:38.179035+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4191.7,
-      "ma20": 4194.38,
-      "ma50": 4194.88,
-      "rsi": 40.52,
-      "macdHist": -0.441,
+      "price": 4192.7,
+      "ma20": 4194.5,
+      "ma50": 4194.93,
+      "rsi": 43.38,
+      "macdHist": -0.336,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-06T21:06:27.073626+00:00"
+      "updatedAt": "2026-10-06T21:26:38.432841+00:00"
     }
   }
 }

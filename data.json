@@ -232,15 +232,19 @@
     }
   },
   "fx": {
-    "DKK": 1.505,
-    "EUR": 11.2648,
-    "GBP": 13.2738,
-    "NOK": 1.0458,
-    "USD": 10.0541,
-    "updatedAt": "2026-10-06T06:15:21.707220+00:00"
+    "DKK": 1.5053,
+    "EUR": 11.2654,
+    "GBP": 13.2802,
+    "NOK": 1.0444,
+    "USD": 10.0509,
+    "updatedAt": "2026-10-06T06:47:29.206978+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Swedbank: Axfood är en av våra favoritaktier",
+        "url": "https://www.placera.se/nyheter/swedbank-axfood-ar-en-av-vara-favoritaktier-2026-10-06"
+      },
       {
         "title": "Just nu: Höjd riktkurs för SSAB",
         "url": "https://www.placera.se/nyheter/hojd-riktkurs-for-ssab-2026-10-06"
@@ -258,7 +262,7 @@
         "url": "https://www.placera.se/nyheter/pentagon-slutar-anvanda-anthropics-ai-verktyg-2026-10-06"
       },
       {
-        "title": "Just nu: Uppgångar på Asienbörserna",
+        "title": "Uppgångar på Asienbörserna",
         "url": "https://www.placera.se/nyheter/uppgangar-pa-asienborserna-2026-10-06"
       },
       {
@@ -268,15 +272,11 @@
       {
         "title": "Spaniens premiärminister utlyser nyval",
         "url": "https://www.placera.se/nyheter/spaniens-premiarminister-utlyser-nyval-2026-10-05"
-      },
-      {
-        "title": "Coop sänker priser: &quot;Ska ta fajten&quot;",
-        "url": "https://www.placera.se/nyheter/coop-sanker-priser-ska-ta-fajten-2026-10-05"
       }
     ],
-    "updatedAt": "2026-10-06T06:15:23.233056+00:00"
+    "updatedAt": "2026-10-06T06:47:30.422793+00:00"
   },
-  "updatedAt": "2026-10-06T06:15:23.233118+00:00",
+  "updatedAt": "2026-10-06T06:47:30.422858+00:00",
   "indices": {
     "omx": {
       "value": 3259.6223,
@@ -4027,7 +4027,7 @@
       "macdHist": 0.047,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-06T06:15:21.126676+00:00"
+      "updatedAt": "2026-10-06T06:47:28.808826+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4039,19 +4039,19 @@
       "macdHist": -5.374,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-10-06T06:15:21.253401+00:00"
+      "updatedAt": "2026-10-06T06:47:28.909166+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4144.6,
-      "ma20": 4148.31,
-      "ma50": 4158.02,
-      "rsi": 33.39,
-      "macdHist": 0.084,
+      "price": 4157.2,
+      "ma20": 4151.32,
+      "ma50": 4156.72,
+      "rsi": 56.98,
+      "macdHist": 1.605,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-06T06:15:21.447777+00:00"
+      "updatedAt": "2026-10-06T06:47:29.007101+00:00"
     }
   }
 }

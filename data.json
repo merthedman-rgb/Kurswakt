@@ -233,11 +233,11 @@
   },
   "fx": {
     "DKK": 1.5047,
-    "EUR": 11.2642,
-    "GBP": 13.2665,
+    "EUR": 11.2626,
+    "GBP": 13.268,
     "NOK": 1.0457,
-    "USD": 10.0425,
-    "updatedAt": "2026-10-06T05:28:33.384572+00:00"
+    "USD": 10.043,
+    "updatedAt": "2026-10-06T05:44:51.675009+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/stigande-kursutveckling-i-asien--2026-10-05"
       }
     ],
-    "updatedAt": "2026-10-06T05:28:34.526752+00:00"
+    "updatedAt": "2026-10-06T05:44:52.722078+00:00"
   },
-  "updatedAt": "2026-10-06T05:28:34.526809+00:00",
+  "updatedAt": "2026-10-06T05:44:52.722136+00:00",
   "indices": {
     "omx": {
       "value": 3259.6223,
@@ -4015,7 +4015,7 @@
       "macdHist": 0.047,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-06T05:28:32.939879+00:00"
+      "updatedAt": "2026-10-06T05:44:51.228736+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4027,19 +4027,19 @@
       "macdHist": -5.374,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-10-06T05:28:33.073407+00:00"
+      "updatedAt": "2026-10-06T05:44:51.307919+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4150.3,
-      "ma20": 4152.32,
-      "ma50": 4160.95,
-      "rsi": 38.76,
-      "macdHist": 0.315,
+      "price": 4150.4,
+      "ma20": 4151.29,
+      "ma50": 4159.9,
+      "rsi": 41.5,
+      "macdHist": 0.549,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-06T05:28:33.175647+00:00"
+      "updatedAt": "2026-10-06T05:44:51.445355+00:00"
     }
   }
 }

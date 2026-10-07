@@ -232,15 +232,19 @@
     }
   },
   "fx": {
-    "DKK": 1.5038,
-    "EUR": 11.2574,
-    "GBP": 13.2782,
-    "NOK": 1.0469,
-    "USD": 10.0229,
-    "updatedAt": "2026-10-07T05:46:37.672110+00:00"
+    "DKK": 1.504,
+    "EUR": 11.255,
+    "GBP": 13.279,
+    "NOK": 1.0474,
+    "USD": 10.0258,
+    "updatedAt": "2026-10-07T06:08:53.904970+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Uppgifter: Volvo Cars har problem med EX60",
+        "url": "https://www.placera.se/nyheter/uppgifter-volvo-cars-har-problem-med-ex60-2026-10-07"
+      },
       {
         "title": "Prisjakt siktar på First North – värderas till 675 miljoner kronor",
         "url": "https://www.placera.se/nyheter/prisjakt-siktar-pa-first-north--varderas-till-675-miljoner-kronor-2026-10-07"
@@ -250,7 +254,7 @@
         "url": "https://www.placera.se/nyheter/-clas-ohlson-okar-forsaljningen-med-19-2026-10-07"
       },
       {
-        "title": "Just nu: Nedåt på börserna i Asien",
+        "title": "Nedåt på börserna i Asien",
         "url": "https://www.placera.se/nyheter/nedat-pa-borserna-i-asien-2026-10-07"
       },
       {
@@ -268,15 +272,11 @@
       {
         "title": "Kristersson: Sverige skickar luftvärn till Polen",
         "url": "https://www.placera.se/nyheter/kristersson-sverige-skickar-luftvarn-till-polen--2026-10-06"
-      },
-      {
-        "title": "Google och Constellation satsar 4,3 miljarder dollar på mer kärnkraft",
-        "url": "https://www.placera.se/nyheter/google-och-constellation-satsar-43-miljarder-dollar-pa-mer-karnkraft-2026-10-06"
       }
     ],
-    "updatedAt": "2026-10-07T05:46:38.837132+00:00"
+    "updatedAt": "2026-10-07T06:08:54.996468+00:00"
   },
-  "updatedAt": "2026-10-07T05:46:38.837192+00:00",
+  "updatedAt": "2026-10-07T06:08:54.996534+00:00",
   "indices": {
     "omx": {
       "value": 3280.8423,
@@ -423,23 +423,31 @@
       "updatedAt": "2026-10-06T19:55:18.376197+00:00"
     },
     "gold": {
-      "value": 4134.1,
-      "changeAbs": -31.87,
-      "changePercent": -0.765,
-      "updatedAt": "2026-10-07T05:08:48.055072+00:00",
+      "value": 4129.49,
+      "changeAbs": -36.48,
+      "changePercent": -0.876,
+      "updatedAt": "2026-10-07T06:08:52.643282+00:00",
       "series": [
         4169.0,
         4168.5,
         4163.7,
         4161.6,
-        4163.4
+        4160.6,
+        4160.1,
+        4163.0,
+        4154.7,
+        4158.6
       ],
       "seriesTimes": [
         1791345600,
         1791346500,
         1791347400,
         1791348300,
-        1791349102
+        1791349200,
+        1791350100,
+        1791351000,
+        1791351900,
+        1791352727
       ]
     }
   },
@@ -2869,8 +2877,9 @@
           4193.6,
           4183.6,
           4180.7,
-          4162.6,
-          4163.4
+          4161.6,
+          4158.0,
+          4158.6
         ],
         "seriesTimes": [
           1790913600,
@@ -2942,7 +2951,8 @@
           1791331200,
           1791334800,
           1791345600,
-          1791349102
+          1791349200,
+          1791352727
         ]
       },
       "m1": {
@@ -2968,7 +2978,7 @@
           4162.3,
           4156.8,
           4187.1,
-          4163.4
+          4158.6
         ],
         "seriesTimes": [
           1788840000,
@@ -3062,7 +3072,7 @@
           4162.3,
           4156.8,
           4187.1,
-          4163.4
+          4158.6
         ],
         "seriesTimes": [
           1783396800,
@@ -3326,7 +3336,7 @@
           4162.3,
           4156.8,
           4187.1,
-          4163.4
+          4158.6
         ],
         "seriesTimes": [
           1767330000,
@@ -3776,7 +3786,7 @@
           4162.3,
           4156.8,
           4187.1,
-          4163.4
+          4158.6
         ],
         "seriesTimes": [
           1759809600,
@@ -4033,7 +4043,7 @@
           1791345600
         ]
       },
-      "updatedAt": "2026-10-07T05:08:48.481660+00:00"
+      "updatedAt": "2026-10-07T06:08:53.058452+00:00"
     }
   },
   "signals": {
@@ -4047,7 +4057,7 @@
       "macdHist": 0.916,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-07T05:46:36.801735+00:00"
+      "updatedAt": "2026-10-07T06:08:53.219385+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4059,19 +4069,19 @@
       "macdHist": -5.091,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-10-07T05:46:37.008794+00:00"
+      "updatedAt": "2026-10-07T06:08:53.413511+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4160.6,
-      "ma20": 4163.48,
-      "ma50": 4178.02,
-      "rsi": 28.18,
-      "macdHist": 0.599,
+      "price": 4158.6,
+      "ma20": 4161.91,
+      "ma50": 4175.25,
+      "rsi": 30.22,
+      "macdHist": 0.647,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-07T05:46:37.238008+00:00"
+      "updatedAt": "2026-10-07T06:08:53.569100+00:00"
     }
   }
 }

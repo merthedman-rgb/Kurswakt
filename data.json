@@ -232,15 +232,19 @@
     }
   },
   "fx": {
-    "DKK": 1.5032,
-    "EUR": 11.2551,
-    "GBP": 13.2758,
+    "DKK": 1.5038,
+    "EUR": 11.2574,
+    "GBP": 13.2782,
     "NOK": 1.0469,
-    "USD": 10.0232,
-    "updatedAt": "2026-10-07T05:29:07.723144+00:00"
+    "USD": 10.0229,
+    "updatedAt": "2026-10-07T05:46:37.672110+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Prisjakt siktar på First North – värderas till 675 miljoner kronor",
+        "url": "https://www.placera.se/nyheter/prisjakt-siktar-pa-first-north--varderas-till-675-miljoner-kronor-2026-10-07"
+      },
       {
         "title": "Clas Ohlson ökar försäljningen med 19%",
         "url": "https://www.placera.se/nyheter/-clas-ohlson-okar-forsaljningen-med-19-2026-10-07"
@@ -268,15 +272,11 @@
       {
         "title": "Google och Constellation satsar 4,3 miljarder dollar på mer kärnkraft",
         "url": "https://www.placera.se/nyheter/google-och-constellation-satsar-43-miljarder-dollar-pa-mer-karnkraft-2026-10-06"
-      },
-      {
-        "title": "Saab motströms på grön börs",
-        "url": "https://www.placera.se/nyheter/saab-motstroms-pa-gron-bors-2026-10-06"
       }
     ],
-    "updatedAt": "2026-10-07T05:29:09.162534+00:00"
+    "updatedAt": "2026-10-07T05:46:38.837132+00:00"
   },
-  "updatedAt": "2026-10-07T05:29:09.162593+00:00",
+  "updatedAt": "2026-10-07T05:46:38.837192+00:00",
   "indices": {
     "omx": {
       "value": 3280.8423,
@@ -4047,7 +4047,7 @@
       "macdHist": 0.916,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-07T05:29:06.364406+00:00"
+      "updatedAt": "2026-10-07T05:46:36.801735+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4059,19 +4059,19 @@
       "macdHist": -5.091,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-10-07T05:29:06.751306+00:00"
+      "updatedAt": "2026-10-07T05:46:37.008794+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4159.4,
-      "ma20": 4165.87,
-      "ma50": 4174.32,
-      "rsi": 24.04,
-      "macdHist": -0.231,
+      "price": 4160.6,
+      "ma20": 4163.48,
+      "ma50": 4178.02,
+      "rsi": 28.18,
+      "macdHist": 0.599,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-07T05:29:07.143226+00:00"
+      "updatedAt": "2026-10-07T05:46:37.238008+00:00"
     }
   }
 }

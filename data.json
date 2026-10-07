@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.4967,
-    "EUR": 11.2059,
-    "GBP": 13.2211,
+    "DKK": 1.4969,
+    "EUR": 11.2054,
+    "GBP": 13.2202,
     "NOK": 1.0445,
-    "USD": 10.0092,
-    "updatedAt": "2026-10-07T20:28:16.942049+00:00"
+    "USD": 10.0089,
+    "updatedAt": "2026-10-07T20:44:45.611873+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/spiltan-okar-i-train-alliance--koper-aktier-av-grundaren-2026-10-07"
       }
     ],
-    "updatedAt": "2026-10-07T20:28:18.297055+00:00"
+    "updatedAt": "2026-10-07T20:44:46.952315+00:00"
   },
-  "updatedAt": "2026-10-07T20:28:18.297117+00:00",
+  "updatedAt": "2026-10-07T20:44:46.952379+00:00",
   "indices": {
     "omx": {
       "value": 3228.5684,
@@ -4217,7 +4217,7 @@
       "macdHist": 0.346,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-07T20:28:15.798677+00:00"
+      "updatedAt": "2026-10-07T20:44:45.097396+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4229,19 +4229,19 @@
       "macdHist": 3.435,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-10-07T20:28:16.037937+00:00"
+      "updatedAt": "2026-10-07T20:44:45.228795+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4134.0,
-      "ma20": 4132.69,
-      "ma50": 4136.29,
-      "rsi": 51.76,
-      "macdHist": 0.388,
+      "price": 4136.7,
+      "ma20": 4132.86,
+      "ma50": 4136.21,
+      "rsi": 55.81,
+      "macdHist": 0.899,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-07T20:28:16.374055+00:00"
+      "updatedAt": "2026-10-07T20:44:45.360641+00:00"
     }
   }
 }

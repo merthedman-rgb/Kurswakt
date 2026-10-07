@@ -233,14 +233,22 @@
   },
   "fx": {
     "DKK": 1.5038,
-    "EUR": 11.2603,
-    "GBP": 13.2873,
-    "NOK": 1.048,
-    "USD": 10.0281,
-    "updatedAt": "2026-10-07T06:32:53.523052+00:00"
+    "EUR": 11.2562,
+    "GBP": 13.2832,
+    "NOK": 1.0477,
+    "USD": 10.0246,
+    "updatedAt": "2026-10-07T06:59:38.194189+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Billigare Prisjakt när bolaget går mot börsen",
+        "url": "https://www.placera.se/nyheter/billigare-prisjakt-nar-bolaget-gar-mot-borsen-2026-10-07"
+      },
+      {
+        "title": "Tre analyshus höjer Kinnevik – två ser köpläge",
+        "url": "https://www.placera.se/nyheter/tre-analyshus-hojer-kinnevik--tva-ser-koplage-2026-10-07"
+      },
       {
         "title": "Just nu: Lars Wingefors går in som delägare i Tickster",
         "url": "https://www.placera.se/nyheter/lars-wingefors-gar-in-som-delagare-i-tickster-2026-10-07"
@@ -264,19 +272,11 @@
       {
         "title": "Prisjakt siktar på First North – värderas till 675 miljoner kronor",
         "url": "https://www.placera.se/nyheter/prisjakt-siktar-pa-first-north--varderas-till-675-miljoner-kronor-2026-10-07"
-      },
-      {
-        "title": "Clas Ohlson ökar försäljningen med 19%",
-        "url": "https://www.placera.se/nyheter/-clas-ohlson-okar-forsaljningen-med-19-2026-10-07"
-      },
-      {
-        "title": "Nedåt på börserna i Asien",
-        "url": "https://www.placera.se/nyheter/nedat-pa-borserna-i-asien-2026-10-07"
       }
     ],
-    "updatedAt": "2026-10-07T06:32:54.897472+00:00"
+    "updatedAt": "2026-10-07T06:59:39.400875+00:00"
   },
-  "updatedAt": "2026-10-07T06:32:54.897529+00:00",
+  "updatedAt": "2026-10-07T06:59:39.400954+00:00",
   "indices": {
     "omx": {
       "value": 3280.8423,
@@ -4057,7 +4057,7 @@
       "macdHist": 0.916,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-07T06:32:52.339594+00:00"
+      "updatedAt": "2026-10-07T06:59:37.586586+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4069,19 +4069,19 @@
       "macdHist": -5.091,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-10-07T06:32:52.654528+00:00"
+      "updatedAt": "2026-10-07T06:59:37.757566+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4158.2,
-      "ma20": 4159.98,
-      "ma50": 4167.25,
-      "rsi": 39.15,
-      "macdHist": 0.407,
+      "price": 4160.6,
+      "ma20": 4159.46,
+      "ma50": 4164.26,
+      "rsi": 48.57,
+      "macdHist": 0.589,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-07T06:32:53.009614+00:00"
+      "updatedAt": "2026-10-07T06:59:37.905018+00:00"
     }
   }
 }

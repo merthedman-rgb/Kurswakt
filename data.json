@@ -232,15 +232,31 @@
     }
   },
   "fx": {
-    "DKK": 1.504,
-    "EUR": 11.255,
-    "GBP": 13.279,
-    "NOK": 1.0474,
-    "USD": 10.0258,
-    "updatedAt": "2026-10-07T06:08:53.904970+00:00"
+    "DKK": 1.5038,
+    "EUR": 11.2603,
+    "GBP": 13.2873,
+    "NOK": 1.048,
+    "USD": 10.0281,
+    "updatedAt": "2026-10-07T06:32:53.523052+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Just nu: Lars Wingefors går in som delägare i Tickster",
+        "url": "https://www.placera.se/nyheter/lars-wingefors-gar-in-som-delagare-i-tickster-2026-10-07"
+      },
+      {
+        "title": "Just nu: Höjd riktkurs för Saab",
+        "url": "https://www.placera.se/nyheter/hojd-riktkurs-for-saab-2026-10-07"
+      },
+      {
+        "title": "Saab-upphandling för Globaleye-sensor närmar sig",
+        "url": "https://www.placera.se/nyheter/saab-upphandling-for-globaleye-sensor-narmar-sig-2026-10-07"
+      },
+      {
+        "title": "Just nu: Inflationen stiger – energipriser driver uppgången",
+        "url": "https://www.placera.se/nyheter/inflationen-stiger--energipriser-driver-uppgangen-2026-10-07"
+      },
       {
         "title": "Uppgifter: Volvo Cars har problem med EX60",
         "url": "https://www.placera.se/nyheter/uppgifter-volvo-cars-har-problem-med-ex60-2026-10-07"
@@ -256,27 +272,11 @@
       {
         "title": "Nedåt på börserna i Asien",
         "url": "https://www.placera.se/nyheter/nedat-pa-borserna-i-asien-2026-10-07"
-      },
-      {
-        "title": "ABG Sundal Collier har köpt Dormy-aktier för 24 miljoner",
-        "url": "https://www.placera.se/nyheter/abg-sundal-collier-har-kopt-dormy-aktier-for-24-miljoner-2026-10-06"
-      },
-      {
-        "title": "Torgeby lämnar med omedelbar verkan",
-        "url": "https://www.placera.se/nyheter/torgeby-lamnar-med-omedelbar-verkan--2026-10-06"
-      },
-      {
-        "title": "FI: Öppna analytikersamtalen för alla – eller slopa dem",
-        "url": "https://www.placera.se/nyheter/-fi-oppna-analytikersamtalen-for-alla--eller-slopa-dem-2026-10-06"
-      },
-      {
-        "title": "Kristersson: Sverige skickar luftvärn till Polen",
-        "url": "https://www.placera.se/nyheter/kristersson-sverige-skickar-luftvarn-till-polen--2026-10-06"
       }
     ],
-    "updatedAt": "2026-10-07T06:08:54.996468+00:00"
+    "updatedAt": "2026-10-07T06:32:54.897472+00:00"
   },
-  "updatedAt": "2026-10-07T06:08:54.996534+00:00",
+  "updatedAt": "2026-10-07T06:32:54.897529+00:00",
   "indices": {
     "omx": {
       "value": 3280.8423,
@@ -4057,7 +4057,7 @@
       "macdHist": 0.916,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-07T06:08:53.219385+00:00"
+      "updatedAt": "2026-10-07T06:32:52.339594+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4069,19 +4069,19 @@
       "macdHist": -5.091,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-10-07T06:08:53.413511+00:00"
+      "updatedAt": "2026-10-07T06:32:52.654528+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4158.6,
-      "ma20": 4161.91,
-      "ma50": 4175.25,
-      "rsi": 30.22,
-      "macdHist": 0.647,
+      "price": 4158.2,
+      "ma20": 4159.98,
+      "ma50": 4167.25,
+      "rsi": 39.15,
+      "macdHist": 0.407,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-07T06:08:53.569100+00:00"
+      "updatedAt": "2026-10-07T06:32:53.009614+00:00"
     }
   }
 }

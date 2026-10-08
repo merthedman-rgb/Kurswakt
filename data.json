@@ -233,11 +233,11 @@
   },
   "fx": {
     "DKK": 1.4959,
-    "EUR": 11.1979,
-    "GBP": 13.1985,
-    "NOK": 1.0432,
-    "USD": 9.993,
-    "updatedAt": "2026-10-08T05:09:03.389374+00:00"
+    "EUR": 11.1987,
+    "GBP": 13.1972,
+    "NOK": 1.0433,
+    "USD": 9.9937,
+    "updatedAt": "2026-10-08T05:28:41.289687+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/citi-porsche-kan-fordubblas-till-2030--upprepar-kop-2026-10-07"
       }
     ],
-    "updatedAt": "2026-10-08T05:09:04.355938+00:00"
+    "updatedAt": "2026-10-08T05:28:42.556249+00:00"
   },
-  "updatedAt": "2026-10-08T05:09:04.356003+00:00",
+  "updatedAt": "2026-10-08T05:28:42.556322+00:00",
   "indices": {
     "omx": {
       "value": 3228.5684,
@@ -4075,7 +4075,7 @@
       "macdHist": 0.346,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-08T05:09:02.734485+00:00"
+      "updatedAt": "2026-10-08T05:28:40.198924+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4087,19 +4087,19 @@
       "macdHist": 3.435,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-10-08T05:09:02.926457+00:00"
+      "updatedAt": "2026-10-08T05:28:40.472981+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4158.9,
-      "ma20": 4160.34,
-      "ma50": 4150.17,
-      "rsi": 54.4,
-      "macdHist": -0.99,
+      "price": 4155.7,
+      "ma20": 4158.77,
+      "ma50": 4158.44,
+      "rsi": 44.72,
+      "macdHist": -0.53,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-08T05:09:03.092052+00:00"
+      "updatedAt": "2026-10-08T05:28:40.779330+00:00"
     }
   }
 }

@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.4927,
-    "EUR": 11.1776,
-    "GBP": 13.1822,
-    "NOK": 1.0412,
-    "USD": 9.9657,
-    "updatedAt": "2026-10-08T20:13:15.601638+00:00"
+    "DKK": 1.4934,
+    "EUR": 11.1796,
+    "GBP": 13.1887,
+    "NOK": 1.0414,
+    "USD": 9.9717,
+    "updatedAt": "2026-10-08T20:33:42.810495+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/analytiker-det-ar-storsta-risken-for-saabs-aktiekurs-2026-10-08"
       }
     ],
-    "updatedAt": "2026-10-08T20:13:17.100975+00:00"
+    "updatedAt": "2026-10-08T20:33:44.363639+00:00"
   },
-  "updatedAt": "2026-10-08T20:13:17.101050+00:00",
+  "updatedAt": "2026-10-08T20:33:44.363705+00:00",
   "indices": {
     "omx": {
       "value": 3204.4592,
@@ -4231,7 +4231,7 @@
       "macdHist": -1.494,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-08T20:13:14.835061+00:00"
+      "updatedAt": "2026-10-08T20:33:41.568331+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4243,19 +4243,19 @@
       "macdHist": 9.738,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-10-08T20:13:14.975372+00:00"
+      "updatedAt": "2026-10-08T20:33:41.804352+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4157.7,
-      "ma20": 4153.82,
-      "ma50": 4151.49,
-      "rsi": 58.06,
-      "macdHist": 0.321,
+      "price": 4160.4,
+      "ma20": 4156.16,
+      "ma50": 4153.39,
+      "rsi": 63.12,
+      "macdHist": 0.411,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-08T20:13:15.182814+00:00"
+      "updatedAt": "2026-10-08T20:33:42.119293+00:00"
     }
   }
 }

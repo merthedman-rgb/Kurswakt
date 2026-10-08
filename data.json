@@ -232,12 +232,12 @@
     }
   },
   "fx": {
-    "DKK": 1.4964,
-    "EUR": 11.2029,
-    "GBP": 13.2082,
-    "NOK": 1.0445,
-    "USD": 10.0111,
-    "updatedAt": "2026-10-08T06:10:41.662429+00:00"
+    "DKK": 1.4968,
+    "EUR": 11.2042,
+    "GBP": 13.205,
+    "NOK": 1.0447,
+    "USD": 10.0073,
+    "updatedAt": "2026-10-08T06:36:01.702665+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/dollarn-ater-over-10-kronor--har-marks-det-pa-borsen-2026-10-07"
       }
     ],
-    "updatedAt": "2026-10-08T06:10:42.945853+00:00"
+    "updatedAt": "2026-10-08T06:36:03.040259+00:00"
   },
-  "updatedAt": "2026-10-08T06:10:42.945902+00:00",
+  "updatedAt": "2026-10-08T06:36:03.040314+00:00",
   "indices": {
     "omx": {
       "value": 3228.5684,
@@ -4091,7 +4091,7 @@
       "macdHist": 0.346,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-08T06:10:40.387019+00:00"
+      "updatedAt": "2026-10-08T06:36:00.542511+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4103,19 +4103,19 @@
       "macdHist": 3.435,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-10-08T06:10:40.666235+00:00"
+      "updatedAt": "2026-10-08T06:36:00.796544+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 4144.7,
-      "ma20": 4152.87,
-      "ma50": 4157.22,
-      "rsi": 33.58,
-      "macdHist": -1.333,
+      "price": 4140.6,
+      "ma20": 4149.1,
+      "ma50": 4155.23,
+      "rsi": 29.11,
+      "macdHist": -0.789,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-08T06:10:41.021006+00:00"
+      "updatedAt": "2026-10-08T06:36:01.133060+00:00"
     }
   }
 }

@@ -237,7 +237,7 @@
     "GBP": 13.2753,
     "NOK": 1.0636,
     "USD": 9.9233,
-    "updatedAt": "2026-10-23T21:40:38.034878+00:00"
+    "updatedAt": "2026-10-24T00:01:25.813066+00:00"
   },
   "news": {
     "items": [
@@ -274,9 +274,9 @@
         "url": "https://www.placera.se/nyheter/koprush-i-volvo-cars-mest-nettokopt-med-rage-2026-10-23"
       }
     ],
-    "updatedAt": "2026-10-23T21:40:39.110278+00:00"
+    "updatedAt": "2026-10-24T00:01:27.032870+00:00"
   },
-  "updatedAt": "2026-10-23T21:40:39.110351+00:00",
+  "updatedAt": "2026-10-24T00:01:27.032936+00:00",
   "indices": {
     "omx": {
       "value": 3149.573,
@@ -410,7 +410,7 @@
       "value": 3996.2,
       "changeAbs": -27.67,
       "changePercent": -0.688,
-      "updatedAt": "2026-10-23T21:40:36.867739+00:00",
+      "updatedAt": "2026-10-24T00:01:24.518672+00:00",
       "series": [
         4024.4,
         4020.2,
@@ -4305,7 +4305,7 @@
           1792728000
         ]
       },
-      "updatedAt": "2026-10-23T21:40:37.249473+00:00"
+      "updatedAt": "2026-10-24T00:01:25.117838+00:00"
     }
   },
   "signals": {
@@ -4319,7 +4319,7 @@
       "macdHist": 1.883,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-23T21:40:37.410631+00:00"
+      "updatedAt": "2026-10-24T00:01:25.258285+00:00"
     },
     "ndx": {
       "signal": "neutral",
@@ -4331,7 +4331,7 @@
       "macdHist": -0.993,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-10-23T21:40:37.577823+00:00"
+      "updatedAt": "2026-10-24T00:01:25.383390+00:00"
     },
     "gold": {
       "signal": "neutral",
@@ -4343,7 +4343,7 @@
       "macdHist": -0.044,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-10-23T21:40:37.770335+00:00"
+      "updatedAt": "2026-10-24T00:01:25.530649+00:00"
     }
   }
 }

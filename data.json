@@ -232,15 +232,39 @@
     }
   },
   "fx": {
-    "DKK": 1.4819,
-    "EUR": 11.0954,
-    "GBP": 13.2955,
-    "NOK": 1.0493,
-    "USD": 10.0735,
-    "updatedAt": "2026-11-16T13:18:10.888329+00:00"
+    "DKK": 1.4832,
+    "EUR": 11.1011,
+    "GBP": 13.3198,
+    "NOK": 1.0431,
+    "USD": 10.0809,
+    "updatedAt": "2026-11-16T22:57:30.161440+00:00"
   },
   "news": {
     "items": [
+      {
+        "title": "Stockholmsbörsen backade 0,4% under måndagen",
+        "url": "https://www.placera.se/nyheter/stockholmsborsen-backade-0-4-under-mandagen-2026-11-16"
+      },
+      {
+        "title": "Pensionsjätten säljer SCA för miljarder",
+        "url": "https://www.placera.se/nyheter/pensionsjatten-saljer-sca-for-miljarder-2026-11-16"
+      },
+      {
+        "title": "Höga förväntningar på Nvidia – trots skandalen",
+        "url": "https://www.placera.se/nyheter/hoga-forvantningar-pa-nvidia-trots-skandalen-2026-11-16"
+      },
+      {
+        "title": "Bank of America räknar med tre räntehöjningar",
+        "url": "https://www.placera.se/nyheter/bank-of-america-raknar-med-tre-rantehojningar-2026-11-16"
+      },
+      {
+        "title": "10 missade börsdagar kan halvera 20 års sparande",
+        "url": "https://www.placera.se/nyheter/10-missade-borsdagar-kan-halvera-20-ars-sparande-2026-11-16"
+      },
+      {
+        "title": "Inför Klarnas rapport: Siffrorna som avgör aktiens nästa steg",
+        "url": "https://www.placera.se/nyheter/infor-klarnas-rapport-siffrorna-som-avgor-aktiens-nasta-steg-2026-11-16"
+      },
       {
         "title": "S och V förhandlar om ministerkravet",
         "url": "https://www.placera.se/nyheter/s-och-v-forhandlar-om-ministerkravet-2026-11-16"
@@ -248,35 +272,11 @@
       {
         "title": "Lucara Diamond rusar efter höjda prognoser",
         "url": "https://www.placera.se/nyheter/lucara-diamond-rusar-efter-hojda-prognoser-2026-11-16"
-      },
-      {
-        "title": "Stockholmsbörsen inleder veckan nedåt",
-        "url": "https://www.placera.se/nyheter/stockholmsborsen-inleder-veckan-nedat-2026-11-16"
-      },
-      {
-        "title": "LKAB krävs på 180 miljoner kronor för grovt miljöbrott",
-        "url": "https://www.placera.se/nyheter/lkab-kravs-pa-180-miljoner-kronor-for-grovt-miljobrott-2026-11-16"
-      },
-      {
-        "title": "Fortnox investerar 5 miljarder kronor i AI – varslar 200 tjänster",
-        "url": "https://www.placera.se/nyheter/fortnox-investerar-5-miljarder-kronor-i-ai-varslar-200-tjanster-2026-11-16"
-      },
-      {
-        "title": "Telia och Nokia med i europeiskt AI-konsortium",
-        "url": "https://www.placera.se/nyheter/telia-och-nokia-med-i-europeiskt-ai-konsortium-2026-11-16"
-      },
-      {
-        "title": "Volvo Cars: Samarbetet med Nvidia fortsätter",
-        "url": "https://www.placera.se/nyheter/volvo-cars-samarbetet-med-nvidia-fortsatter-2026-11-16"
-      },
-      {
-        "title": "Huang överväger comeback som VD",
-        "url": "https://www.placera.se/nyheter/huang-overvager-comeback-som-vd-2026-11-16"
       }
     ],
-    "updatedAt": "2026-11-16T13:18:12.026401+00:00"
+    "updatedAt": "2026-11-16T22:57:31.129545+00:00"
   },
-  "updatedAt": "2026-11-16T13:18:12.026451+00:00",
+  "updatedAt": "2026-11-16T22:57:31.129606+00:00",
   "indices": {
     "omx": {
       "value": 3356.7864,
@@ -395,10 +395,10 @@
       "updatedAt": "2026-11-13T20:14:01.273652+00:00"
     },
     "gold": {
-      "value": 3869.73,
-      "changeAbs": -28.26,
-      "changePercent": -0.725,
-      "updatedAt": "2026-11-16T13:18:07.477044+00:00",
+      "value": 3853.89,
+      "changeAbs": -44.1,
+      "changePercent": -1.131,
+      "updatedAt": "2026-11-16T22:57:28.973904+00:00",
       "series": [
         3870.8,
         3875.9,
@@ -433,7 +433,42 @@
         3870.7,
         3873.0,
         3870.8,
-        3875.7
+        3872.9,
+        3875.6,
+        3868.9,
+        3866.8,
+        3868.9,
+        3882.4,
+        3881.8,
+        3877.2,
+        3868.3,
+        3870.3,
+        3862.0,
+        3861.7,
+        3862.0,
+        3861.3,
+        3867.1,
+        3869.3,
+        3871.4,
+        3864.3,
+        3859.1,
+        3848.1,
+        3852.2,
+        3851.9,
+        3858.6,
+        3859.7,
+        3869.4,
+        3864.6,
+        3866.9,
+        3864.4,
+        3861.5,
+        3856.0,
+        3854.5,
+        3854.4,
+        3856.2,
+        3859.8,
+        3859.0,
+        3859.0
       ],
       "seriesTimes": [
         1794805200,
@@ -469,7 +504,42 @@
         1794832200,
         1794833100,
         1794834000,
-        1794834484
+        1794834900,
+        1794835800,
+        1794836700,
+        1794837600,
+        1794838500,
+        1794839400,
+        1794840300,
+        1794841200,
+        1794842100,
+        1794843000,
+        1794843900,
+        1794844800,
+        1794845700,
+        1794846600,
+        1794847500,
+        1794848400,
+        1794849300,
+        1794850200,
+        1794851100,
+        1794852000,
+        1794852900,
+        1794853800,
+        1794854700,
+        1794855600,
+        1794856500,
+        1794857400,
+        1794858300,
+        1794859200,
+        1794860100,
+        1794861000,
+        1794861900,
+        1794862800,
+        1794863700,
+        1794864600,
+        1794865500,
+        1794866398
       ]
     }
   },
@@ -3016,8 +3086,16 @@
           3876.1,
           3877.1,
           3873.0,
-          3873.9,
-          3875.7
+          3868.9,
+          3881.8,
+          3862.0,
+          3867.1,
+          3859.1,
+          3858.6,
+          3866.9,
+          3854.5,
+          3859.0,
+          3859.0
         ],
         "seriesTimes": [
           1794373200,
@@ -3098,7 +3176,15 @@
           1794826800,
           1794830400,
           1794834000,
-          1794834484
+          1794837600,
+          1794841200,
+          1794844800,
+          1794848400,
+          1794852000,
+          1794855600,
+          1794859200,
+          1794862800,
+          1794866398
         ]
       },
       "m1": {
@@ -3124,7 +3210,7 @@
           4000.5,
           3885.3,
           3886.3,
-          3875.7
+          3859.0
         ],
         "seriesTimes": [
           1792123200,
@@ -3217,7 +3303,7 @@
           4000.5,
           3885.3,
           3886.3,
-          3875.7
+          3859.0
         ],
         "seriesTimes": [
           1786939200,
@@ -3508,7 +3594,7 @@
           4000.5,
           3885.3,
           3886.3,
-          3875.7
+          3859.0
         ],
         "seriesTimes": [
           1767330000,
@@ -3985,7 +4071,7 @@
           4000.5,
           3885.3,
           3886.3,
-          3875.7
+          3859.0
         ],
         "seriesTimes": [
           1763355600,
@@ -4241,45 +4327,45 @@
           1794805200
         ]
       },
-      "updatedAt": "2026-11-16T13:18:08.595951+00:00"
+      "updatedAt": "2026-11-16T22:57:29.433264+00:00"
     }
   },
   "signals": {
     "omx": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:48.417416+00:00",
-      "price": 3356.79,
-      "ma20": 3355.5,
-      "ma50": 3353.27,
-      "rsi": 56.25,
-      "macdHist": 0.076,
+      "price": 3341.95,
+      "ma20": 3346.95,
+      "ma50": 3353.15,
+      "rsi": 30.66,
+      "macdHist": -0.407,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-11-16T13:18:09.060016+00:00"
+      "updatedAt": "2026-11-16T22:57:29.564037+00:00"
     },
     "ndx": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:48.926371+00:00",
-      "price": 27943.74,
-      "ma20": 27923.28,
-      "ma50": 27877.93,
-      "rsi": 54.53,
-      "macdHist": 0.991,
+      "price": 27197.15,
+      "ma20": 27214.85,
+      "ma50": 27273.31,
+      "rsi": 44.01,
+      "macdHist": 3.703,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-11-16T13:18:09.487620+00:00"
+      "updatedAt": "2026-11-16T22:57:29.696188+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 3875.7,
-      "ma20": 3874.71,
-      "ma50": 3870.7,
-      "rsi": 54.45,
-      "macdHist": -0.204,
+      "price": 3859.0,
+      "ma20": 3856.92,
+      "ma50": 3858.29,
+      "rsi": 51.23,
+      "macdHist": 0.505,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-11-16T13:18:09.931776+00:00"
+      "updatedAt": "2026-11-16T22:57:29.883479+00:00"
     }
   }
 }

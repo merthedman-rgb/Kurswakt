@@ -232,51 +232,51 @@
     }
   },
   "fx": {
-    "DKK": 1.4895,
-    "EUR": 11.1501,
-    "GBP": 13.3376,
-    "NOK": 1.046,
-    "USD": 10.1358,
-    "updatedAt": "2026-11-19T14:03:41.319143+00:00"
+    "DKK": 1.4938,
+    "EUR": 11.1775,
+    "GBP": 13.3399,
+    "NOK": 1.0391,
+    "USD": 10.178,
+    "updatedAt": "2026-11-19T22:08:14.094122+00:00"
   },
   "news": {
     "items": [
       {
-        "title": "Just nu: Wall Street-terminer stiger inför Anthropics rekordnotering",
-        "url": "https://www.placera.se/nyheter/wall-street-terminer-stiger-infor-anthropics-rekordnotering-2026-11-19"
+        "title": "Succédebut för Anthropic – aktien rusar",
+        "url": "https://www.placera.se/nyheter/succedebut-for-anthropic-aktien-rusar-33-2026-11-19"
       },
       {
-        "title": "Danske Bank spår fortsatt starkare dollar",
-        "url": "https://www.placera.se/nyheter/danske-bank-spar-fortsatt-starkare-dollar-2026-11-19"
+        "title": "Stockholmsbörsen stängde kring nollan på torsdagen",
+        "url": "https://www.placera.se/nyheter/stockholmsborsen-stangde-kring-nollan-pa-torsdagen-2026-11-19"
       },
       {
-        "title": "Koenigsegg tar in nytt kapital – överväger börsnotering",
-        "url": "https://www.placera.se/nyheter/koenigsegg-tar-in-nytt-kapital-overvager-borsnotering-2026-11-19"
+        "title": "AMD rasar efter blankarrapport om banden till Kina",
+        "url": "https://www.placera.se/nyheter/amd-rasar-efter-blankarrapport-om-banden-till-kina-2026-11-19"
       },
       {
-        "title": "Anthropic väntas stiga 27% i börsdebuten efter rekordnotering",
-        "url": "https://www.placera.se/nyheter/anthropic-vantas-stiga-27-i-borsdebuten-efter-rekordnotering-2026-11-19"
+        "title": "Fler arbetssökanden än väntat i USA",
+        "url": "https://www.placera.se/nyheter/fler-arbetssokanden-an-vantat-i-usa-2026-11-19"
       },
       {
-        "title": "AI-jätten till börsen – värd 15 000 miljarder",
-        "url": "https://www.placera.se/nyheter/ai-jatten-till-borsen-vard-15-000-miljarder-2026-11-19"
+        "title": "Källor: Spacex planerar emittera obligationer för minst 32 miljarder dollar",
+        "url": "https://www.placera.se/nyheter/kallor-spacex-planerar-emittera-obligationer-for-minst-32-miljarder-dollar-2026-11-19"
       },
       {
-        "title": "Rekordbetyg för GTA VI – nu ska miljarderna in",
-        "url": "https://www.placera.se/nyheter/rekordbetyg-for-gta-vi-nu-ska-miljarderna-in-2026-11-19"
+        "title": "JP Morgans leverantörer utsatta för cyberattack",
+        "url": "https://www.placera.se/nyheter/jp-morgans-leverantorer-utsatta-for-cyberattack-2026-11-19"
       },
       {
-        "title": "Guldet rasar – men spararna fortsätter köpa",
-        "url": "https://www.placera.se/nyheter/guldet-rasar-men-spararna-fortsatter-kopa-2026-11-19"
+        "title": "Koenigsegg öppnar för börsen – prislappen når 22 miljarder i gråhandeln",
+        "url": "https://www.placera.se/nyheter/koenigsegg-oppnar-for-borsen-prislappen-nar-22-miljarder-i-grahandeln-2026-11-19"
       },
       {
-        "title": "Alibabas omsättning högre än väntat – kraftigt resultalyft",
-        "url": "https://www.placera.se/nyheter/alibabas-omsattning-hogre-an-vantat-kraftigt-resultalyft-2026-11-19"
+        "title": "Varningen: Datacenter kan fördubbla sin elförbrukning till 2030",
+        "url": "https://www.placera.se/nyheter/varningen-datacenter-kan-fordubbla-sin-elforbrukning-till-2030-2026-11-19"
       }
     ],
-    "updatedAt": "2026-11-19T14:03:42.547496+00:00"
+    "updatedAt": "2026-11-19T22:08:14.924034+00:00"
   },
-  "updatedAt": "2026-11-19T14:03:42.547560+00:00",
+  "updatedAt": "2026-11-19T22:08:14.924098+00:00",
   "indices": {
     "omx": {
       "value": 3275.7598,
@@ -401,10 +401,10 @@
       "updatedAt": "2026-11-13T20:14:01.273652+00:00"
     },
     "gold": {
-      "value": 3713.5,
-      "changeAbs": -25.92,
-      "changePercent": -0.693,
-      "updatedAt": "2026-11-19T14:03:38.073466+00:00",
+      "value": 3627.8,
+      "changeAbs": -111.62,
+      "changePercent": -2.985,
+      "updatedAt": "2026-11-19T22:08:12.840292+00:00",
       "series": [
         3730.0,
         3735.6,
@@ -442,7 +442,39 @@
         3724.3,
         3715.4,
         3715.4,
-        3715.1
+        3712.0,
+        3711.3,
+        3713.0,
+        3709.8,
+        3703.5,
+        3688.1,
+        3694.0,
+        3674.3,
+        3679.8,
+        3680.8,
+        3689.4,
+        3685.2,
+        3675.1,
+        3689.3,
+        3685.1,
+        3681.4,
+        3677.7,
+        3686.0,
+        3680.1,
+        3682.4,
+        3676.7,
+        3678.9,
+        3677.0,
+        3669.1,
+        3668.7,
+        3669.9,
+        3666.1,
+        3661.6,
+        3661.8,
+        3635.6,
+        3627.7,
+        3627.9,
+        3626.1
       ],
       "seriesTimes": [
         1795064400,
@@ -481,7 +513,39 @@
         1795094100,
         1795095000,
         1795095900,
-        1795096413
+        1795096800,
+        1795097700,
+        1795098600,
+        1795099500,
+        1795100400,
+        1795101300,
+        1795102200,
+        1795103100,
+        1795104000,
+        1795104900,
+        1795105800,
+        1795106700,
+        1795107600,
+        1795108500,
+        1795109400,
+        1795110300,
+        1795111200,
+        1795112100,
+        1795113000,
+        1795113900,
+        1795114800,
+        1795115700,
+        1795116600,
+        1795117500,
+        1795118400,
+        1795119300,
+        1795120200,
+        1795121100,
+        1795122000,
+        1795122900,
+        1795123800,
+        1795124700,
+        1795125487
       ]
     }
   },
@@ -3051,7 +3115,15 @@
           3720.1,
           3721.3,
           3715.4,
-          3715.1
+          3709.8,
+          3674.3,
+          3685.2,
+          3681.4,
+          3682.4,
+          3669.1,
+          3661.6,
+          3626.8,
+          3626.1
         ],
         "seriesTimes": [
           1794783600,
@@ -3138,7 +3210,15 @@
           1795086000,
           1795089600,
           1795093200,
-          1795096413
+          1795096800,
+          1795100400,
+          1795104000,
+          1795107600,
+          1795111200,
+          1795114800,
+          1795118400,
+          1795122000,
+          1795125487
         ]
       },
       "m1": {
@@ -3166,7 +3246,7 @@
           3853.0,
           3864.2,
           3741.9,
-          3715.1
+          3626.5
         ],
         "seriesTimes": [
           1792382400,
@@ -3262,7 +3342,7 @@
           3853.0,
           3864.2,
           3741.9,
-          3715.1
+          3626.5
         ],
         "seriesTimes": [
           1787112000,
@@ -3557,7 +3637,7 @@
           3853.0,
           3864.2,
           3741.9,
-          3715.1
+          3626.5
         ],
         "seriesTimes": [
           1767330000,
@@ -4038,7 +4118,7 @@
           3853.0,
           3864.2,
           3741.9,
-          3715.1
+          3626.5
         ],
         "seriesTimes": [
           1763528400,
@@ -4295,45 +4375,45 @@
           1795064400
         ]
       },
-      "updatedAt": "2026-11-19T14:03:39.168364+00:00"
+      "updatedAt": "2026-11-19T22:08:13.248809+00:00"
     }
   },
   "signals": {
     "omx": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:48.417416+00:00",
-      "price": 3275.79,
-      "ma20": 3273.7,
-      "ma50": 3275.97,
-      "rsi": 54.94,
-      "macdHist": 0.506,
+      "price": 3256.72,
+      "ma20": 3263.46,
+      "ma50": 3269.52,
+      "rsi": 35.85,
+      "macdHist": -0.261,
       "volumeOk": false,
       "dailyTrend": "up",
-      "updatedAt": "2026-11-19T14:03:39.638319+00:00"
+      "updatedAt": "2026-11-19T22:08:13.431197+00:00"
     },
     "ndx": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:48.926371+00:00",
-      "price": 27116.26,
-      "ma20": 27079.71,
-      "ma50": 27094.36,
-      "rsi": 54.78,
-      "macdHist": 6.115,
+      "price": 26517.05,
+      "ma20": 26602.04,
+      "ma50": 26701.11,
+      "rsi": 38.84,
+      "macdHist": 4.826,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-11-19T14:03:40.075609+00:00"
+      "updatedAt": "2026-11-19T22:08:13.550067+00:00"
     },
     "gold": {
       "signal": "neutral",
       "since": "2026-09-10T23:23:49.572141+00:00",
-      "price": 3715.1,
-      "ma20": 3717.97,
-      "ma50": 3724.78,
-      "rsi": 42.68,
-      "macdHist": 0.088,
+      "price": 3626.5,
+      "ma20": 3648.84,
+      "ma50": 3665.89,
+      "rsi": 16.7,
+      "macdHist": -2.116,
       "volumeOk": false,
       "dailyTrend": "down",
-      "updatedAt": "2026-11-19T14:03:40.494499+00:00"
+      "updatedAt": "2026-11-19T22:08:13.712335+00:00"
     }
   }
 }
